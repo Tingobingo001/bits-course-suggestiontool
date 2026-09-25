@@ -1,0 +1,333 @@
+{
+ "summary": {
+  "catalogue_courses": 2034,
+  "offered_in_scope": 479,
+  "offered_with_description": 456,
+  "courses_with_stated_prerequisites": 66,
+  "unknown_prerequisite_codes": 0,
+  "unknown_equivalence_codes": 128,
+  "flagged_catalogue_records": 39,
+  "flagged_timetable_records": 14
+ },
+ "unknown_prerequisites": [],
+ "offered_without_description": [
+  "BITS C790T",
+  "BITS C791T",
+  "BITS C797T",
+  "BITS C799T",
+  "BITS E574",
+  "BITS E594",
+  "BITS E793T",
+  "BITS F103",
+  "BITS F110",
+  "BITS F332",
+  "BITS G564T",
+  "BITS G661",
+  "BITS K101",
+  "CS G569",
+  "DE G612",
+  "ECON F417",
+  "ENVS F212",
+  "GS F376",
+  "GS F377",
+  "HSS F324",
+  "MATH F201",
+  "ME G523",
+  "ME G615"
+ ],
+ "unknown_equivalence_codes": [
+  "AAOC C222",
+  "BIO C211",
+  "BIO C241",
+  "BIO C321",
+  "BIO C331",
+  "BIO C417",
+  "BIO C418",
+  "BIO C421",
+  "BITS C214",
+  "BITS C319",
+  "BITS C320",
+  "BITS C321",
+  "BITS C372",
+  "BITS C385",
+  "BITS C394",
+  "BITS C395",
+  "BITS C396",
+  "BITS C461",
+  "BITS C462",
+  "BITS C468",
+  "BITS C473",
+  "BITS C482",
+  "BITS C488",
+  "BITS C493",
+  "BITS C494",
+  "CDP C313",
+  "CE C381",
+  "CE C392",
+  "CE C394",
+  "CE C414",
+  "CE C416",
+  "CE C422",
+  "CHE C311",
+  "CHE C411",
+  "CHE C414",
+  "CS C313",
+  "CS C342",
+  "CS C351",
+  "CS C362",
+  "CS C372",
+  "CS C415",
+  "CS C471",
+  "EA C412",
+  "EA C415",
+  "EA C417",
+  "EA C441",
+  "EA C452",
+  "EA C461",
+  "EA C471",
+  "EA C473",
+  "EA C474",
+  "EA C475",
+  "EA C482",
+  "ECON C211",
+  "ECON C212",
+  "ECON C362",
+  "ECON C372",
+  "ECON C411",
+  "ECON C412",
+  "ECON C481",
+  "EEE C381",
+  "EEE C434",
+  "EEE C443",
+  "EEE C472",
+  "ES C221",
+  "FIN C341",
+  "FIN C342",
+  "FIN C411",
+  "HIST C112",
+  "HIST C211",
+  "HSS C313",
+  "HSS C314",
+  "HUM C321",
+  "HUM C351",
+  "HUM C381",
+  "HUM C383",
+  "HUM C411",
+  "HUM C412",
+  "INSTR C381",
+  "IS C313",
+  "IS C341",
+  "IS C362",
+  "IS C415",
+  "IS C471",
+  "IS C472",
+  "MATH C222",
+  "MATH C353",
+  "MBA C319",
+  "MBA C320",
+  "MBA C321",
+  "MBA C421",
+  "MBA C437",
+  "MBA C454",
+  "MBA C474",
+  "MBA C475",
+  "MBA C482",
+  "MBA C488",
+  "MBA C493",
+  "ME C211",
+  "ME C441",
+  "ME C443",
+  "ME C481",
+  "MF C314",
+  "MF C319",
+  "MF C421",
+  "MF C441",
+  "MGTS C382",
+  "MGTS C412",
+  "MGTS C424",
+  "MGTS C432",
+  "MGTS C451",
+  "PHA C212",
+  "PHA C241",
+  "PHA C321",
+  "PHA C322",
+  "PHA C391",
+  "PHA C413",
+  "PHA C414",
+  "PHA C416",
+  "PHA C417",
+  "PHA C421",
+  "PHY C212",
+  "PHY C242",
+  "PHY C321",
+  "PHY C411",
+  "PHY C432",
+  "POL C212",
+  "PSY C211"
+ ],
+ "flagged": {
+  "catalogue": {
+   "BITS F425T": [
+    "units given as a range: 17-20"
+   ],
+   "BITS F426T": [
+    "units given as a range: 17-20"
+   ],
+   "BITS G561T": [
+    "units not found in header"
+   ],
+   "BITS G629T": [
+    "units not found in header"
+   ],
+   "BITS G630T": [
+    "units not found in header"
+   ],
+   "BITS G639": [
+    "units not found in header"
+   ],
+   "CE F421": [
+    "very short or missing description"
+   ],
+   "CHEM G511": [
+    "very short or missing description"
+   ],
+   "CS F451": [
+    "very short or missing description"
+   ],
+   "CS G501": [
+    "very short or missing description"
+   ],
+   "CS G517": [
+    "very short or missing description"
+   ],
+   "CS G559": [
+    "very short or missing description"
+   ],
+   "CS G564": [
+    "very short or missing description"
+   ],
+   "CS G651": [
+    "very short or missing description"
+   ],
+   "ECE F438": [
+    "prerequisite mixes AND/OR - logic needs manual check"
+   ],
+   "ECON G541": [
+    "very short or missing description"
+   ],
+   "EEE F425": [
+    "very short or missing description"
+   ],
+   "EEE F438": [
+    "prerequisite mixes AND/OR - logic needs manual check"
+   ],
+   "EEE F439": [
+    "prerequisite mixes AND/OR - logic needs manual check"
+   ],
+   "EEE G557": [
+    "very short or missing description"
+   ],
+   "EEE G558": [
+    "very short or missing description"
+   ],
+   "EEE G561": [
+    "header detected without bold font"
+   ],
+   "EEE G562": [
+    "header detected without bold font"
+   ],
+   "GS F213": [
+    "very short or missing description"
+   ],
+   "GS F342": [
+    "very short or missing description"
+   ],
+   "HSS F312": [
+    "very short or missing description"
+   ],
+   "HSS F315": [
+    "very short or missing description"
+   ],
+   "HSS F327": [
+    "very short or missing description"
+   ],
+   "HSS N201T": [
+    "very short or missing description"
+   ],
+   "HSS N202T": [
+    "very short or missing description"
+   ],
+   "INSTR F415": [
+    "very short or missing description"
+   ],
+   "INSTR F438": [
+    "prerequisite mixes AND/OR - logic needs manual check"
+   ],
+   "MAC F244": [
+    "prerequisite mixes AND/OR - logic needs manual check"
+   ],
+   "MBA G529": [
+    "very short or missing description"
+   ],
+   "ME F451": [
+    "units not found in header"
+   ],
+   "ME F481": [
+    "very short or missing description"
+   ],
+   "PHY F426": [
+    "very short or missing description"
+   ],
+   "PHY F427": [
+    "very short or missing description"
+   ],
+   "SKILL G661": [
+    "units not found in header"
+   ]
+  },
+  "timetable": {
+   "CE F231": [
+    "L1: per-day rooms only partially parsed ('W)')"
+   ],
+   "CE G549": [
+    "L1: per-day rooms only partially parsed ('W)')"
+   ],
+   "CHEM F335": [
+    "L1: per-day rooms only partially parsed ('6151(M')"
+   ],
+   "CS G527": [
+    "L1: per-day rooms only partially parsed ('6101(M')"
+   ],
+   "MAC F213": [
+    "L1: per-day rooms only partially parsed ('W)')"
+   ],
+   "MATH F213": [
+    "L1: per-day rooms only partially parsed ('W)')"
+   ],
+   "ME G553": [
+    "L1: per-day rooms only partially parsed ('1202(M')"
+   ],
+   "MPBA G504": [
+    "L1: per-day rooms only partially parsed ('6154(M')"
+   ],
+   "MPBA G517": [
+    "L1: per-day rooms only partially parsed ('6108(T)')"
+   ],
+   "MPBA G532": [
+    "L1: per-day rooms only partially parsed ('W)')"
+   ],
+   "PHA G538": [
+    "L1: per-day rooms only partially parsed ('6161(T')"
+   ],
+   "PHA G616": [
+    "L1: per-day rooms only partially parsed ('6104(M')"
+   ],
+   "PHA G617": [
+    "L1: per-day rooms only partially parsed ('6108(M)')"
+   ],
+   "PHA G625": [
+    "L1: per-day rooms only partially parsed ('6162(M')"
+   ]
+  }
+ }
+}

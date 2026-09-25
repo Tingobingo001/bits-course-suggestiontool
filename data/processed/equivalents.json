@@ -1,0 +1,5006 @@
+[
+ {
+  "course_code": "BIO F211",
+  "title": "BIOLOGICAL CHEMISTRY",
+  "equivalents": [
+   "BIO C211"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BIO F212",
+  "title": "MICROBIOLOGY",
+  "equivalents": [
+   "BIO C241"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BIO F213",
+  "title": "CELL BIOLOGY",
+  "equivalents": [
+   "BIO C321"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BIO F215",
+  "title": "BIOPHYSICS",
+  "equivalents": [
+   "BIO C331"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BIO F417",
+  "title": "BIOMOLECULAR MODELING",
+  "equivalents": [
+   "BIO C417"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BIO F418",
+  "title": "GENETIC ENGINEERING TECH",
+  "equivalents": [
+   "BIO C418"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BIO F421",
+  "title": "ENZYMOLOGY",
+  "equivalents": [
+   "BIO C421"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BIO G510",
+  "title": "APP OF COMP & STAT IN BIO",
+  "equivalents": [
+   "PHA G510"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F217",
+  "title": "ENVIRON DEV & CLIMATE CH",
+  "equivalents": [
+   "GS F212"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F316",
+  "title": "NONLINEAR DYNA & CHAOS",
+  "equivalents": [
+   "BITS C473"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F319",
+  "title": "NEGOTIATION SKILL & TECH",
+  "equivalents": [
+   "BITS C319",
+   "MBA C319"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F320",
+  "title": "MANAGERIAL SKILLS",
+  "equivalents": [
+   "MBA C320",
+   "BITS C320"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F321",
+  "title": "LEG & ECO ENV OF BUSINES",
+  "equivalents": [
+   "MBA C321",
+   "BITS C321"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F343",
+  "title": "FUZZY LOGIC & APPL",
+  "equivalents": [
+   "EA C482"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F372",
+  "title": "DATA COMMUNIC & NETWORKS",
+  "equivalents": [
+   "EEE F346",
+   "BITS C372"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F382",
+  "title": "READING COURSE",
+  "equivalents": [],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F385",
+  "title": "INTRO TO GENDER STUDIES",
+  "equivalents": [
+   "BITS C385"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F415",
+  "title": "INTRODUCTION TO MEMS",
+  "equivalents": [
+   "EA C415"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F417",
+  "title": "MICRO−FLUIDICS & ITS APP",
+  "equivalents": [
+   "ME F423",
+   "EA C417"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F431",
+  "title": "FLEXIBLE MANUFAC SYST",
+  "equivalents": [
+   "EA C412"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F441",
+  "title": "ROBOTICS",
+  "equivalents": [
+   "EA C441"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F444",
+  "title": "ARTIFICIAL INTELLIGENCE",
+  "equivalents": [
+   "EA C461"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F446",
+  "title": "PATTERN RECOGNITION",
+  "equivalents": [
+   "EA C471"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F447",
+  "title": "MULTIMEDIA COMPUTING",
+  "equivalents": [
+   "EA C473"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F448",
+  "title": "RETAIL MGMT SYSTEMS",
+  "equivalents": [
+   "EA C474",
+   "MBA C474"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F449",
+  "title": "FINANCIAL ENGINEERING",
+  "equivalents": [
+   "EA C475",
+   "MBA C475",
+   "ECON F413"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 118,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F461",
+  "title": "SOFTWARE ENGINEERING",
+  "equivalents": [
+   "BITS C461",
+   "IS C341"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F462",
+  "title": "RENEWABLE ENERGY",
+  "equivalents": [
+   "BITS C462"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F468",
+  "title": "NEW VENTURE CREATION",
+  "equivalents": [
+   "BITS C468",
+   "ECON F415"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F482",
+  "title": "CREAT & LEAD ENTREP ORGN",
+  "equivalents": [
+   "BITS C482",
+   "MBA C482",
+   "ECON F414"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F488",
+  "title": "SERVICES MANAGEMENT SYS",
+  "equivalents": [
+   "BITS C488",
+   "MBA C488"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F493",
+  "title": "BUSS ANAL & VALUATION",
+  "equivalents": [
+   "ECON F355",
+   "BITS C493",
+   "MBA C493"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F494",
+  "title": "ENV IMPACT ASSESSMENT",
+  "equivalents": [
+   "BITS C494",
+   "CE F434"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CE F213",
+  "title": "SURVEYING",
+  "equivalents": [
+   "CE C392"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CE F323",
+  "title": "INTRO TO ENVIRN ENGG",
+  "equivalents": [
+   "CE C414"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CE F343",
+  "title": "DES OF STEEL STRUCTURES",
+  "equivalents": [
+   "CE C381"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CE F416",
+  "title": "COMP APPL IN CIVIL ENGG",
+  "equivalents": [
+   "CE C416"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CE F420",
+  "title": "INTRO TO BRIDGE ENGG",
+  "equivalents": [
+   "CE G616",
+   "CE C422"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CE F423",
+  "title": "GREEN BUILD & ENER CONSE",
+  "equivalents": [
+   "CE C394"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CE F431",
+  "title": "PRIN OF GEO INFO SYS",
+  "equivalents": [
+   "IS C472"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CE F434",
+  "title": "ENV IMPACT ASSESSMENT",
+  "equivalents": [
+   "BITS C494"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CE G616",
+  "title": "BRIDGE ENGINEERING",
+  "equivalents": [
+   "CE F420",
+   "CE C422"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CE G641",
+  "title": "THEORY OF ELAST & PLAST",
+  "equivalents": [
+   "ME G641"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CHE F213",
+  "title": "CHEM ENGG THERMODYNAMICS",
+  "equivalents": [
+   "CHE C311"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CHE F411",
+  "title": "ENVIR POLLUTION CONTROL",
+  "equivalents": [
+   "CHE C411"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CHE F414",
+  "title": "TRANSPORT PHENOMENA",
+  "equivalents": [
+   "CHE C414"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS F213",
+  "title": "OBJECT ORIENTED PROG",
+  "equivalents": [
+   "IS C313",
+   "IS F213",
+   "CS C313"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS F214",
+  "title": "LOGIC IN COMPUTER SC",
+  "equivalents": [
+   "IS F214"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS F215",
+  "title": "DIGITAL DESIGN",
+  "equivalents": [
+   "EEE F215",
+   "INSTR F215"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS F222",
+  "title": "DISCR STRUC FOR COMP SCI",
+  "equivalents": [
+   "MATH C222",
+   "IS F222"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS F301",
+  "title": "PRINCIPLES OF PROGG LANG",
+  "equivalents": [
+   "IS F301",
+   "CS C362"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS F342",
+  "title": "COMPUTER ARCHITECTURE",
+  "equivalents": [
+   "CS C342"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS F351",
+  "title": "THEORY OF COMPUTATION",
+  "equivalents": [
+   "CS C351"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 119,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS F372",
+  "title": "OPERATING SYSTEMS",
+  "equivalents": [
+   "CS C372",
+   "IS F372",
+   "IS C362"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS F415",
+  "title": "DATA MINING",
+  "equivalents": [
+   "CS C415",
+   "IS C415"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS G513",
+  "title": "NETWORK SECURITY",
+  "equivalents": [
+   "SS G513"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS G514",
+  "title": "OBJ ORI ANALYS & DESIGN",
+  "equivalents": [
+   "SS G514"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS G520",
+  "title": "ADVANCED DATA MINING",
+  "equivalents": [
+   "SS G520"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS G527",
+  "title": "CLOUD COMPUTING",
+  "equivalents": [
+   "SS G527"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS G531",
+  "title": "TESTABLE D & F TOLERA COMP",
+  "equivalents": [
+   "EEE G531",
+   "MEL G531"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS G541",
+  "title": "PERVASIVE COMPUTING",
+  "equivalents": [
+   "SS G531"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS G551",
+  "title": "ADVANCE COMPILATION TECH",
+  "equivalents": [
+   "SS G551"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS G653",
+  "title": "SOFTWARE ARCHITECHTURES",
+  "equivalents": [
+   "SS G653"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F211",
+  "title": "PRINCIPLES OF ECONOMICS",
+  "equivalents": [
+   "ECON C212"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F212",
+  "title": "FUNDA OF FIN AND ACCOUNT",
+  "equivalents": [
+   "FIN F212",
+   "ECON C211"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F213",
+  "title": "MATHEMATIC & STAT METHOD",
+  "equivalents": [
+   "FIN F213"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F214",
+  "title": "ECONOMIC ENV OF BUSINESS",
+  "equivalents": [
+   "FIN F214"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F311",
+  "title": "INTERNATIONAL ECONOMICS",
+  "equivalents": [
+   "ECON C372"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F312",
+  "title": "MONEY BANK & FIN MARKETS",
+  "equivalents": [
+   "MGTS C424",
+   "ECON C362"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F355",
+  "title": "BUSS ANAL & VALUATION",
+  "equivalents": [
+   "BITS F493",
+   "MBA C493",
+   "BITS C493"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F411",
+  "title": "PROJECT APPRAISAL",
+  "equivalents": [
+   "FIN C411",
+   "MGTS C451",
+   "ME C481",
+   "MBA C454",
+   "ECON C411"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F412",
+  "title": "SECUR ANAL & PORTFOL MGT",
+  "equivalents": [
+   "ECON C412",
+   "CDP C313",
+   "MGTS C412",
+   "MBA C437"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F413",
+  "title": "FINANCIAL ENGINEERING",
+  "equivalents": [
+   "MBA C475",
+   "EA C475",
+   "BITS F449"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F414",
+  "title": "CREAT & LEAD ENTREP ORGN",
+  "equivalents": [
+   "BITS F482",
+   "MBA C482",
+   "BITS C482"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F415",
+  "title": "NEW VENTURE CREATION",
+  "equivalents": [
+   "BITS F468",
+   "BITS C468"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F211",
+  "title": "ELECTRICAL MACHINES",
+  "equivalents": [
+   "INSTR F211"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F212",
+  "title": "ELECTROMAGNETIC THEO",
+  "equivalents": [
+   "INSTR F212"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F214",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "EEE C381",
+   "INSTR F214"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F215",
+  "title": "DIGITAL DESIGN",
+  "equivalents": [
+   "CS F215",
+   "INSTR F215"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F313",
+  "title": "ANALOG & DIGIT VLSI DES",
+  "equivalents": [
+   "EEE C443",
+   "INSTR F313"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 120,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F346",
+  "title": "DATA COMMUNIC & NETWORKS",
+  "equivalents": [
+   "BITS C372"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F431",
+  "title": "MOBILE TELECOM NETWORKS",
+  "equivalents": [
+   "EA C452"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F434",
+  "title": "DIGITAL SIGNAL PROCESS",
+  "equivalents": [
+   "EEE C434"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F472",
+  "title": "SATELLITE COMMUNICATION",
+  "equivalents": [
+   "EEE C472"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE G531",
+  "title": "TESTABLE D & F TOLERA COMP",
+  "equivalents": [
+   "CS G531",
+   "MEL G531"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "FIN F212",
+  "title": "FUNDA OF FIN AND ACCOUNT",
+  "equivalents": [
+   "ECON C211",
+   "ECON F212"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "FIN F213",
+  "title": "MATHEMATIC & STAT METHOD",
+  "equivalents": [
+   "ECON F213"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "FIN F214",
+  "title": "ECONOMIC ENV OF BUSINESS",
+  "equivalents": [
+   "ECON F214"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "FIN F314",
+  "title": "INVEST BANK & FIN SERV",
+  "equivalents": [
+   "FIN C341"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "FIN F315",
+  "title": "FINANCIAL MANAGEMENT",
+  "equivalents": [
+   "MGTS C382",
+   "FIN C342",
+   "ECON C481"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "GS F211",
+  "title": "MOD POLITICAL CONCEPTS",
+  "equivalents": [
+   "POL C212"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "GS F212",
+  "title": "ENVIRON DEV & CLIMATE CH",
+  "equivalents": [],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "GS F223",
+  "title": "INTRO TO MASS COMM",
+  "equivalents": [
+   "BITS C214"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "GS F224",
+  "title": "PRINT & AUDIO−VISU ADVER",
+  "equivalents": [
+   "HSS C314"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "GS F232",
+  "title": "INTRODUCTORY PSYCHOLOGY",
+  "equivalents": [
+   "PSY C211"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "GS F244",
+  "title": "REPORT & WRITE FOR MEDIA",
+  "equivalents": [
+   "BITS C396"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "GS F311",
+  "title": "INTRO TO CONFLICT MGMT",
+  "equivalents": [
+   "BITS C484"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "GS F321",
+  "title": "MASS MEDIA & CONTENT DES",
+  "equivalents": [
+   "BITS C394"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "GS F322",
+  "title": "CRITI ANAL OF LIT & CINE",
+  "equivalents": [
+   "HSS C313"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "GS F333",
+  "title": "PUBLIC ADMINISTRATION",
+  "equivalents": [
+   "HUM C351"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "GS F343",
+  "title": "SHORT FILM & VIDEO PROD",
+  "equivalents": [
+   "BITS C395"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "HSS F223",
+  "title": "APPR OF INDIAN MUSIC",
+  "equivalents": [
+   "HUM C321"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "HSS F233",
+  "title": "MAIN TRENDS IN IND HIST",
+  "equivalents": [
+   "HIST C112"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "HSS F234",
+  "title": "MAIN CURRENT OF MOD HIST",
+  "equivalents": [
+   "HIST C211"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "HSS F329",
+  "title": "MUSICOLOGY−AN INTRODUCTN",
+  "equivalents": [
+   "HUM C381"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "HSS F334",
+  "title": "SRIMAD BHAGAVAD GITA",
+  "equivalents": [
+   "HUM C383"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "HSS F343",
+  "title": "PROFESSIONAL ETHICS",
+  "equivalents": [
+   "HUM C411"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "HSS F344",
+  "title": "HERITAGE OF INDIA",
+  "equivalents": [
+   "HUM C412"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 121,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F211",
+  "title": "ELECTRICAL MACHINES",
+  "equivalents": [
+   "EEE F211"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F212",
+  "title": "ELECTROMAGNETIC THEO",
+  "equivalents": [
+   "EEE F212"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F214",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "EEE F214",
+   "EEE C381"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F215",
+  "title": "DIGITAL DESIGN",
+  "equivalents": [
+   "CS F215",
+   "EEE F215"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F312",
+  "title": "TRANSD & MEASUREMENT TEC",
+  "equivalents": [
+   "INSTR C381"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F313",
+  "title": "ANALOG & DIGIT VLSI DES",
+  "equivalents": [
+   "EEE C443",
+   "EEE F313"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "IS F213",
+  "title": "OBJECT ORIENTED PROG",
+  "equivalents": [
+   "CS C313",
+   "CS F213",
+   "IS C313"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "IS F214",
+  "title": "LOGIC IN COMPUTER SC",
+  "equivalents": [
+   "CS F214"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "IS F222",
+  "title": "DISCR STRUC FOR COMP SCI",
+  "equivalents": [
+   "CS F222",
+   "MATH C222"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "IS F301",
+  "title": "PRINCIPLES OF PROGG LANG",
+  "equivalents": [
+   "CS F301",
+   "CS C362"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "IS F311",
+  "title": "COMPUTER GRAPHICS",
+  "equivalents": [
+   "IS C471",
+   "CS C471"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "IS F372",
+  "title": "OPERATING SYSTEMS",
+  "equivalents": [
+   "CS F372",
+   "IS C362",
+   "CS C372"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ITEB G621",
+  "title": "SUPPLY CHAIN MANAGEMENT",
+  "equivalents": [
+   "MF F421",
+   "MF C421",
+   "MBA C421"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MATH F212",
+  "title": "OPTIMIZATION",
+  "equivalents": [
+   "AAOC C222"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MATH F214",
+  "title": "ELEMENTARY REAL ANALYSIS",
+  "equivalents": [],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MATH F215",
+  "title": "ALGEBRA I",
+  "equivalents": [],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MATH F353",
+  "title": "STATISTICAL INFER & APP",
+  "equivalents": [
+   "MATH C353"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME F211",
+  "title": "MECHANICS OF SOLIDS",
+  "equivalents": [
+   "MF F211",
+   "ES C221"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME F212",
+  "title": "FLUID MECHANICS",
+  "equivalents": [
+   "MF F212"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME F213",
+  "title": "MATERIALS SCIENCE & ENGG",
+  "equivalents": [
+   "MF F213"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME F214",
+  "title": "APPLIED THERMODYNAMICS",
+  "equivalents": [
+   "ME C211",
+   "MF F214"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME F215",
+  "title": "MECHANICAL ENGG LAB",
+  "equivalents": [
+   "MF F215"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME F423",
+  "title": "MICRO−FLUIDICS & ITS APP",
+  "equivalents": [
+   "BITS F417",
+   "EA C417"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME F441",
+  "title": "AUTOMOTIVE VEHICLES",
+  "equivalents": [
+   "ME C441"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME F443",
+  "title": "QUALI CONTRO ASSUR & REL",
+  "equivalents": [
+   "MF C441",
+   "MGTS C432",
+   "ME C443"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME G641",
+  "title": "THEORY OF ELAST& PLAST",
+  "equivalents": [
+   "CE G641"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MEL G531",
+  "title": "TESTABLE D & F TOLERA COMP",
+  "equivalents": [
+   "EEE G531",
+   "CS G531"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 122,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MF F211",
+  "title": "MECHANICS OF SOLIDS",
+  "equivalents": [
+   "ES C221",
+   "ME F211"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MF F212",
+  "title": "FLUID MECHANICS",
+  "equivalents": [
+   "ME F212"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MF F213",
+  "title": "MATERIALS SCIENCE & ENGG",
+  "equivalents": [
+   "ME F213"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MF F214",
+  "title": "APPLIED THERMODYNAMICS",
+  "equivalents": [
+   "ME F214",
+   "ME C211"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MF F215",
+  "title": "MECHANICAL ENGG LAB",
+  "equivalents": [
+   "ME F215"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MF F311",
+  "title": "MECHATRONICS & AUTOMAT",
+  "equivalents": [
+   "MF C319"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MF F313",
+  "title": "METAL FORMING & MACHINE",
+  "equivalents": [
+   "MF C314"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MF F421",
+  "title": "SUPPLY CHAIN MANAGEMENT",
+  "equivalents": [
+   "ITEB G621",
+   "MBA C421",
+   "MF C421"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "PHA F211",
+  "title": "PHARMACEUTICAL ANALYSIS",
+  "equivalents": [
+   "PHA C212"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "PHA F212",
+  "title": "DISPENSING PHARMACY",
+  "equivalents": [
+   "PHA C322"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "PHA F213",
+  "title": "MICROBIOLOGY",
+  "equivalents": [
+   "PHA C241"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "PHA F214",
+  "title": "ANATOMY PHYSIO & HYGIENE",
+  "equivalents": [
+   "PHA C321"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "PHA F313",
+  "title": "INSTRU METHODS OF ANAL",
+  "equivalents": [
+   "PHA C391"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "PHA F314",
+  "title": "PHARMA FORMUL & BIOPHARM",
+  "equivalents": [
+   "PHA C421"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "PHA F413",
+  "title": "PHARMA MANG & QUAL CONTR",
+  "equivalents": [
+   "PHA C413"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "PHA F414",
+  "title": "BIOPHARMACEUTICS",
+  "equivalents": [
+   "PHA C414"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "PHA F416",
+  "title": "CHEM OF SYNTHETIC DRUGS",
+  "equivalents": [
+   "PHA C416"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "PHA F417",
+  "title": "PHARMACOECONOMICS",
+  "equivalents": [
+   "PHA C417"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "PHA G510",
+  "title": "APPL OF STAT & COMP INFO",
+  "equivalents": [
+   "BIO G510"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "PHY F211",
+  "title": "CLASSICAL MECHANICS",
+  "equivalents": [
+   "PHY C212"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "PHY F311",
+  "title": "QUANTUM MECHANICS II",
+  "equivalents": [
+   "PHY C321"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "PHY F315",
+  "title": "THEORY OF RELATIVITY",
+  "equivalents": [
+   "PHY C242"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "PHY F418",
+  "title": "LASERS AND APPLICATIONS",
+  "equivalents": [
+   "PHY C432"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "PHY F424",
+  "title": "ADVANCED ELECTRODYNAMICS",
+  "equivalents": [
+   "PHY C411"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "SS G512",
+  "title": "OBJECT ORIENTED PROG",
+  "equivalents": [
+   "CS F213",
+   "CS C313",
+   "IS F213",
+   "IS C313"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "SS G513",
+  "title": "NETWORK SECURITY",
+  "equivalents": [
+   "CS G513"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 123,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "SS G514",
+  "title": "OBJ ORI ANALYS & DESIGN",
+  "equivalents": [
+   "CS G514"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 124,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "SS G520",
+  "title": "ADVANCED DATA MINING",
+  "equivalents": [
+   "CS G520"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 124,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "SS G527",
+  "title": "CLOUD COMPUTING",
+  "equivalents": [
+   "CS G527"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 124,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "SS G531",
+  "title": "PERVASIVE COMPUTING",
+  "equivalents": [
+   "CS G541"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 124,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "SS G551",
+  "title": "ADVANCE COMPILATION TECH",
+  "equivalents": [
+   "CS G551"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 124,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "SS G653",
+  "title": "SOFTWARE ARCHITECHTURES",
+  "equivalents": [
+   "CS G653"
+  ],
+  "basis": "printed",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 124,
+   "section": "IX. List of Equivalent Courses",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F415",
+  "title": "Introduction to MEMS",
+  "equivalents": [
+   "BITS U415"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/048_BITS_F415.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS U415",
+  "title": "Introduction to MEMS",
+  "equivalents": [
+   "BITS F415"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/048_BITS_F415.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F462",
+  "title": "Renewable energy",
+  "equivalents": [
+   "BITS U462"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/055_BITS_F462.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS U462",
+  "title": "Renewable energy",
+  "equivalents": [
+   "BITS F462"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/055_BITS_F462.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F464",
+  "title": "​     ​          : Machine Learning",
+  "equivalents": [
+   "CS U311"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/057_BITS_F464.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS U311",
+  "title": "​     ​          : Machine Learning",
+  "equivalents": [
+   "BITS F464"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/057_BITS_F464.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F415",
+  "title": "New Venture Creation",
+  "equivalents": [
+   "BITS F468"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/059_BITS_F468.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F468",
+  "title": "New Venture Creation",
+  "equivalents": [
+   "ECON F415"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/059_BITS_F468.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F482",
+  "title": "Creating and Leading Entrepreneurial Organization",
+  "equivalents": [
+   "ECON F414"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/061_BITS_F482.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F414",
+  "title": "Creating and Leading Entrepreneurial Organization",
+  "equivalents": [
+   "BITS F482"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/061_BITS_F482.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CE F434",
+  "title": "Environmental Impact Assessment",
+  "equivalents": [
+   "BITS F494"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/062_BITS_F494.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F494",
+  "title": "Environmental Impact Assessment",
+  "equivalents": [
+   "CE F434"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/062_BITS_F494.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS G629T",
+  "title": "DISSERTATION",
+  "equivalents": [
+   "BITS G561T",
+   "BITS G562T",
+   "BITS G563T"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/065_BITS_G562T.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS G561T",
+  "title": "DISSERTATION",
+  "equivalents": [
+   "BITS G629T",
+   "BITS G562T",
+   "BITS G563T"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/065_BITS_G562T.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS G562T",
+  "title": "DISSERTATION",
+  "equivalents": [
+   "BITS G629T",
+   "BITS G561T",
+   "BITS G563T"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/065_BITS_G562T.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS G563T",
+  "title": "DISSERTATION",
+  "equivalents": [
+   "BITS G629T",
+   "BITS G561T",
+   "BITS G562T"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/065_BITS_G562T.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS G629T",
+  "title": "DISSERTATION",
+  "equivalents": [
+   "BITS G561T",
+   "BITS G562T",
+   "BITS G563T"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/066_BITS_G563T.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS G561T",
+  "title": "DISSERTATION",
+  "equivalents": [
+   "BITS G629T",
+   "BITS G562T",
+   "BITS G563T"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/066_BITS_G563T.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS G562T",
+  "title": "DISSERTATION",
+  "equivalents": [
+   "BITS G629T",
+   "BITS G561T",
+   "BITS G563T"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/066_BITS_G563T.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS G563T",
+  "title": "DISSERTATION",
+  "equivalents": [
+   "BITS G629T",
+   "BITS G561T",
+   "BITS G562T"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/066_BITS_G563T.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS G629T",
+  "title": "DISSERTATION",
+  "equivalents": [
+   "BITS G561T",
+   "BITS G562T",
+   "BITS G563T"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/067_BITS_G564T.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS G561T",
+  "title": "DISSERTATION",
+  "equivalents": [
+   "BITS G629T",
+   "BITS G562T",
+   "BITS G563T"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/067_BITS_G564T.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS G562T",
+  "title": "DISSERTATION",
+  "equivalents": [
+   "BITS G629T",
+   "BITS G561T",
+   "BITS G563T"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/067_BITS_G564T.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS G563T",
+  "title": "DISSERTATION",
+  "equivalents": [
+   "BITS G629T",
+   "BITS G561T",
+   "BITS G562T"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/067_BITS_G564T.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F415",
+  "title": "Introduction to MEMS",
+  "equivalents": [
+   "BITS U415"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/072_BITS_U415.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS U415",
+  "title": "Introduction to MEMS",
+  "equivalents": [
+   "BITS F415"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/072_BITS_U415.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F462",
+  "title": "Renewable energy",
+  "equivalents": [
+   "BITS U462"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/073_BITS_U462.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS U462",
+  "title": "Renewable energy",
+  "equivalents": [
+   "BITS F462"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/073_BITS_U462.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F467",
+  "title": "BIOETHICS AND BIOSAFETY",
+  "equivalents": [
+   "BITS U467"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/074_BITS_U467.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS U467",
+  "title": "BIOETHICS AND BIOSAFETY",
+  "equivalents": [
+   "BITS F467"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/074_BITS_U467.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CE F434",
+  "title": "Environmental Impact Assessment",
+  "equivalents": [
+   "BITS F494"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/085_CE_F434.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F494",
+  "title": "Environmental Impact Assessment",
+  "equivalents": [
+   "CE F434"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/085_CE_F434.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CE F434",
+  "title": "Environmental Impact Assessment",
+  "equivalents": [
+   "BITS F494"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/116_CE_U434.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F494",
+  "title": "Environmental Impact Assessment",
+  "equivalents": [
+   "CE F434"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/116_CE_U434.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS F213",
+  "title": "Object Oriented Programming",
+  "equivalents": [
+   "MAC F212"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/161_CS_F213.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MAC F212",
+  "title": "Object Oriented Programming",
+  "equivalents": [
+   "CS F213"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/161_CS_F213.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS F407",
+  "title": "ARTIFICIAL INTELLIGENCE",
+  "equivalents": [
+   "CS U407"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/170_CS_F407.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS U407",
+  "title": "ARTIFICIAL INTELLIGENCE",
+  "equivalents": [
+   "CS F407"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/170_CS_F407.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS F469",
+  "title": "​ ​      Information Retrieval",
+  "equivalents": [
+   "CS U469"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/175_CS_F469.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS U469",
+  "title": "​ ​      Information Retrieval",
+  "equivalents": [
+   "CS F469"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/175_CS_F469.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F464",
+  "title": "​     ​          : Machine Learning",
+  "equivalents": [
+   "CS U311"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/190_CS_U311.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS U311",
+  "title": "​     ​          : Machine Learning",
+  "equivalents": [
+   "BITS F464"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/190_CS_U311.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS F407",
+  "title": "ARTIFICIAL INTELLIGENCE",
+  "equivalents": [
+   "CS U407"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/191_CS_U407.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS U407",
+  "title": "ARTIFICIAL INTELLIGENCE",
+  "equivalents": [
+   "CS F407"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/191_CS_U407.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS F469",
+  "title": "​ ​      Information Retrieval",
+  "equivalents": [
+   "CS U469"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/195_CS_U469.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS U469",
+  "title": "​ ​      Information Retrieval",
+  "equivalents": [
+   "CS F469"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/195_CS_U469.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F211",
+  "title": "Electrical Machines",
+  "equivalents": [
+   "ECE F211",
+   "INSTR F211"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/203_ECE_F211.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F211",
+  "title": "Electrical Machines",
+  "equivalents": [
+   "EEE F211",
+   "INSTR F211"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/203_ECE_F211.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F211",
+  "title": "Electrical Machines",
+  "equivalents": [
+   "EEE F211",
+   "ECE F211"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/203_ECE_F211.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F214",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "INSTR F214",
+   "ECE F214",
+   "SNS F242"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/204_ECE_F214.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F214",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "EEE F214",
+   "ECE F214",
+   "SNS F242"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/204_ECE_F214.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F214",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "EEE F214",
+   "INSTR F214",
+   "SNS F242"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/204_ECE_F214.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "SNS F242",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "EEE F214",
+   "INSTR F214",
+   "ECE F214"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/204_ECE_F214.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F266",
+  "title": "Study Project",
+  "equivalents": [
+   "INSTR F266",
+   "ECE F266"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/206_ECE_F266.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F266",
+  "title": "Study Project",
+  "equivalents": [
+   "EEE F266",
+   "ECE F266"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/206_ECE_F266.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F266",
+  "title": "Study Project",
+  "equivalents": [
+   "EEE F266",
+   "INSTR F266"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/206_ECE_F266.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F212",
+  "title": "[Fundamentals of Finance and Accounting]",
+  "equivalents": [
+   "FIN F212"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/217_ECON_F212.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "FIN F212",
+  "title": "[Fundamentals of Finance and Accounting]",
+  "equivalents": [
+   "ECON F212"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/217_ECON_F212.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F315",
+  "title": "Financial Management",
+  "equivalents": [
+   "FIN F315"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/223_ECON_F315.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "FIN F315",
+  "title": "Financial Management",
+  "equivalents": [
+   "ECON F315"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/223_ECON_F315.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F354",
+  "title": "Derivatives & Risk Management",
+  "equivalents": [
+   "FIN F311"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/224_ECON_F354.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "FIN F311",
+  "title": "Derivatives & Risk Management",
+  "equivalents": [
+   "ECON F354"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/224_ECON_F354.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F412",
+  "title": "Security Analysis and Portfolio Management",
+  "equivalents": [
+   "FIN F313"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/226_ECON_F412.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "FIN F313",
+  "title": "Security Analysis and Portfolio Management",
+  "equivalents": [
+   "ECON F412"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/226_ECON_F412.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F482",
+  "title": "Creating and Leading Entrepreneurial Organization",
+  "equivalents": [
+   "ECON F414"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/228_ECON_F414.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F414",
+  "title": "Creating and Leading Entrepreneurial Organization",
+  "equivalents": [
+   "BITS F482"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/228_ECON_F414.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F415",
+  "title": "New Venture Creation",
+  "equivalents": [
+   "BITS F468"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/229_ECON_F415.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F468",
+  "title": "New Venture Creation",
+  "equivalents": [
+   "ECON F415"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/229_ECON_F415.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F417",
+  "title": "RISK MANAGEMENT AND INSURANCE",
+  "equivalents": [
+   "FIN F413"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/230_ECON_F417.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "FIN F413",
+  "title": "RISK MANAGEMENT AND INSURANCE",
+  "equivalents": [
+   "ECON F417"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/230_ECON_F417.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F211",
+  "title": "Electrical Machines",
+  "equivalents": [
+   "ECE F211",
+   "INSTR F211"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/236_EEE_F211.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F211",
+  "title": "Electrical Machines",
+  "equivalents": [
+   "EEE F211",
+   "INSTR F211"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/236_EEE_F211.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F211",
+  "title": "Electrical Machines",
+  "equivalents": [
+   "EEE F211",
+   "ECE F211"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/236_EEE_F211.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F214",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "INSTR F214",
+   "ECE F214",
+   "SNS F242"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/237_EEE_F214.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F214",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "EEE F214",
+   "ECE F214",
+   "SNS F242"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/237_EEE_F214.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F214",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "EEE F214",
+   "INSTR F214",
+   "SNS F242"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/237_EEE_F214.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "SNS F242",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "EEE F214",
+   "INSTR F214",
+   "ECE F214"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/237_EEE_F214.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F266",
+  "title": "Study Project",
+  "equivalents": [
+   "INSTR F266",
+   "ECE F266"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/240_EEE_F266.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F266",
+  "title": "Study Project",
+  "equivalents": [
+   "EEE F266",
+   "ECE F266"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/240_EEE_F266.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F266",
+  "title": "Study Project",
+  "equivalents": [
+   "EEE F266",
+   "INSTR F266"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/240_EEE_F266.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F212",
+  "title": "[Fundamentals of Finance and Accounting]",
+  "equivalents": [
+   "FIN F212"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/287_FIN_F212.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "FIN F212",
+  "title": "[Fundamentals of Finance and Accounting]",
+  "equivalents": [
+   "ECON F212"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/287_FIN_F212.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F412",
+  "title": "Security Analysis and Portfolio Management",
+  "equivalents": [
+   "FIN F313"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/288_FIN_F313.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "FIN F313",
+  "title": "Security Analysis and Portfolio Management",
+  "equivalents": [
+   "ECON F412"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/288_FIN_F313.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECON F315",
+  "title": "Financial Management",
+  "equivalents": [
+   "FIN F315"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/289_FIN_F315.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "FIN F315",
+  "title": "Financial Management",
+  "equivalents": [
+   "ECON F315"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/289_FIN_F315.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ENGL C261",
+  "title": "Creative Writing",
+  "equivalents": [
+   "GS F241"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/300_GS_F241.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "GS F241",
+  "title": "Creative Writing",
+  "equivalents": [
+   "ENGL C261"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/300_GS_F241.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS C484",
+  "title": "Introduction to Conflict Management",
+  "equivalents": [
+   "GS F311"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/304_GS_F311.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "GS F311",
+  "title": "Introduction to Conflict Management",
+  "equivalents": [
+   "BITS C484"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/304_GS_F311.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F211",
+  "title": "Electrical Machines",
+  "equivalents": [
+   "ECE F211",
+   "INSTR F211"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/333_INSTR_F211.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F211",
+  "title": "Electrical Machines",
+  "equivalents": [
+   "EEE F211",
+   "INSTR F211"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/333_INSTR_F211.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F211",
+  "title": "Electrical Machines",
+  "equivalents": [
+   "EEE F211",
+   "ECE F211"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/333_INSTR_F211.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F214",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "INSTR F214",
+   "ECE F214",
+   "SNS F242"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/334_INSTR_F214.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F214",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "EEE F214",
+   "ECE F214",
+   "SNS F242"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/334_INSTR_F214.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F214",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "EEE F214",
+   "INSTR F214",
+   "SNS F242"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/334_INSTR_F214.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "SNS F242",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "EEE F214",
+   "INSTR F214",
+   "ECE F214"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/334_INSTR_F214.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F266",
+  "title": "Study Project",
+  "equivalents": [
+   "INSTR F266",
+   "ECE F266"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/336_INSTR_F266.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F266",
+  "title": "Study Project",
+  "equivalents": [
+   "EEE F266",
+   "ECE F266"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/336_INSTR_F266.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F266",
+  "title": "Study Project",
+  "equivalents": [
+   "EEE F266",
+   "INSTR F266"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/336_INSTR_F266.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS F213",
+  "title": "Object Oriented Programming",
+  "equivalents": [
+   "MAC F212"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/346_MAC_F212.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MAC F212",
+  "title": "Object Oriented Programming",
+  "equivalents": [
+   "CS F213"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/346_MAC_F212.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME F211",
+  "title": "",
+  "equivalents": [
+   "MF F211"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/377_ME_F211.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MF F211",
+  "title": "",
+  "equivalents": [
+   "ME F211"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/377_ME_F211.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME F216",
+  "title": "Materials Science and Engineering",
+  "equivalents": [
+   "MF F216"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/379_ME_F216.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MF F216",
+  "title": "Materials Science and Engineering",
+  "equivalents": [
+   "ME F216"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/379_ME_F216.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME F314",
+  "title": "DESIGN OF MACHINE ELEMENTS",
+  "equivalents": [
+   "MF F314"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/381_ME_F314.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MF F314",
+  "title": "DESIGN OF MACHINE ELEMENTS",
+  "equivalents": [
+   "ME F314"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/381_ME_F314.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME F428",
+  "title": "SMART MATERIALS",
+  "equivalents": [
+   "ME U428"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/391_ME_F428.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME U428",
+  "title": "SMART MATERIALS",
+  "equivalents": [
+   "ME F428"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/391_ME_F428.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME F443",
+  "title": "Quality Control, Assurance and Reliability",
+  "equivalents": [
+   "ME U443"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/392_ME_F443.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME U443",
+  "title": "Quality Control, Assurance and Reliability",
+  "equivalents": [
+   "ME F443"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/392_ME_F443.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME F428",
+  "title": "SMART MATERIALS",
+  "equivalents": [
+   "ME U428"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/409_ME_U428.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME U428",
+  "title": "SMART MATERIALS",
+  "equivalents": [
+   "ME F428"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/409_ME_U428.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME F443",
+  "title": "Quality Control, Assurance and Reliability",
+  "equivalents": [
+   "ME U443"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/410_ME_U443.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME U443",
+  "title": "Quality Control, Assurance and Reliability",
+  "equivalents": [
+   "ME F443"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/410_ME_U443.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME F211",
+  "title": "",
+  "equivalents": [
+   "MF F211"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/424_MF_F211.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MF F211",
+  "title": "",
+  "equivalents": [
+   "ME F211"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/424_MF_F211.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME F216",
+  "title": "Materials Science and Engineering",
+  "equivalents": [
+   "MF F216"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/425_MF_F216.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MF F216",
+  "title": "Materials Science and Engineering",
+  "equivalents": [
+   "ME F216"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/425_MF_F216.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ME F314",
+  "title": "DESIGN OF MACHINE ELEMENTS",
+  "equivalents": [
+   "MF F314"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/428_MF_F314.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MF F314",
+  "title": "DESIGN OF MACHINE ELEMENTS",
+  "equivalents": [
+   "ME F314"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/428_MF_F314.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MPBA G521",
+  "title": "Analytics for Supply Chain",
+  "equivalents": [
+   "BITS F455"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/452_MPBA_G520.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F455",
+  "title": "Analytics for Supply Chain",
+  "equivalents": [
+   "MPBA G521"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/452_MPBA_G520.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "MPBA G521",
+  "title": "Analytics for Supply Chain",
+  "equivalents": [
+   "BITS F455"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/453_MPBA_G520.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F455",
+  "title": "Analytics for Supply Chain",
+  "equivalents": [
+   "MPBA G521"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/453_MPBA_G520.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F214",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "INSTR F214",
+   "ECE F214",
+   "SNS F242"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/535_SNS_F242.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F214",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "EEE F214",
+   "ECE F214",
+   "SNS F242"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/535_SNS_F242.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F214",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "EEE F214",
+   "INSTR F214",
+   "SNS F242"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/535_SNS_F242.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "SNS F242",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "EEE F214",
+   "INSTR F214",
+   "ECE F214"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/535_SNS_F242.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS G514",
+  "title": "Object Oriented Analysis and Design",
+  "equivalents": [
+   "SS G514"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/536_SS_G514.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "SS G514",
+  "title": "Object Oriented Analysis and Design",
+  "equivalents": [
+   "CS G514"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/536_SS_G514.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS G514",
+  "title": "Object Oriented Analysis and Design",
+  "equivalents": [
+   "SS G514"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/537_SS_G514.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "SS G514",
+  "title": "Object Oriented Analysis and Design",
+  "equivalents": [
+   "CS G514"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/537_SS_G514.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "BITS F482",
+  "title": "CREAT & LEAD ENTREP ORGN",
+  "equivalents": [
+   "ECON F414"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 21,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "ECON F414",
+  "title": "CREAT & LEAD ENTREP ORGN",
+  "equivalents": [
+   "BITS F482"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 56,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "BITS F494",
+  "title": "ENV IMPACT ASSESSMENT",
+  "equivalents": [
+   "CE F434"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 21,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "CE F434",
+  "title": "ENV IMPACT ASSESSMENT",
+  "equivalents": [
+   "BITS F494"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 28,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "CS F215",
+  "title": "DIGITAL DESIGN",
+  "equivalents": [
+   "ECE F215",
+   "EEE F215",
+   "INSTR F215"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 42,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "ECE F215",
+  "title": "DIGITAL DESIGN",
+  "equivalents": [
+   "CS F215",
+   "EEE F215",
+   "INSTR F215"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 52,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "EEE F215",
+  "title": "DIGITAL DESIGN",
+  "equivalents": [
+   "CS F215",
+   "ECE F215",
+   "INSTR F215"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 58,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "INSTR F215",
+  "title": "DIGITAL DESIGN",
+  "equivalents": [
+   "CS F215",
+   "ECE F215",
+   "EEE F215"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 71,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "ECE F211",
+  "title": "ELECTRICAL MACHINES",
+  "equivalents": [
+   "EEE F211",
+   "INSTR F211"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 51,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "EEE F211",
+  "title": "ELECTRICAL MACHINES",
+  "equivalents": [
+   "ECE F211",
+   "INSTR F211"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 57,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "INSTR F211",
+  "title": "ELECTRICAL MACHINES",
+  "equivalents": [
+   "ECE F211",
+   "EEE F211"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 69,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "ECE F214",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "EEE F214",
+   "INSTR F214",
+   "SNS F242"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 52,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "EEE F214",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "ECE F214",
+   "INSTR F214",
+   "SNS F242"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 58,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "INSTR F214",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "ECE F214",
+   "EEE F214",
+   "SNS F242"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 70,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "SNS F242",
+  "title": "ELECTRONIC DEVICES",
+  "equivalents": [
+   "ECE F214",
+   "EEE F214",
+   "INSTR F214"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 112,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "ECE F311",
+  "title": "COMMUNICATION SYSTEMS",
+  "equivalents": [
+   "EEE F311"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 54,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "EEE F311",
+  "title": "COMMUNICATION SYSTEMS",
+  "equivalents": [
+   "ECE F311"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 60,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "ECE F434",
+  "title": "DIGITAL SIGNAL PROCESS",
+  "equivalents": [
+   "EEE F434"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 55,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "EEE F434",
+  "title": "DIGITAL SIGNAL PROCESS",
+  "equivalents": [
+   "ECE F434"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 62,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "ECON F212",
+  "title": "FUNDA OF FIN AND ACCOUNT",
+  "equivalents": [
+   "FIN F212"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 55,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "FIN F212",
+  "title": "FUNDA OF FIN AND ACCOUNT",
+  "equivalents": [
+   "ECON F212"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 66,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "ECON F315",
+  "title": "FINANCIAL MANAGEMENT",
+  "equivalents": [
+   "FIN F315"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 56,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "FIN F315",
+  "title": "FINANCIAL MANAGEMENT",
+  "equivalents": [
+   "ECON F315"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 66,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "ECON F412",
+  "title": "SECUR ANAL & PORTFOL MGT",
+  "equivalents": [
+   "FIN F313"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 56,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "FIN F313",
+  "title": "SECUR ANAL & PORTFOL MGT",
+  "equivalents": [
+   "ECON F412"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 66,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "EEE F212",
+  "title": "ELECTROMAGNETIC THEO",
+  "equivalents": [
+   "INSTR F212"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 58,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "INSTR F212",
+  "title": "ELECTROMAGNETIC THEO",
+  "equivalents": [
+   "EEE F212"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 70,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "EEE F313",
+  "title": "ANALOG & DIGIT VLSI DES",
+  "equivalents": [
+   "INSTR F313"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 61,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "INSTR F313",
+  "title": "ANALOG & DIGIT VLSI DES",
+  "equivalents": [
+   "EEE F313"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 72,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "MAC F213",
+  "title": "DISCRETE MATHEMATICS",
+  "equivalents": [
+   "MATH F213"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 73,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "MATH F213",
+  "title": "DISCRETE MATHEMATICS",
+  "equivalents": [
+   "MAC F213"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 78,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "MAC F214",
+  "title": "ELEMENTARY REAL ANALYSIS",
+  "equivalents": [
+   "MATH F214"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 74,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "MATH F214",
+  "title": "ELEMENTARY REAL ANALYSIS",
+  "equivalents": [
+   "MAC F214"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 78,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "MAC F311",
+  "title": "ALGEBRA I",
+  "equivalents": [
+   "MATH F215"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 74,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "MATH F215",
+  "title": "ALGEBRA I",
+  "equivalents": [
+   "MAC F311"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 79,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "ME F211",
+  "title": "MECHANICS OF SOLIDS",
+  "equivalents": [
+   "MF F211"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 81,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "MF F211",
+  "title": "MECHANICS OF SOLIDS",
+  "equivalents": [
+   "ME F211"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 87,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "ME F216",
+  "title": "MATERIALS SCIENCE AND ENGG",
+  "equivalents": [
+   "MF F216"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 82,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "MF F216",
+  "title": "MATERIALS SCIENCE AND ENGG.",
+  "equivalents": [
+   "ME F216"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 87,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "ME F314",
+  "title": "DESIGN OF MACHINE ELEMENTS",
+  "equivalents": [
+   "MF F314"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 83,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "MF F314",
+  "title": "DESIGN OF MACHINE ELEMENTS",
+  "equivalents": [
+   "ME F314"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 88,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "MF F422",
+  "title": "SUPPLY CHAIN MODEL & EMP ANALY",
+  "equivalents": [
+   "MSE G515"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 89,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "MSE G515",
+  "title": "SUPPLY CHAIN MODEL & EMP ANALY",
+  "equivalents": [
+   "MF F422"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 94,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "PHY F426",
+  "title": "PHY OF SEMICONDUCTOR DEV",
+  "equivalents": [
+   "PHY G541"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 107,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ },
+ {
+  "course_code": "PHY G541",
+  "title": "PHY OF SEMICONDUCTOR DEV",
+  "equivalents": [
+   "PHY F426"
+  ],
+  "basis": "inferred_crosslist",
+  "source": {
+   "document": "timetable.pdf",
+   "page": 108,
+   "section": "II. Coursewise Timetable",
+   "confidence": "medium"
+  }
+ }
+]
