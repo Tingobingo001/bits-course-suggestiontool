@@ -1,7 +1,7 @@
 # BITS Academic Course Recommender
 
 An agentic course recommender for BITS Pilani students. A deterministic rules engine
-decides what a student is required and eligible to take; an LLM (Claude) handles
+decides what a student is required and eligible to take; an LLM (Gemini, behind a swappable `llm.py`) handles
 natural-language queries, interest matching and explanations. All answers come from
 structured data pre-processed from the supplied BITS documents, with source references.
 
@@ -48,6 +48,11 @@ Outputs in `data/processed/` (committed, so the app runs without re-building):
 |---|---|
 | `timetable.json` | Offered courses: sections, days/hours, rooms, instructors, midsem/compre slots |
 | `courses.json` | Course catalogue from Bulletin Part VI: title, units, description, stated prerequisites |
+| `course_lists.json` | Per-programme CDC and DEL lists (Bulletin Part IV), HUEL pool, project/other/audit courses, list rules |
+| `semester_charts.json` | Year/semester placement of courses and elective slots for 28 degrees and 72 dual-degree pairs |
+| `degree_rules.json` | Category-wise unit/course requirements (HUEL, OPEL, core, total…) and prose policies with page refs |
+| `minors.json` | 23 minor programmes (core, elective pools with minimums) and general minor rules |
+| `regulations.json` | Academic Regulations 2023 clause by clause, plus engine rules (unit limits, extra electives, clash rules, grade points…) each verified against a quote from its clause |
 | `equivalents.json` | Equivalent / cross-listed course codes (printed, handout-stated, inferred) |
 | `validation_report.json` | Cross-document checks: unknown prerequisite codes, offered courses without descriptions, flagged records |
 

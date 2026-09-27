@@ -60,6 +60,154 @@ class Course(BaseModel):
     needs_verification: list[str] = Field(default_factory=list)
 
 
+class ListedCourse(BaseModel):
+    """A course as it appears in a Bulletin course list (Part IV, 'List of Courses')."""
+    course_code: str
+    aliases: list[str] = Field(default_factory=list)  # cross-listed codes printed in the same cell ("CS G514/ SS G514")
+    title: str
+    lecture_hours: int | None = None
+    practical_hours: int | None = None
+    units: int | None = None
+    variable_units: bool = False
+    group: str | None = None   # elective track / pool, e.g. "Track - 1: Environment and sustainable design"
+    alternative_to_previous: bool = False   # printed as "X or Y": either one counts
+    page: int
+
+
+class CoreSlot(BaseModel):
+    """One discipline-core requirement. Usually one course; 'MATH F212 OR ME F344' is one
+    slot that either course satisfies."""
+    options: list[ListedCourse]
+
+
+class ProgrammeCourseList(BaseModel):
+    name: str                          # as printed, e.g. "COMPUTER SCIENCE"
+    core: list[CoreSlot] = Field(default_factory=list)
+    electives: list[ListedCourse] = Field(default_factory=list)
+    source: SourceRef
+
+
+class CourseLists(BaseModel):
+    """Everything in Bulletin Part IV 'List of Courses for B.E. / M.Sc. / B.Pharm. Programmes'."""
+    programmes: list[ProgrammeCourseList]
+    humanities_pool: list[ListedCourse]   # HUEL pool
+    project_courses: list[ListedCourse]   # 'XXX F266 Study Project' etc. (XXX = any discipline)
+    other_courses: list[ListedCourse]
+    audit_courses: list[ListedCourse]
+    rules: list[dict]                     # policy sentences found in this section, with page refs
+
+
+class ChartEntry(BaseModel):
+    """One line in a semester-wise chart: a course, or an elective slot like
+    'Discipline Electives 3(min)'."""
+    year: int
+    semester: Literal[1, 2, "summer"]
+    kind: Literal["course", "elective_slot", "other"]
+    course_code: str | None = None
+    text: str                      # as printed (course code, or slot label like "Open Electives")
+    units: str | None = None       # as printed: "3", "3(min)", "6to12", "18-20"
+    alternative_to_previous: bool = False   # 'X or Y' in the same semester cell
+
+
+class ChartTotals(BaseModel):
+    """'Discipline Core - 48 Units (14 Courses)' / 'Discipline Electives - 12 Units (4 Courses)'."""
+    core_units: int | None = None
+    core_courses: int | None = None
+    elective_units: int | None = None
+    elective_courses: int | None = None
+    electives_are_minimum: bool = False    # "15 Units (min)"
+
+
+class SemesterChart(BaseModel):
+    title: str                              # as printed, e.g. "B. E. Computer Science"
+    kind: Literal["single", "dual"]
+    course_list: str | None = None          # linked ProgrammeCourseList name (single degrees)
+    course_list_overlap: float | None = None  # share of the chart's courses found in that list's CDCs
+    years_same_as_first_degree: list[int] = Field(default_factory=list)
+    entries: list[ChartEntry] = Field(default_factory=list)
+    totals: ChartTotals = Field(default_factory=ChartTotals)
+    source: SourceRef
+    needs_verification: list[str] = Field(default_factory=list)
+
+
+class Range(BaseModel):
+    min: int | None = None
+    max: int | None = None     # None = no stated maximum ("129 (min)")
+
+
+class CategoryRequirement(BaseModel):
+    """One row of the Bulletin's 'category-wise structure of each program' table (IV-1)."""
+    group: str                 # "(I) General Institutional Requirement", ...
+    category: str              # "Humanities Electives", "Core", "Open Electives", ...
+    units: Range
+    courses: Range
+
+
+class PolicyText(BaseModel):
+    """A rule stated in prose. The engine implements it in code and cites this text."""
+    topic: str                 # e.g. "dual_degree", "general_institutional_requirement"
+    text: str
+    source: SourceRef
+
+
+class DegreeRules(BaseModel):
+    category_requirements: list[CategoryRequirement]
+    policies: list[PolicyText]
+    source: SourceRef
+
+
+class MinorGroup(BaseModel):
+    """'Core Courses', or an elective pool like 'Electives (Science Pool) 01 (min)'."""
+    label: str
+    is_core: bool
+    min_courses: int | None = None       # "01 (min)" on the pool label
+    courses: list[ListedCourse] = Field(default_factory=list)
+
+
+class Minor(BaseModel):
+    name: str                            # "Minor in Aeronautics"
+    description: str = ""
+    min_courses: int | None = None       # "06 courses (min)"
+    min_units: int | None = None         # "18 units (min)"
+    groups: list[MinorGroup] = Field(default_factory=list)
+    source: SourceRef
+    needs_verification: list[str] = Field(default_factory=list)
+
+
+class MinorProgrammes(BaseModel):
+    minors: list[Minor]
+    general_rules: list[PolicyText]      # "Requirements for a minor" (IV-129)
+
+
+class Clause(BaseModel):
+    """One numbered clause of the Academic Regulations, kept verbatim for citation."""
+    clause: str                          # "3.13", "1.04a", "3.25 II"
+    section: str                         # "3. Registration"
+    text: str
+    source: SourceRef
+
+
+class RegulationRule(BaseModel):
+    """A machine-usable rule the engine enforces, hand-encoded from the source text.
+
+    `quotes` are exact phrases from the cited clause/page; the build checks they are
+    really there, so a mistyped rule or a changed document is caught (verified=False).
+    """
+    id: str                              # "max_units_per_semester"
+    value: int | float | bool | str | list | dict
+    description: str
+    quotes: list[str]
+    source: SourceRef
+    clause: str | None = None            # None for rules from the timetable
+    verified: bool = False
+
+
+class Regulations(BaseModel):
+    clauses: list[Clause]
+    rules: list[RegulationRule]
+    registration_instructions: list[PolicyText]   # timetable "VII. Instructions regarding registration"
+
+
 class Equivalence(BaseModel):
     """One row of the timetable's 'List of Equivalent Courses'.
     All codes in a row are mutually equivalent; rows are NOT chained together."""

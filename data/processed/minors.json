@@ -1,0 +1,4776 @@
+{
+ "minors": [
+  {
+   "name": "Minor in Aeronautics",
+   "description": "Aeronautics is an exhilarating field encompassing the fundamentals of aerodynamics (interaction of air with objects in motion), propulsion (power systems responsible for the Description generation of thrust for providing motion), structures (design of airframes and material characteristics), and flight mechanics (trajectory study and optimization), as applied to air-borne vehicles within the Earth’s atmosphere, and to rockets and spacecrafts outside.",
+   "min_courses": 6,
+   "min_units": 18,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "AN F311",
+       "aliases": [],
+       "title": "Principles of Aerodynamics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "AN F312",
+       "aliases": [],
+       "title": "Aircraft Propulsion",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "AN F313",
+       "aliases": [],
+       "title": "Flight Mechanics and Controls",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      }
+     ]
+    },
+    {
+     "label": "Electives",
+     "is_core": false,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "AN F314",
+       "aliases": [],
+       "title": "Introduction to Flight",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "AN F315",
+       "aliases": [],
+       "title": "Aircraft Structures",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "ME F415",
+       "aliases": [],
+       "title": "Gas Dynamics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "ME F418",
+       "aliases": [],
+       "title": "Rocket and Spacecraft Propulsion",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "ME F435",
+       "aliases": [],
+       "title": "Shape Memory Alloys: Fundamentals and Applications",
+       "lecture_hours": 2,
+       "practical_hours": 1,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "ME F452",
+       "aliases": [],
+       "title": "Composite Materials and Design",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "ME F482",
+       "aliases": [],
+       "title": "Combustion",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "ME F485",
+       "aliases": [],
+       "title": "Numerical Techniques for Fluid Flow & Heat Transfer",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "EEE F242",
+       "aliases": [],
+       "title": "Control Systems",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "EEE F417",
+       "aliases": [],
+       "title": "Computer Based Control Systems",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "ME F376",
+       "aliases": [],
+       "title": "Design Project",
+       "lecture_hours": null,
+       "practical_hours": null,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 338,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in Biomedical Engineering",
+   "description": "Biomedical Engineering is a long sought after package of courses aiming to cater Pharmacy and Engineering students having aspirations to join Bio Medical Industry. This minor aims to blend the expertise of an engineer into the applied realms of bio medicine through design and Description development of medical devices and systems; solving complex and multi-disciplinary problems in the field of diagnostics, acquisition, imaging, and analysis of bio signals along with the statistical interpretation of the results.",
+   "min_courses": 5,
+   "min_units": 15,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BITS F418",
+       "aliases": [],
+       "title": "Introduction to Biomedical Engineering",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "PHA F214",
+       "aliases": [],
+       "title": "Anatomy Physiology & Hygiene",
+       "lecture_hours": 2,
+       "practical_hours": 1,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      }
+     ]
+    },
+    {
+     "label": "Electives (Science Pool) 01 (min)",
+     "is_core": false,
+     "min_courses": 1,
+     "courses": [
+      {
+       "course_code": "BIO F215",
+       "aliases": [],
+       "title": "Biophysics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "BITS F315",
+       "aliases": [],
+       "title": "Introduction to Cognitive Neuroscience",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "CHEM F414",
+       "aliases": [],
+       "title": "Bio and Chemical Sensors",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "MST F333",
+       "aliases": [],
+       "title": "Introduction to Biomaterials",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "PHA F215",
+       "aliases": [],
+       "title": "Introduction to Molecular Biology and Immunology",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      }
+     ]
+    },
+    {
+     "label": "Electives (Engineering Pool) 02 (min)",
+     "is_core": false,
+     "min_courses": 2,
+     "courses": [
+      {
+       "course_code": "BITS F415",
+       "aliases": [],
+       "title": "Introduction to MEMS",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "BITS F417",
+       "aliases": [],
+       "title": "Microfluidics and Its Application",
+       "lecture_hours": null,
+       "practical_hours": null,
+       "units": 4,
+       "variable_units": true,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "BITS F441",
+       "aliases": [],
+       "title": "Robotics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "BIO G532",
+       "aliases": [],
+       "title": "Biostatistics and Biomodelling",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "CS F320",
+       "aliases": [],
+       "title": "Foundations of Data Science",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "EEE F420",
+       "aliases": [],
+       "title": "Biomedical Signal Processing",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "EEE F435",
+       "aliases": [],
+       "title": "Digital Image Processing",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "EEE F432",
+       "aliases": [
+        "INSTR F432"
+       ],
+       "title": "Medical Instrumentation",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      },
+      {
+       "course_code": "ME F324",
+       "aliases": [],
+       "title": "Cell and Tissue Biomechanics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 338
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 338,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in Computational Economics",
+   "description": "The joint field of economics, mathematics, and computer science have emerged from converging intellectual needs for interdisciplinary teaching and research. The contemporary tools and techniques used by computer scientists have become increasingly important for economists working with data to address complex business problems. Students interested in learning about computational mechanism design with applications to economics and especially those whose interest is more generally focused on data analytics will be highly benefitted from this programme. This programme is designed to cater to the needs of the Description cutting-edge industry thereby combining advanced computational tools with economic reasoning. It would help students to develop a deep background in advanced tools for analysis of economic data, which is essential for making sound economic decisions. The programme combines the strengths of multiple departments to educate students in these important computational skills linked to economics, and to prepare them for careers in economics, finance, and business. Reflecting on this strong interdisciplinary relationship, this programme will also be excellent preparation for graduate study in economics or decision sciences.",
+   "min_courses": 5,
+   "min_units": 15,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "ECON F215",
+       "aliases": [],
+       "title": "Computational Methods for Economics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 339
+      },
+      {
+       "course_code": "ECON F241",
+       "aliases": [],
+       "title": "Econometric Methods",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 339
+      },
+      {
+       "course_code": "ECON F242",
+       "aliases": [],
+       "title": "Microeconomics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 339
+      }
+     ]
+    },
+    {
+     "label": "Electives",
+     "is_core": false,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BITS F314",
+       "aliases": [],
+       "title": "Game Theory and its Applications",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 339
+      },
+      {
+       "course_code": "BITS F464",
+       "aliases": [],
+       "title": "Machine Learning",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 339
+      },
+      {
+       "course_code": "CS F320",
+       "aliases": [],
+       "title": "Foundations of Data Science",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 339
+      },
+      {
+       "course_code": "ECON F342",
+       "aliases": [],
+       "title": "Applied Econometrics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 339
+      },
+      {
+       "course_code": "ECON F419",
+       "aliases": [],
+       "title": "Advanced Microeconomics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 339
+      },
+      {
+       "course_code": "ECON F420",
+       "aliases": [],
+       "title": "Applied Macroeconometrics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 339
+      },
+      {
+       "course_code": "MATH F424",
+       "aliases": [],
+       "title": "Applied Stochastic Process",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 339
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 339,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in Computational Mechanics",
+   "description": "A minor in Computational Mechanics holds significant justification, driven by the evolving industry demands and advancements. Here are key justifications for choosing this field: Interdisciplinary Relevance: Computational Mechanics serves as a bridge between engineering, physics, and mathematics. In today's complex technological landscape, industries increasingly require professionals who can integrate knowledge from diverse domains to solve intricate engineering problems. Advanced Simulation Skills: Proficiency in computational tools for intricate simulations and analyses. Vital in aerospace, automotive, and materials science for virtual testing and optimization. Industry 4.0 Integration: Plays a crucial role in implementing Industry 4.0 principles. Description Facilitates the development and application of Digital Twins for real-time system monitoring. Optimizing Engineering Designs: Enables the modelling and analysis of complex structures for optimized engineering solutions. Aligns with global sustainability goals. Career Opportunities in Emerging Technologies: High demand in additive manufacturing, autonomous systems, and renewable energy. Critical for simulating complex interactions in cutting-edge technologies. Research and Development Involvement: Provides opportunities for engaging in impactful research. Opens doors for collaboration with leading experts and institutions. Preparedness for Industry Challenges: Systematic and data-driven approach to problem- solving. Addresses contemporary challenges in diverse industries.",
+   "min_courses": 5,
+   "min_units": 15,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "MATH F313",
+       "aliases": [],
+       "title": "Numerical Analysis",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 339
+      },
+      {
+       "course_code": "ME F427",
+       "aliases": [],
+       "title": "Continuum Mechanics",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 339
+      }
+     ]
+    },
+    {
+     "label": "Electives",
+     "is_core": false,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BITS F464",
+       "aliases": [],
+       "title": "Machine Learning",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 339
+      },
+      {
+       "course_code": "CS F422",
+       "aliases": [],
+       "title": "Parallel Computing",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 339
+      },
+      {
+       "course_code": "MATH F425",
+       "aliases": [],
+       "title": "Numerical Linear Algebra",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 339
+      },
+      {
+       "course_code": "MATH F426",
+       "aliases": [],
+       "title": "Mathematical Theory of Finite Element Methods",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 339
+      },
+      {
+       "course_code": "ME G512",
+       "aliases": [],
+       "title": "Finite Element Methods",
+       "lecture_hours": 3,
+       "practical_hours": 2,
+       "units": 5,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": true,
+       "page": 339
+      },
+      {
+       "course_code": "ME F321",
+       "aliases": [],
+       "title": "Data Mining in Mechanical Sciences",
+       "lecture_hours": 2,
+       "practical_hours": 1,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 339
+      },
+      {
+       "course_code": "ME F485",
+       "aliases": [],
+       "title": "Numerical Techniques for Fluid Flow and Heat Transfer",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 339
+      },
+      {
+       "course_code": "ME F430",
+       "aliases": [],
+       "title": "Fluid-structure Interactions",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 339
+      },
+      {
+       "course_code": "ME G515",
+       "aliases": [],
+       "title": "Computational Fluid Dynamics",
+       "lecture_hours": 3,
+       "practical_hours": 2,
+       "units": 5,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 339
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 339,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in Computing and Intelligence",
+   "description": "The Minor in Computing and Intelligence aims to enable the students majoring in disciplines other than Computer Science to gain a deeper understanding of computing and artificial intelligence and apply the same in solving problems in diverse domains. While courses like Foundations of Data Structures and Algorithms would help the students with abstract thinking and problem solving, Description courses like Operating Systems, Artificial Intelligence etc., will give them exposure to the fundamental aspects of computing and intelligent systems. This minor programme is exclusively designed for first-degree students of non-Computer Science disciplines.",
+   "min_courses": 6,
+   "min_units": 18,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BITS F232",
+       "aliases": [],
+       "title": "Foundations of Data Structures and Algorithms",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F372",
+       "aliases": [],
+       "title": "Operating Systems",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F407",
+       "aliases": [],
+       "title": "Artificial intelligence",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      }
+     ]
+    },
+    {
+     "label": "Electives",
+     "is_core": false,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BITS F311",
+       "aliases": [],
+       "title": "Image Processing",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "BITS F452",
+       "aliases": [],
+       "title": "Blockchain Technology",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "BITS F459",
+       "aliases": [],
+       "title": "Computer Vision",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "BITS F463",
+       "aliases": [],
+       "title": "Cryptography",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "BITS F464",
+       "aliases": [],
+       "title": "Machine Learning",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F212",
+       "aliases": [],
+       "title": "Database Systems",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F213",
+       "aliases": [],
+       "title": "Object Oriented Programming",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F301",
+       "aliases": [],
+       "title": "Principles of Programming Languages",
+       "lecture_hours": 2,
+       "practical_hours": 0,
+       "units": 2,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F303",
+       "aliases": [],
+       "title": "Computer Networks",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F314",
+       "aliases": [],
+       "title": "Software Development for Portable Devices",
+       "lecture_hours": 2,
+       "practical_hours": 1,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F315",
+       "aliases": [],
+       "title": "Information and Communication Technologies and Development",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F321",
+       "aliases": [],
+       "title": "System Security",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F415",
+       "aliases": [],
+       "title": "Data Mining",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F437",
+       "aliases": [],
+       "title": "Generative Artificial Intelligence",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "IS F311",
+       "aliases": [],
+       "title": "Computer Graphics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "IS F341",
+       "aliases": [],
+       "title": "Software Engineering",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 340,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in Data Science",
+   "description": "The minor in Data Science aims to enable students to learn the basic skills required by Data Scientist for today’s world. Data Science is becoming ubiquitous to all kinds of industry and opening up new avenues of business. This minor will help students to apply Description knowledge from Mathematics, Statistics and Computing for analyzing data collected from different kinds of sources in their respective engineering applications and make meaningful and actionable insights.",
+   "min_courses": 5,
+   "min_units": 15,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BITS F464",
+       "aliases": [],
+       "title": "Machine Learning",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F320",
+       "aliases": [],
+       "title": "Foundations of Data Science",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "MATH F432",
+       "aliases": [],
+       "title": "Applied statistical Methods",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      }
+     ]
+    },
+    {
+     "label": "Electives",
+     "is_core": false,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BITS F453",
+       "aliases": [],
+       "title": "Computational Learning Theory",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "BITS F454",
+       "aliases": [],
+       "title": "Bio-Inspired Intelligence: Algorithms and Applications",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "BITS F459",
+       "aliases": [],
+       "title": "Computer Vision",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F317",
+       "aliases": [],
+       "title": "Reinforcement Learning",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F407",
+       "aliases": [],
+       "title": "Artificial Intelligence",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F415",
+       "aliases": [],
+       "title": "Data Mining",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F425",
+       "aliases": [],
+       "title": "Deep Learning",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F426",
+       "aliases": [],
+       "title": "Graph Mining",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F429",
+       "aliases": [],
+       "title": "Natural Language Processing",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F432",
+       "aliases": [],
+       "title": "Brain-inspired Deep Learning",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F433",
+       "aliases": [],
+       "title": "Computational Neuroscience",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F434",
+       "aliases": [],
+       "title": "Data science for Healthcare",
+       "lecture_hours": null,
+       "practical_hours": null,
+       "units": 3,
+       "variable_units": true,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 340
+      },
+      {
+       "course_code": "CS F437",
+       "aliases": [],
+       "title": "Generative Artificial Intelligence",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 341
+      },
+      {
+       "course_code": "CS F469",
+       "aliases": [],
+       "title": "Information Retrieval",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 341
+      },
+      {
+       "course_code": "CS G519",
+       "aliases": [],
+       "title": "Social Media Analytics",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 341
+      },
+      {
+       "course_code": "MATH F212",
+       "aliases": [],
+       "title": "Optimization OR Engineering Optimization",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 341
+      },
+      {
+       "course_code": "MATH F353",
+       "aliases": [],
+       "title": "Statistical Inference and applications",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 341
+      },
+      {
+       "course_code": "MATH F424",
+       "aliases": [],
+       "title": "Applied Stochastic Processes",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 341
+      },
+      {
+       "course_code": "MATH F471",
+       "aliases": [],
+       "title": "Nonlinear Optimization",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 341
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 340,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in Data Science in Climate and Health",
+   "description": "The minor in Data Science aims to enable students to learn the basic skills required by Data Scientist for today’s world. Data Science is becoming ubiquitous to all kinds of industry and opening up new avenues of business. This minor will equip students as emerging professionals Description with the interdisciplinary data skills needed to address challenges at the intersection of climate and health. This new minor programme will train data practitioners on the front lines of the climate crisis to help advance solutions to climate-related health issues.",
+   "min_courses": 6,
+   "min_units": 17,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BITS F329",
+       "aliases": [],
+       "title": "Project on Social and Environmental Applications of Data Science",
+       "lecture_hours": null,
+       "practical_hours": null,
+       "units": 3,
+       "variable_units": true,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 341
+      },
+      {
+       "course_code": "BITS F464",
+       "aliases": [],
+       "title": "Machine Learning",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 341
+      },
+      {
+       "course_code": "CS F320",
+       "aliases": [],
+       "title": "Foundations of Data Science",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 341
+      },
+      {
+       "course_code": "MATH F432",
+       "aliases": [],
+       "title": "Applied statistical Methods",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 341
+      }
+     ]
+    },
+    {
+     "label": "Electives (Any two)",
+     "is_core": false,
+     "min_courses": 2,
+     "courses": [
+      {
+       "course_code": "CE F326",
+       "aliases": [],
+       "title": "Impact of Climate Change on Water",
+       "lecture_hours": 2,
+       "practical_hours": 1,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 341
+      },
+      {
+       "course_code": "CS F434",
+       "aliases": [],
+       "title": "Data science for Healthcare",
+       "lecture_hours": null,
+       "practical_hours": null,
+       "units": 3,
+       "variable_units": true,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 341
+      },
+      {
+       "course_code": "GS F212",
+       "aliases": [],
+       "title": "Environmental Development and Climate Change",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 341
+      },
+      {
+       "course_code": "MPH G510",
+       "aliases": [],
+       "title": "Biostatistics and Computers in Public Health",
+       "lecture_hours": 3,
+       "practical_hours": 2,
+       "units": 5,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 341
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 341,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in English Studies",
+   "description": "English has a rich linguistic, literary and cultural heritage. The classic literary masterpieces of English are still widely read and appreciated. English has also evolved over centuries and is now considered as the pre-eminent means of communication in the various sectors such as business, diplomacy, mass media, education, etc., across the globe. The Minor in English Studies introduces students to the language and literary canons, and renders them with adequate exposure not only to the cultural and linguistic aspects but also to practical Description applications of English language and literature. In particular, the core and elective courses included in the Minor would encourage students to acquire a critical understanding of literary and linguistic analyses, and the capacity to engage meaningfully in analysis, interpretation, and explanation. The Minor also gives an opportunity for students to choose modules and develop their own interests in language or literature. Students who follow the Minor will have an enhanced understanding of the nature of the English language and literature and also of the tools needed for further independent exploration of literary and linguistic phenomena.",
+   "min_courses": 5,
+   "min_units": 15,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "GS F241",
+       "aliases": [],
+       "title": "Creative Writing",
+       "lecture_hours": 2,
+       "practical_hours": 1,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 341
+      },
+      {
+       "course_code": "HSS F337",
+       "aliases": [],
+       "title": "English Literary Forms and Movements",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 341
+      }
+     ]
+    },
+    {
+     "label": "Electives Pool – I (Language)",
+     "is_core": false,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "GS F221",
+       "aliases": [],
+       "title": "Business Communication",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 341
+      },
+      {
+       "course_code": "GS F244",
+       "aliases": [],
+       "title": "Reporting and Writing for Media",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 341
+      },
+      {
+       "course_code": "GS F245",
+       "aliases": [],
+       "title": "Effective Public Speaking",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 341
+      },
+      {
+       "course_code": "HSS F222",
+       "aliases": [],
+       "title": "Linguistics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "HSS F227",
+       "aliases": [],
+       "title": "Cross Cultural Skills",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "HSS F228",
+       "aliases": [],
+       "title": "Phonetics and Spoken English",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "HSS F342",
+       "aliases": [],
+       "title": "Advanced Communicative English",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      }
+     ]
+    },
+    {
+     "label": "Elective Pool-II (Literature)",
+     "is_core": false,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "GS F242",
+       "aliases": [],
+       "title": "Cultural Studies",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "GS F322",
+       "aliases": [],
+       "title": "Critical Analysis of Literature and Cinema",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "HSS F221",
+       "aliases": [],
+       "title": "Readings from Drama",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "HSS F226",
+       "aliases": [],
+       "title": "Postmodernism",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "HSS F237",
+       "aliases": [],
+       "title": "Contemporary Indian English Fiction",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "HSS F316",
+       "aliases": [],
+       "title": "Popular Literature and Culture of South Asia",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "HSS F327",
+       "aliases": [],
+       "title": "Contemporary Drama",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "HSS F330",
+       "aliases": [],
+       "title": "Appreciation of Art",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "HSS F332",
+       "aliases": [],
+       "title": "Cinematic Arts",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "HSS F335",
+       "aliases": [],
+       "title": "Literary Criticism",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "HSS F336",
+       "aliases": [],
+       "title": "Modern Fiction",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "HSS F338",
+       "aliases": [],
+       "title": "Comparative Indian Literature",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "HSS F340",
+       "aliases": [],
+       "title": "Postcolonial Literatures",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "HSS F349",
+       "aliases": [],
+       "title": "Ecocriticism",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "HSS F373",
+       "aliases": [],
+       "title": "Shakespeare and Popular Culture",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "HSS F399",
+       "aliases": [],
+       "title": "Introduction to American Literature",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 341,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in Entrepreneurship",
+   "description": "Entrepreneurship has tremendous impact on development of economy as well as society addressing various market & societal problems through continuous value creation in terms of innovations and job creation. The minor in entrepreneurship aims to equip students from different disciplines with better understanding of entrepreneurial process, Description necessary skills and experience to translate ideas into real innovative products/services to new entrepreneurial ventures. In this programme, hands-on experiential learning is emphasized giving students an opportunity to learn in a team environment, design innovative products/services and create their own businesses. This will motivate students to pursue entrepreneurship as their career choice.",
+   "min_courses": 5,
+   "min_units": 15,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BITS F468",
+       "aliases": [],
+       "title": "New Venture Creation",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "BITS F482",
+       "aliases": [],
+       "title": "Creating and Leading Entrepreneurial Organizations",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "ECON F212",
+       "aliases": [],
+       "title": "Fundamentals of Finance and Accounting",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      }
+     ]
+    },
+    {
+     "label": "Electives (minimum of 2 courses and additional units required to make the total to 15)",
+     "is_core": false,
+     "min_courses": 2,
+     "courses": [
+      {
+       "course_code": "BITS F322",
+       "aliases": [],
+       "title": "Venture Team Development and Organization",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "BITS F323",
+       "aliases": [],
+       "title": "Venture Finance",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "BITS F324",
+       "aliases": [],
+       "title": "Strategy for Entrepreneurs",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "BITS F325",
+       "aliases": [],
+       "title": "New Product and Service Design",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "BITS F326",
+       "aliases": [],
+       "title": "Design Thinking for Innovation & Entrepreneurship",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      },
+      {
+       "course_code": "BITS F427",
+       "aliases": [],
+       "title": "Digital Marketing",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 342
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 342,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in Film and Media",
+   "description": "Film and its derivative forms of media such as television and advertising are dominant cultural forces in the contemporary world. The minor in Film and Media aims to provide: i. An introduction to media studies with a specific focus on film studies Description ii. A basic introduction to Print and Digital Media including film making and film appreciation iii. Hands-on training in writing for media and film production",
+   "min_courses": 6,
+   "min_units": 18,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "GS F223",
+       "aliases": [],
+       "title": "Introduction to Mass Communication",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      },
+      {
+       "course_code": "GS F244",
+       "aliases": [],
+       "title": "Reporting and Writing for Media",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      },
+      {
+       "course_code": "GS F322",
+       "aliases": [],
+       "title": "Critical Analysis of Literature and Cinema",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      }
+     ]
+    },
+    {
+     "label": "Elective Courses",
+     "is_core": false,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "GS F224",
+       "aliases": [],
+       "title": "Print and Audio Visual Advertising",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      },
+      {
+       "course_code": "GS F242",
+       "aliases": [],
+       "title": "Cultural Studies",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      },
+      {
+       "course_code": "GS F321",
+       "aliases": [],
+       "title": "Mass Media Content and Design",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      },
+      {
+       "course_code": "GS F343",
+       "aliases": [],
+       "title": "Short Film and Video Production",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      },
+      {
+       "course_code": "HSS F332",
+       "aliases": [],
+       "title": "Cinematic Arts",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      },
+      {
+       "course_code": "HSS F391",
+       "aliases": [],
+       "title": "Acoustic Humanities",
+       "lecture_hours": 2,
+       "practical_hours": 1,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 343,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in Finance",
+   "description": "The minor in Finance aims at providing the student a grounding in the basic concepts of accounting and finance so as to complement their existing disciplinary knowledge, enrich their Description educational experience, enable them to make better financial decisions, and expand their career opportunities. It will also give students an opportunity to learn more about investments and quantitative applications in finance.",
+   "min_courses": 5,
+   "min_units": 15,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "ECON F212",
+       "aliases": [],
+       "title": "Fundamentals of Finance and Accounting",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      },
+      {
+       "course_code": "FIN F315",
+       "aliases": [],
+       "title": "Financial Management",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      }
+     ]
+    },
+    {
+     "label": "Elective Courses",
+     "is_core": false,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "ECON F241",
+       "aliases": [],
+       "title": "Econometric methods",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      },
+      {
+       "course_code": "ECON F312",
+       "aliases": [],
+       "title": "Money banking and Financial markets",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      },
+      {
+       "course_code": "ECON F355",
+       "aliases": [],
+       "title": "Business Analysis & Valuation",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      },
+      {
+       "course_code": "ECON F411",
+       "aliases": [],
+       "title": "Project Appraisal",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      },
+      {
+       "course_code": "ECON F413",
+       "aliases": [],
+       "title": "Financial Engineering",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      },
+      {
+       "course_code": "FIN F242",
+       "aliases": [],
+       "title": "Introduction to Financial Mathematics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      },
+      {
+       "course_code": "FIN F243",
+       "aliases": [],
+       "title": "Functions & Working of Stock Exchanges",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      },
+      {
+       "course_code": "FIN F311",
+       "aliases": [],
+       "title": "Derivatives & Risk Management",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      },
+      {
+       "course_code": "FIN F312",
+       "aliases": [],
+       "title": "Fundamentals of Taxation and Audit",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      },
+      {
+       "course_code": "FIN F313",
+       "aliases": [],
+       "title": "Security Analysis & Portfolio Management",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      },
+      {
+       "course_code": "FIN F314",
+       "aliases": [],
+       "title": "Investment Banking & Financial Services",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      },
+      {
+       "course_code": "FIN F414",
+       "aliases": [],
+       "title": "Financial Risk Analytics and Management",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 343
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 343,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in Management",
+   "description": "“Minor in Management” is designed for the student who wants a general introduction to the functioning of a business and develops a business acumen. By gaining an understanding of the areas of management, the student will have a competitive advantage in the marketplace and throughout their career. The student shall be better equipped to handle their projects in practice Description school by understanding organizational and managerial issues. It would also enable him/her to combine their technical and managerial skills and explore the field of business consulting, role of management trainees, etc. Those interested in pursuing an MBA would get an opportunity to explore the management field and assess its fit with their career interest.",
+   "min_courses": 5,
+   "min_units": 15,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BITS F428",
+       "aliases": [],
+       "title": "Essentials of Strategic Management",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "MGTS F211",
+       "aliases": [],
+       "title": "Principles of Management",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "MGTS F314",
+       "aliases": [],
+       "title": "Essentials of Financial Management",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      }
+     ]
+    },
+    {
+     "label": "Electives",
+     "is_core": false,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BITS F326",
+       "aliases": [],
+       "title": "Design Thinking for Innovation and Entrepreneurship",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "BITS F330",
+       "aliases": [],
+       "title": "Negotiation Skills and Techniques",
+       "lecture_hours": null,
+       "practical_hours": null,
+       "units": 3,
+       "variable_units": true,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "ECON F415",
+       "aliases": [],
+       "title": "New Venture Creation",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "ECON F434",
+       "aliases": [],
+       "title": "International Business",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "ECON F435",
+       "aliases": [],
+       "title": "Marketing Research",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "HSS F328",
+       "aliases": [],
+       "title": "Human Resources Development",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "MF F219",
+       "aliases": [],
+       "title": "Operations Management",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "MF F319",
+       "aliases": [],
+       "title": "Supply Chain Management",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "ME F443",
+       "aliases": [],
+       "title": "Quality Control, Assurance and Reliability",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "MGTS F311",
+       "aliases": [],
+       "title": "Marketing",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "MGTS F313",
+       "aliases": [],
+       "title": "Product and Brand Management",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "MGTS F315",
+       "aliases": [],
+       "title": "Foundations of Business Analytics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "MGTS F316",
+       "aliases": [],
+       "title": "Managerial and Leadership Skills",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "MGTS F351",
+       "aliases": [],
+       "title": "Organizational Behaviour",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 344,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in Materials Science and Engineering",
+   "description": "Materials Science and Engineering is an interdisciplinary subject that makes use of knowledge from Physics, Chemistry, Engineering, Mathematics, Biology and Biotechnology, but which has its own special character. It is always evolving – new and Description exciting materials such as nanomaterials, high-temperature and lightweight materials, green materials and sustainable biomaterials for tissue engineering are continually emerging. The field of Material Science combines a wide knowledge base and puts it to diverse practical and commercial use.",
+   "min_courses": 5,
+   "min_units": 15,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "CHE F243",
+       "aliases": [],
+       "title": "Materials Science and Engineering",
+       "lecture_hours": null,
+       "practical_hours": null,
+       "units": null,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "MST F331",
+       "aliases": [],
+       "title": "Materials Characterization",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "MST F332",
+       "aliases": [],
+       "title": "Materials Processing",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      }
+     ]
+    },
+    {
+     "label": "Elective Courses",
+     "is_core": false,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BITS F416",
+       "aliases": [],
+       "title": "Introduction to Nanoscience",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "CHE F433",
+       "aliases": [],
+       "title": "Corrosion Engineering",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "CHEM F223",
+       "aliases": [],
+       "title": "Colloid and Surface Chemistry",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "CHEM F326",
+       "aliases": [],
+       "title": "Solid State Chemistry",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "CHEM F336",
+       "aliases": [],
+       "title": "Nanochemistry",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "ME F452",
+       "aliases": [],
+       "title": "Composite Materials and Design",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "MST F333",
+       "aliases": [],
+       "title": "Introduction to Biomaterials",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "MST F334",
+       "aliases": [],
+       "title": "Materials for Catalytic Applications",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "MST F335",
+       "aliases": [],
+       "title": "Coating and thin film technology",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "MST F336",
+       "aliases": [],
+       "title": "Glass Technology",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "MST F337",
+       "aliases": [],
+       "title": "Materials for Energy Applications",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "MST F338",
+       "aliases": [],
+       "title": "Metals and Alloys",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "MST F339",
+       "aliases": [],
+       "title": "Polymer Materials",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "PHY F379",
+       "aliases": [],
+       "title": "Thin Film Technology",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "PHY F414",
+       "aliases": [],
+       "title": "Physics of Advanced Materials",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      },
+      {
+       "course_code": "PHY F416",
+       "aliases": [],
+       "title": "Soft condensed Matter Physics",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 344
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 344,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in Nanoscience and Nanobiotechnology",
+   "description": "Nanoscience and nanotechnology a cutting edge branch of science and engineering in which we understand the control of the formation of structures and materials on scales ranging from the atomic to the nanometer, their unique properties due to their Description nanostructures, and their applications in myriad fields including, alternative energy, energy storage and conversion, electronic devices, sensors, catalysis, medical diagnostics, therapeutics etc. This interdisciplinary subject makes use of knowledge from Physics, Chemistry, Engineering, Biology, Biotechnology, etc. This Minor program in “Nanoscience and Nanobiotechnology” will provide the students deep understanding of nanostructured materials including their synthesis, characterizations, properties, and applications.",
+   "min_courses": 5,
+   "min_units": 15,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BIOT F422",
+       "aliases": [],
+       "title": "Nanobiotechnology",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "BITS F416",
+       "aliases": [],
+       "title": "Introduction to Nanoscience",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "CHE F243",
+       "aliases": [],
+       "title": "Material Science and Engineering",
+       "lecture_hours": null,
+       "practical_hours": null,
+       "units": null,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      }
+     ]
+    },
+    {
+     "label": "Electives (Any Two)",
+     "is_core": false,
+     "min_courses": 2,
+     "courses": [
+      {
+       "course_code": "BIO F417",
+       "aliases": [],
+       "title": "Biomolecular Modelling",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "CHEM F223",
+       "aliases": [],
+       "title": "Colloid and Surface Chemistry",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "CHEM F327",
+       "aliases": [],
+       "title": "Electrochemistry: Fundamentals and Applications",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "CHEM F328",
+       "aliases": [],
+       "title": "Supramolecular Chemistry",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "CHEM F333",
+       "aliases": [],
+       "title": "Chemistry of Materials",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "CHEM F336",
+       "aliases": [],
+       "title": "Nanochemistry",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "CHEM F414",
+       "aliases": [],
+       "title": "Bio and Chemical Sensors",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "MST F333",
+       "aliases": [],
+       "title": "Introduction to Biomaterials",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 345,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in Philosophy, Economics, and Politics",
+   "description": "The minor in Philosophy, Economics & Politics & (PEP) aims at introducing students to a wide range of approaches to understand the social and human world we live in and to develop skills useful for a range of career opportunities in national and international organizations. It would particularly interest and enthuse those students who wish to complement their core expertise in science and engineering with a good grasp of the Description humanities and social sciences. As a multi-disciplinary minor, this option will provide a judicious mix of knowledge in social sciences (economics, sociology and politics) and the humanities (philosophy) that would enable students to draw connections among political, economic, and social phenomena as well as equip them with the necessary skills to think through complex challenges of our society in a creative and critical manner.",
+   "min_courses": 6,
+   "min_units": 18,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "ECON F211",
+       "aliases": [],
+       "title": "Principles of Economics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "GS F211",
+       "aliases": [],
+       "title": "Modern Political Concepts",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "HSS F235",
+       "aliases": [],
+       "title": "Introductory Philosophy",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      }
+     ]
+    },
+    {
+     "label": "Elective Courses",
+     "is_core": false,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BITS F385",
+       "aliases": [],
+       "title": "Introduction to Gender Studies",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "GS F231",
+       "aliases": [],
+       "title": "Dynamics of Social Change",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "GS F234",
+       "aliases": [],
+       "title": "Development Economics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "GS F243",
+       "aliases": [],
+       "title": "Current Affairs",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "GS F312",
+       "aliases": [],
+       "title": "Applied Philosophy",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "GS F313",
+       "aliases": [],
+       "title": "Marxian Thoughts",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "GS F332",
+       "aliases": [],
+       "title": "Contemporary India",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "GS F333",
+       "aliases": [],
+       "title": "Public Administration",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "HSS F232",
+       "aliases": [],
+       "title": "Introduction to Development Studies",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "HSS F236",
+       "aliases": [],
+       "title": "Symbolic Logic",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "HSS F315",
+       "aliases": [],
+       "title": "Society, Business, and Politics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "HSS F322",
+       "aliases": [],
+       "title": "Social and Political Ecology",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "HSS F331",
+       "aliases": [],
+       "title": "Sankara’s Thoughts",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "HSS F333",
+       "aliases": [],
+       "title": "Comparative Religion",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "HSS F343",
+       "aliases": [],
+       "title": "Professional Ethics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "HSS F345",
+       "aliases": [],
+       "title": "Gandhian Thoughts",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "HSS F346",
+       "aliases": [],
+       "title": "International Relations",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "HSS F350",
+       "aliases": [],
+       "title": "Human Rights: History, Theory and Practice",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 345
+      },
+      {
+       "course_code": "HSS F353",
+       "aliases": [],
+       "title": "Philosophy of Aesthetics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "HSS F354",
+       "aliases": [],
+       "title": "Introduction to Islamic Economy",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "HSS F355",
+       "aliases": [],
+       "title": "Dictatorship, Democracy & Development",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "HSS F356",
+       "aliases": [],
+       "title": "Social Movements and Protest Politics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 345,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in Physics",
+   "description": "The theories in physics are all-pervading and their applications are found in varied branches of engineering and sciences. The minor in Physics aims to introduce the student to fundamental theories in physics. The core courses cover the basics and by choosing from the Description large pool of electives, the student will be able to pursue to a deeper level the areas of her/his interest. This minor would equip the students with the skill and knowledge which will help them in gaining insights in their own primary area of study.",
+   "min_courses": 5,
+   "min_units": 15,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "PHY F212",
+       "aliases": [],
+       "title": "Electromagnetic Theory – 1 or Electromagnetic Theory",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F242",
+       "aliases": [],
+       "title": "Quantum Mechanics – 1",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F312",
+       "aliases": [],
+       "title": "Statistical Mechanics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      }
+     ]
+    },
+    {
+     "label": "Elective Courses",
+     "is_core": false,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BITS F316",
+       "aliases": [],
+       "title": "Nonlinear Dynamics and Chaos",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "BITS F386",
+       "aliases": [],
+       "title": "Quantum Information and Computing",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F211",
+       "aliases": [],
+       "title": "Classical Mechanics",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F213",
+       "aliases": [],
+       "title": "Optics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F214",
+       "aliases": [],
+       "title": "Electricity Magnetism and Optics Lab",
+       "lecture_hours": 0,
+       "practical_hours": 2,
+       "units": 2,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F215",
+       "aliases": [],
+       "title": "Introduction to Astronomy and Astrophysics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F241",
+       "aliases": [],
+       "title": "Electromagnetic Theory – 2",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F243",
+       "aliases": [],
+       "title": "Mathematical Method of Physics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F244",
+       "aliases": [],
+       "title": "Modern Physics Lab",
+       "lecture_hours": 0,
+       "practical_hours": 2,
+       "units": 2,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F311",
+       "aliases": [],
+       "title": "Quantum Mechanics – 2",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F313",
+       "aliases": [],
+       "title": "Computational Physics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F315",
+       "aliases": [],
+       "title": "Theory of Relativity",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F318",
+       "aliases": [],
+       "title": "Atoms and Photons",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F341",
+       "aliases": [],
+       "title": "Solid State Physics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F342",
+       "aliases": [],
+       "title": "Atomic and Molecular Physics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F343",
+       "aliases": [],
+       "title": "Nuclear and Particle Physics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F346",
+       "aliases": [],
+       "title": "Laser Science and Technology",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F418",
+       "aliases": [],
+       "title": "Lasers and Applications",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F426",
+       "aliases": [],
+       "title": "Physics of Semiconductors Devices",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F427",
+       "aliases": [],
+       "title": "Atmospheric Physics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F428",
+       "aliases": [],
+       "title": "Quantum Information Theory",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "PHY F434",
+       "aliases": [],
+       "title": "Foundations of Quantum Mechanics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 346,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in Public Policy",
+   "description": "The Minor in Public Policy aims at providing the students a clear and contextualised understanding of conceptual and empirical aspects of public policy, the nature of public Description policy interventions in India and their varying impacts. Also, it intends to provide the students an understanding of the dynamics of policymaking, central aspects of governance and core features and functions of institutions, and equip them with skills of policy analysis.",
+   "min_courses": 5,
+   "min_units": 15,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "GS F233",
+       "aliases": [],
+       "title": "Public Policy",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "GS F333",
+       "aliases": [],
+       "title": "Public Administration",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      }
+     ]
+    },
+    {
+     "label": "Elective Courses",
+     "is_core": false,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "HSS F232",
+       "aliases": [],
+       "title": "Introduction to Development Studies",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "HSS F317",
+       "aliases": [],
+       "title": "Introduction to Globalisation",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "HSS F322",
+       "aliases": [],
+       "title": "Social and Political Ecology",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "HSS F361",
+       "aliases": [],
+       "title": "Urban Policy and Governance",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "HSS F362",
+       "aliases": [],
+       "title": "Local Governance and Participation",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      },
+      {
+       "course_code": "HSS F363",
+       "aliases": [],
+       "title": "Disaster and Development",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 346
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 346,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in Quantum Information and Technologies",
+   "description": "Quantum Information Technology is a current area of interest the world over, throwing up many opportunities for employment in industry, start-ups and pure research. Equipping Description undergraduates with the basic tools and introducing them to the language of this area is of prime importance in today’s age. Especially in light of the National Mission on Quantum Technologies and competition from other premier institutions in India, it is imperative that BITS play an important role in training manpower for the second quantum revolution. This program will definitely serve Physics and Engineering students in enhancing their knowledge and skills in this current area.",
+   "min_courses": 5,
+   "min_units": 15,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BITS F386",
+       "aliases": [],
+       "title": "Quantum Information and Computations",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      }
+     ]
+    },
+    {
+     "label": "Electives",
+     "is_core": false,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BITS F463",
+       "aliases": [],
+       "title": "Cryptography",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "BITS F464",
+       "aliases": [],
+       "title": "Machine Learning",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "CS F316",
+       "aliases": [],
+       "title": "Quantum Architecture and Programming",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "PHY F242",
+       "aliases": [],
+       "title": "Quantum Mechanics I OR Quantum Mechanics for Engineers OR Physical Chemistry II",
+       "lecture_hours": null,
+       "practical_hours": null,
+       "units": null,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "PHY F420",
+       "aliases": [],
+       "title": "Quantum Optics OR Atoms and Photons",
+       "lecture_hours": null,
+       "practical_hours": null,
+       "units": null,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "PHY F428",
+       "aliases": [],
+       "title": "Quantum Information Theory",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "PHY F434",
+       "aliases": [],
+       "title": "Foundations of Quantum Mechanics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 347,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in Robotics and Automation",
+   "description": "This minor aims to impart specialized knowledge and skills in robotics and automation required by engineers to the current demands of various industrial sectors. Automobile, aerospace & defense, logistics engineering and factory automation companies are currently asking for engineering graduates with add-on skills in these areas. Feedback has established that several sectors of industry need the newly recruited employees with knowledge and skills in 'automation', 'robotics', and 'mechatronics'. Currently, the need of core courses of any B.E. Description programme of the Institute limits sufficient coverage of these topics in the existing core and hence the only way students can complement their learning with these specialized courses is through a minor programme. This minor programme has been designed by keeping that need in focus. This minor programme consists of a fairly generic core so as to be relevant to students of any discipline and a broad set of elective courses covering application of the fundamentals of robotics and automation to various industry sectors.",
+   "min_courses": 5,
+   "min_units": 15,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BITS F441",
+       "aliases": [],
+       "title": "Robotics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "EEE F242",
+       "aliases": [
+        "INSTR F242",
+        "ECE F242"
+       ],
+       "title": "Control Systems",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "BITS F327",
+       "aliases": [],
+       "title": "Artificial Intelligence for Robotics",
+       "lecture_hours": 2,
+       "practical_hours": 1,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      }
+     ]
+    },
+    {
+     "label": "Electives",
+     "is_core": false,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BITS F312",
+       "aliases": [],
+       "title": "Neural Network & Fuzzy Logic",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "BITS F415",
+       "aliases": [],
+       "title": "Introduction To MEMS",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "BITS F442",
+       "aliases": [],
+       "title": "Remote Sensing and Image Processing",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "BITS F451",
+       "aliases": [],
+       "title": "Autonomous Mobile Robotics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "BITS F464",
+       "aliases": [],
+       "title": "Machine Learning",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "ECE F434",
+       "aliases": [],
+       "title": "Digital Signal Processing",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "EEE F411",
+       "aliases": [],
+       "title": "Internet of Things (IoT)",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "EEE F422",
+       "aliases": [],
+       "title": "Modern Control Systems",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "EEE G512",
+       "aliases": [],
+       "title": "Embedded System Design",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "INSTR F343",
+       "aliases": [],
+       "title": "Industrial Instrumentation and Control",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "INSTR G611",
+       "aliases": [],
+       "title": "Advanced Control Systems",
+       "lecture_hours": 3,
+       "practical_hours": 2,
+       "units": 5,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "ME F221",
+       "aliases": [],
+       "title": "Mechanisms and Machines",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "ME F426",
+       "aliases": [],
+       "title": "Industry 4.0 in Manufacturing",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "ME F432",
+       "aliases": [],
+       "title": "Computer Aided Manufacturing",
+       "lecture_hours": 2,
+       "practical_hours": 1,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "MF F311",
+       "aliases": [],
+       "title": "Mechatronics & Automation",
+       "lecture_hours": 2,
+       "practical_hours": 1,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      },
+      {
+       "course_code": "MSE G511",
+       "aliases": [],
+       "title": "Mechatronics",
+       "lecture_hours": 3,
+       "practical_hours": 2,
+       "units": 5,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 347
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 347,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in Semiconductor Devices and Technology",
+   "description": "As the need for semiconductor chips increases globally, there will be a greater need for engineers who specialize in semiconductor-device and circuit design. There is a huge investment by government as well as the leading semiconductor industries to set up Description semiconductor manufacturing units across the globe. Hence, there is an urgent need to train manpower in this specialized field. The minor will also lay foundation for the more complex design level (both analog and digital) thinking thereby expanding the scope and expertise of the student and making them ready for the competitive job market. Further, the minor will also introduce the component of semiconductor manufacturing, which is totally aligned with the government National Semiconductor Mission.",
+   "min_courses": 5,
+   "min_units": 15,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "EEE F437",
+       "aliases": [],
+       "title": "Semiconductor Fabrication Technology",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 348
+      },
+      {
+       "course_code": "EEE F214",
+       "aliases": [
+        "ECE F214",
+        "INSTR F214",
+        "ECOM F214"
+       ],
+       "title": "Electronic Devices",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 348
+      }
+     ]
+    },
+    {
+     "label": "Electives",
+     "is_core": false,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BITS F415",
+       "aliases": [],
+       "title": "Introduction to MEMS",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 348
+      },
+      {
+       "course_code": "EEE F216",
+       "aliases": [
+        "ECE F216",
+        "INSTR F216"
+       ],
+       "title": "Electronic Devices Simulation Laboratory",
+       "lecture_hours": 0,
+       "practical_hours": 2,
+       "units": 2,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 348
+      },
+      {
+       "course_code": "EEE F423",
+       "aliases": [
+        "ECE F423",
+        "INSTR F423"
+       ],
+       "title": "Electronic Material Design and Simulation Laboratory",
+       "lecture_hours": 1,
+       "practical_hours": 2,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 348
+      },
+      {
+       "course_code": "EEE F477",
+       "aliases": [],
+       "title": "Modelling of Field-Effect Nano Devices",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 348
+      },
+      {
+       "course_code": "EEE G595",
+       "aliases": [],
+       "title": "Nanoelectronics and Nanophotonics",
+       "lecture_hours": null,
+       "practical_hours": null,
+       "units": 5,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 348
+      },
+      {
+       "course_code": "MEL G514",
+       "aliases": [],
+       "title": "Nanoelectronic Memories and Technology",
+       "lecture_hours": 3,
+       "practical_hours": 2,
+       "units": 5,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 348
+      },
+      {
+       "course_code": "MST F331",
+       "aliases": [],
+       "title": "Material Characterization",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 348
+      },
+      {
+       "course_code": "PHY F341",
+       "aliases": [],
+       "title": "Solid State Physics",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 348
+      },
+      {
+       "course_code": "PHY F379",
+       "aliases": [],
+       "title": "Thin Film Technology",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 348
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 348,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in Supply Chain Analytics",
+   "description": "Supply chain analytics help organizations to take better, faster and more informed decisions about their business operations. The global market for supply chain analytics is projected to exceed $10 billion by 2025 and has a compound annual growth rate (CAGR) of 16%. Today’s supply chain analytics solutions already have impressive capabilities, and with future advancements will only become more of a game-changer for businesses across all industries. Description Supply chain analytics minor programme will enable the students to develop foundations and to broaden their knowledge base of supply chain in general and supply chain analytics in specific. It will cover three verticals such as supply chain management, supply chain modelling and empirical analysis (qualitative data analysis) & supply chain analytics (quantitative data analysis). The minor programme is designed to create supply chain professionals for present and future business environment.",
+   "min_courses": 5,
+   "min_units": 15,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BITS F455",
+       "aliases": [],
+       "title": "Analytics for Supply Chain",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 348
+      },
+      {
+       "course_code": "MF F319",
+       "aliases": [],
+       "title": "Supply Chain Management",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 348
+      },
+      {
+       "course_code": "MF F422",
+       "aliases": [],
+       "title": "Supply Chain Modelling and Empirical Analysis",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 348
+      }
+     ]
+    },
+    {
+     "label": "Electives",
+     "is_core": false,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "ME F443",
+       "aliases": [],
+       "title": "Quality Control Assurance and Reliability",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 348
+      },
+      {
+       "course_code": "MF F321",
+       "aliases": [],
+       "title": "Procurement Management",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 348
+      },
+      {
+       "course_code": "MF F418",
+       "aliases": [],
+       "title": "Lean Manufacturing",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 348
+      },
+      {
+       "course_code": "MF F485",
+       "aliases": [],
+       "title": "Sustainable Manufacturing",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 348
+      },
+      {
+       "course_code": "MATH F212",
+       "aliases": [],
+       "title": "Optimization OR Engineering Optimization OR Engineering Optimization",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 348
+      },
+      {
+       "course_code": "MATH F242",
+       "aliases": [],
+       "title": "Operations Research",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 348
+      },
+      {
+       "course_code": "MATH F353",
+       "aliases": [],
+       "title": "Statistical Inference and Applications",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 348
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 348,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in Water and Sanitation",
+   "description": "Sustainable Development Goal 6 (SDG 6) focusses on Water and Sanitation and the tasks mentioned in SDG 6. Sanitation is also high on agenda of the Indian Government as evident from Swachh Bharat Mission. Trained Postgraduate and working professionals are of high demand. Bill and Melinda Gates foundation had significantly invested in Water, Sanitation and Description Hygiene programme and they had funded UNESCO IHE and its 8 partners in developing e learning alliance. The foundation’s investment strategy in sanitation requires qualified and trained professionals. This minor would equip the students with the skill and knowledge which will help them in gaining insights in the area of water and sanitation.",
+   "min_courses": 5,
+   "min_units": 15,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BIO F216",
+       "aliases": [],
+       "title": "Water Sanitation and Solid Waste Management",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 349
+      },
+      {
+       "course_code": "BIO F217",
+       "aliases": [],
+       "title": "Laboratory for Water Sanitation and Solid Waste management",
+       "lecture_hours": 1,
+       "practical_hours": 2,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 349
+      }
+     ]
+    },
+    {
+     "label": "Electives",
+     "is_core": false,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BIO F266",
+       "aliases": [],
+       "title": "Study Project",
+       "lecture_hours": null,
+       "practical_hours": null,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 349
+      },
+      {
+       "course_code": "SAN G511",
+       "aliases": [],
+       "title": "Sanitation Technology",
+       "lecture_hours": 3,
+       "practical_hours": 2,
+       "units": 5,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 349
+      },
+      {
+       "course_code": "SAN G512",
+       "aliases": [],
+       "title": "Sanitation and Public Health",
+       "lecture_hours": 3,
+       "practical_hours": 2,
+       "units": 5,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 349
+      },
+      {
+       "course_code": "SAN G513",
+       "aliases": [],
+       "title": "Sanitation Governance Behaviour change and Advocacy",
+       "lecture_hours": null,
+       "practical_hours": null,
+       "units": 5,
+       "variable_units": true,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 349
+      },
+      {
+       "course_code": "SAN G514",
+       "aliases": [],
+       "title": "Sanitation Finance and Project Management",
+       "lecture_hours": null,
+       "practical_hours": null,
+       "units": 5,
+       "variable_units": true,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 349
+      },
+      {
+       "course_code": "SAN G515",
+       "aliases": [],
+       "title": "Emergency Sanitation & Leadership",
+       "lecture_hours": null,
+       "practical_hours": null,
+       "units": 5,
+       "variable_units": true,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 349
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 349,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  },
+  {
+   "name": "Minor in Tissue Engineering",
+   "description": "Tissue Engineering is an upcoming field which required interdisciplinary knowledge of Engineering as well as Biological Sciences (specially Tissue Culture). The objective is to train Description students to do research and innovate to repair damaged tissues or produce organs or tissues for replacement in damaged patients. Its basically a field of Biomedical Engineering wherein skill sets of Cell & Tissue Culture, Materials Sciences and Engineering skills in terms of Mechanical or Chemical Engineering is required to develop or repair damaged tissues or organs.",
+   "min_courses": 5,
+   "min_units": 15,
+   "groups": [
+    {
+     "label": "Core Courses",
+     "is_core": true,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BIO F352",
+       "aliases": [],
+       "title": "Cell and Tissue Culture Technology",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 349
+      },
+      {
+       "course_code": "BIO F422",
+       "aliases": [],
+       "title": "Fundamentals of Tissue Engineering",
+       "lecture_hours": 2,
+       "practical_hours": 1,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 349
+      },
+      {
+       "course_code": "MST F333",
+       "aliases": [],
+       "title": "Introduction to Biomaterials",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 349
+      }
+     ]
+    },
+    {
+     "label": "Electives",
+     "is_core": false,
+     "min_courses": null,
+     "courses": [
+      {
+       "course_code": "BITS F417",
+       "aliases": [],
+       "title": "Microfluidics and Its Application",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 349
+      },
+      {
+       "course_code": "ME F423",
+       "aliases": [],
+       "title": "Microfluidics and Its Application",
+       "lecture_hours": null,
+       "practical_hours": null,
+       "units": 4,
+       "variable_units": true,
+       "group": null,
+       "alternative_to_previous": true,
+       "page": 349
+      },
+      {
+       "course_code": "BITS F418",
+       "aliases": [],
+       "title": "Introduction to Biomedical Engineering",
+       "lecture_hours": 3,
+       "practical_hours": 1,
+       "units": 4,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 349
+      },
+      {
+       "course_code": "BIOT F422",
+       "aliases": [],
+       "title": "Nanobiotechnology",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 349
+      },
+      {
+       "course_code": "BIO F311",
+       "aliases": [],
+       "title": "Recombinant DNA Technology",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 349
+      },
+      {
+       "course_code": "CHE F414",
+       "aliases": [],
+       "title": "Transport Phenomena",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 349
+      },
+      {
+       "course_code": "CHE F421",
+       "aliases": [],
+       "title": "Biochemical Engineering",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 349
+      },
+      {
+       "course_code": "DE G513",
+       "aliases": [],
+       "title": "Tribiology",
+       "lecture_hours": 3,
+       "practical_hours": 2,
+       "units": 5,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 349
+      },
+      {
+       "course_code": "ME F211",
+       "aliases": [],
+       "title": "Mechanics of Solids",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 349
+      },
+      {
+       "course_code": "ME F216",
+       "aliases": [],
+       "title": "Materials Science & Engineering",
+       "lecture_hours": 2,
+       "practical_hours": 1,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 349
+      },
+      {
+       "course_code": "ME F452",
+       "aliases": [],
+       "title": "Composite Materials and Design",
+       "lecture_hours": 3,
+       "practical_hours": 0,
+       "units": 3,
+       "variable_units": false,
+       "group": null,
+       "alternative_to_previous": false,
+       "page": 349
+      }
+     ]
+    }
+   ],
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 349,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   },
+   "needs_verification": []
+  }
+ ],
+ "general_rules": [
+  {
+   "topic": "minor",
+   "text": "Courses and Units Requirement: Each minor would be defined by coursework requirement with the following conditions: Category Courses Units Minor – Core 4 (max) 12 (max) Minor – Electives 2 (min) 6 (min) Minor – Total 5 (min) 15 (min)",
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 337,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   }
+  },
+  {
+   "topic": "minor",
+   "text": "The pool of electives specific to a minor may include courses from one or more disciplines and may include project / seminar type courses.",
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 337,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   }
+  },
+  {
+   "topic": "minor",
+   "text": "A student may use at most one project / seminar type course to meet the requirements of a minor.",
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 337,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   }
+  },
+  {
+   "topic": "minor",
+   "text": "At most 2 courses (and at most 6 units) out of the above requirement (of 5 courses and 15 units) may be met by mandatory courses of the student’s degree i.e. major (or degrees i.e. majors) : i.e. from the general institutional requirement (excluding Humanities requirement) or the (Major) discipline Core(s).",
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 337,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   }
+  },
+  {
+   "topic": "minor",
+   "text": "No course may be used to meet the requirements of two different minors nor may a course be used to the meet the requirements of two majors and a minor.",
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 337,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   }
+  },
+  {
+   "topic": "minor",
+   "text": "A student – on completion of the requirements for a minor – must have maintained a cumulative GPA of 4.5 or above (out of 10) in the courses applied to the minor. Process for declaring / obtaining a minor",
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 337,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   }
+  },
+  {
+   "topic": "minor",
+   "text": "A student – if he/she chooses to pursue a minor – must declare at the end of the 2 nd year that he/she will pursue a specific minor. The student will charged a small fee for logistics.",
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 337,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   }
+  },
+  {
+   "topic": "minor",
+   "text": "If and when he/she completes the requirements for the minor – as stipulated above and as stipulated for the specific minor, then he/she may apply for a “minor” certificate.",
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 337,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   }
+  },
+  {
+   "topic": "minor",
+   "text": "A minor certificate will be issued only on completion of a degree (i.e. a major). At present Twenty Three minor programs viz. Minor in Aeronautics, Biomedical Engineering, Computational Economics, Computational Mechanics, Computing and Intelligence, Data Science, Data Science in Climate & Health, English Studies, Entrepreneurship, Film and Media, Finance, Management, Materials Science and Engineering, Nanoscience and Nanobiotechnology, Philosophy, Economics and Politics (PEP), Physics, Public Policy, Quantum Information and Technologies, Robotics and Automation, Semiconductor Devices and Technology, Supply Chain Analytics, Water and Sanitation, and Tissue Engineering have been designed. The details of which are given below: IV-129",
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 337,
+    "section": "Part IV - Minor Programmes",
+    "confidence": "high"
+   }
+  }
+ ]
+}

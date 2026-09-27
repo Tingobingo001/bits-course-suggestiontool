@@ -49,8 +49,9 @@ agent code do not change.
 | `recommender/ingest/timetable.py` | Offered courses, sections, slots, exam dates | No |
 | `recommender/ingest/bulletin_courses.py` | Course catalogue (code, title, units, description) | No |
 | `recommender/ingest/bulletin_programmes.py` | Per-degree CDC list + unit requirements | No |
-| `recommender/ingest/regulations.py` | Academic rules (loads, prereq rules, etc.) | Assisted + manual check |
-| `recommender/ingest/handouts.py` | Attendance, midsem/compre, evaluation, makeup | Yes (structured extraction) |
+| `recommender/ingest/regulations.py` | All clauses verbatim + hand-encoded rules verified against exact quotes | No |
+| `recommender/ingest/handouts.py` | Attendance, midsem/compre, evaluation, makeup | Regex first; only unreadable handouts go to the LLM, labelled `confidence: medium` (D10) |
+| `recommender/llm.py` | The only module that talks to an LLM provider (Gemini by default); everything else calls it | Yes |
 | `recommender/store.py` | Retrieval layer: load processed data, lookups | No |
 | `recommender/engine/requirements.py` | Remaining requirements for a student | No |
 | `recommender/engine/eligibility.py` | Prereqs, restrictions, offered-this-sem | No |
@@ -75,7 +76,7 @@ agent code do not change.
 
 | Source | Size | Text or scanned? | Structure | Planned parsing |
 |---|---|---|---|---|
-| Academic-Regulations-2023.pdf | 70 pages | All text | Prose | Locate rule sections; extract numbers with page refs; verify by hand |
+| Academic-Regulations-2023.pdf | 70 pages | All text | Numbered clauses (number in right margin), two small 2-column tables (3.14, 3.15) | Every clause kept verbatim; engine rules hand-encoded with quotes checked by the build |
 | bulletin.pdf (2025-26) | 951 pages | 12 near-empty pages | Mixed prose, charts, 2-column descriptions | See below |
 | timetable.pdf (Sem I 2026-27, Pilani) | 153 pages | All text | Fixed-column table | Column-position parsing |
 | handouts/ | 540 PDFs | Mostly text; a few ~empty (scanned) | Semi-structured | Regex for header, LLM for the rest |
@@ -123,8 +124,8 @@ Re-checked at the end of every step. ✅ done · 🟡 partial · ⬜ not started
 
 | Brief § | Requirement | Status | Where / note |
 |---|---|---|---|
-| §2 | Use Regulations | ⬜ | policy step |
-| §2 | Use Bulletin | 🟡 | catalogue ✅; programme structures, HUEL pool, minors ⬜ |
+| §2 | Use Regulations | ✅ | `regulations.py`: 256 clauses + 38 verified rules (incl. timetable registration instructions) |
+| §2 | Use Bulletin | ✅ | catalogue, CDC/DEL lists, HUEL pool, semester charts (single + dual), category units, policies, minors |
 | §2 | Use Timetable | ✅ | `timetable.py`, `equivalents.py` |
 | §2 | Use Handouts | 🟡 | equivalences only; content extraction ⬜ |
 | §2 | Student profile | ⬜ | dashboard step (none supplied: created in the dashboard) |
@@ -134,20 +135,20 @@ Re-checked at the end of every step. ✅ done · 🟡 partial · ⬜ not started
 | §3 | Course: prerequisites | ✅/➖ | 66 stated; the rest are not in the supplied data → "not stated" |
 | §3 | Course: restrictions | ✅/➖ | 1 exclusion rule; per-course restriction lists aren't supplied (timetable §VI → website) |
 | §3 | Course: category | design | computed per student (depends on programme), not stored per course |
-| §3 | Programme rules (CDC/DEL/HUEL/OPEL, batch-specific) | ⬜ | next step |
+| §3 | Programme rules (CDC/DEL/HUEL/OPEL, batch-specific) | ✅ | `course_lists`, `semester_charts`, `degree_rules`, `minors` JSON; batch = one bulletin (owner decision S4) |
 | §3 | Handout data | ⬜ | handout step |
 | §3 | Timetable: code, section, instructor, days, hours, room, midsem, compre | ✅ | `timetable.json` |
 | §3 | Source metadata: document, page/section, confidence | ✅ | `SourceRef` on every record |
 | §3 | Normalise codes and categories | 🟡 | codes ✅ (`codes.py`); categories with programme step |
 | §3 | Mark unreliable items for verification | ✅ | `needs_verification` + `validation_report.json` |
-| §4 | Profile incl. minor | ⬜ | dashboard; minor rules in Bulletin IV-129–141 |
+| §4 | Profile incl. minor | ⬜ | dashboard; minor data ready (`minors.json`) |
 | §5 | Requirement analysis → eligible set → matching → validation | ⬜ | engine + agent |
 | §6 | NL queries | ⬜ | agent |
 | §7 | Handout-based preferences; "could not be verified" | ⬜ | handouts + agent |
 | §8 | Timetable intelligence (bonus) | ⬜ | scheduler (data ready) |
 | §9 | Deterministic rule checking | ✅ | all parsers deterministic so far |
 | §9 | Source references kept | ✅ | |
-| §9 | Validate codes, prerequisites, categories, programme requirements | 🟡 | codes + prerequisites ✅ (`validate.py`); the rest with programme step |
+| §9 | Validate codes, prerequisites, categories, programme requirements | ✅ | codes, prerequisites, list/minor codes, chart totals vs lists (`validate.py`) |
 | §9 | New timetable/handouts without logic changes | ✅ | column detection from header; handouts globbed; page ranges found by headings |
 | §10 | Working dashboard, live, not hard-coded | ⬜ | |
 | §10 | Clean Git repo + pipeline + README | 🟡 | git init, `.gitignore`, `requirements.txt`, README, `scripts/build_data.py`; not yet committed |
@@ -196,12 +197,27 @@ Status: ✅ verified in the data · 👤 confirmed by the project owner · ❓ u
 | E5 | Passing an equivalent also **satisfies the requirement** (ECE F215 done → CS F215 CDC done, shown as "via ECE F215") | 👤 |
 | E6 | Units come from the code actually registered, never from an equivalent | design choice |
 
+**Regulations**
+| # | Assumption | Status |
+|---|---|---|
+| R1 | "Cleared" = any letter grade, E included (clause 1.15); NC, W, I, RC do not clear. W is ignored (4.17) | ✅ clauses 1.15, 4.17 |
+| R2 | A prerequisite is met by clearing it; course-specific minimum grades ("inadequate grade", 3.25 I) are not in the supplied data → not checked, stated as a caveat | ❓ data gap |
+| R3 | The CGPA threshold for taking a higher-degree course (2.08) is set by AGC and not supplied → the engine warns instead of blocking | ❓ data gap |
+| R4 | Lunch rule (timetable p.116) = at least one of periods 4, 5, 6 free every day | ✅ reading of "provision for lunch hour on all days" |
+| R5 | Engine rules are for first-degree students; Ph.D./off-campus clauses are kept for citation only. Section 12 (administrative checklist) and 13 are skipped | design choice |
+
 **Design**
 | # | Assumption | Status |
 |---|---|---|
 | D1 | A course's category (CDC/DEL/OPEL/HUEL) is computed per student, not stored per course | design choice |
-| D2 | DEL rule for each discipline | ❓ pending: programme parser |
-| D3 | Tech stack: Python + Claude API for the LLM + Streamlit dashboard | 👤 |
+| D2 | DEL lists per programme come from Bulletin IV-106–128 | ✅ in the data |
+| D5 | Programme list printed without a name (IV-124) = BBA (Honours) | 👤 (confidence medium) |
+| D6 | An 'or' between two **elective** entries (Maths: CS F211 or BITS F232) = don't count both; both stay listed | design choice |
+| D7 | Specialisations (e.g. Mech. Engg with specialization in Aerospace) are separate programme choices | ✅ separate lists in the data |
+| D8 | CDCs come from the course list; chart = year/semester only; list/chart conflicts shown to the student | 👤 (`CDC_SOURCE`) |
+| D9 | Dual degree: requirements = both degrees' CDCs/DELs + dual principles (IV-2); the 72 composite charts give timing | ✅ in the data |
+| D3 | Tech stack: Python + **Gemini API** for the LLM + Streamlit dashboard (changed from Claude API: the owner has Gemini keys). The provider sits behind `llm.py`, so switching is one file | 👤 |
+| D10 | The LLM is used only at the edges: the agent (query understanding, interest matching, explanation) and as a fallback for handouts regex can't read (labelled `extracted_by: llm`, confidence medium). All requirement/eligibility/clash decisions are deterministic, and the app works without a key except for chat | 👤 |
 | D4 | Students enter completed courses by course code in the profile | ❓ |
 
 ---
@@ -312,3 +328,63 @@ Triggered by re-reading the brief line by line (checklist in §5a).
 - **New `ingest/validate.py`** (runs last): all 66 prerequisite codes exist; 456/479 in-scope offered courses have
   a description; 128 unknown equivalence codes are all pre-2011 C-level codes (expected).
   Output: `data/processed/validation_report.json`.
+
+### Step 6 — Stage 1c: programme course lists (`recommender/ingest/course_lists.py`)
+Targets brief §3 (Programme Rules); feeds §5.
+- Source: Bulletin Part IV "List of Courses for B.E. / M.Sc. / B.Pharm. Programmes" (IV-106–128, PDF 314–336),
+  located from the Part IV contents page. It contains per-programme CORE and DISCIPLINE ELECTIVE lists,
+  then the HUEL pool, project-type courses, other courses and audit courses.
+- Shared helper moved to `pdf_utils.span_rows()` (catalogue output verified identical).
+- Column split x=258 (measured: 0 spans cross it on these pages).
+- Row-normalisation pass for split cells (`ECOM`/`F321`, `CS G514/`/`SS G514` → alias).
+- State machine over rows: programme / list type / track-pool / OR alternatives.
+- **Output:** `data/processed/course_lists.json`. 28 programmes, 405 core slots, 974 elective entries,
+  HUEL pool 136, project 6 (`XXX` = any discipline), other 46, audit 30, 4 policy rules with pages.
+- **Cross-check:** CS core = 14 courses / 48 units, matching the CS semester chart.
+- **Rules captured:** own-discipline courses can't count as HUEL (p.335); project-course limits (p.333);
+  Chem Engg (EES) DEL pools 3 + 2; EEE core alternative MATH F212 OR ME F344.
+- **Unnamed list** (IV-124) → BACHELOR OF BUSINESS ADMINISTRATION (HONOURS), owner-confirmed, confidence medium,
+  via `UNNAMED_PROGRAMME_NAMES` in `config.py` with a guard (most common core prefix, unique to this list).
+  Evidence corrected during the step: 6 of 14 core courses are BBA (not all).
+- **Validation:** 24 listed courses have no catalogue entry (absent from Part VI, e.g. ENVS F221, INSTR F429).
+
+**Run it:** `python -m recommender.ingest.course_lists`
+
+### Step 7 — Stages 1d–1f: semester charts, degree rules, minors
+Completes brief §3 "Programme Rules"; feeds §5.
+- **`semester_charts.py`** → `semester_charts.json`: 28 single + 72 dual charts (PDF 211–313). Year blocks cut at
+  delimiter rows (semester header, bold unit totals, Summer); year from Roman numeral (BBA year III inferred + flagged);
+  semester by x (split 262); courses, elective slots, alternatives ("or"); printed core/DEL totals.
+  Linked to course lists by CDC overlap, ties broken by title words → one-to-one 28↔28.
+- **`degree_rules.py`** → `degree_rules.json`: IV-1 category table as numbers (HUEL 8u/3c, OPEL 15–27u/5–9c, total 144u/42c,
+  PS 25u OR thesis 9–20u) + IV-2 prose rules with pages (GIR courses, HUEL heads, thesis, dual degree).
+- **`minors.py`** → `minors.json`: 23 minors + 9 general rules. Group boundaries from **drawn borders crossing the label
+  column** (labels are vertically centred; the table detector's merged-cell guess was wrong for 2 minors).
+  Title carry-over across pages; word minimums ("Any two"); "or" alternatives (`ListedCourse.alternative_to_previous`).
+- **Cross-check (validate.py):** chart core totals vs course lists → 22/26 exact; 4 genuine Bulletin inconsistencies
+  (ECE, ENVS, B.Pharm, BBA) with list-only / chart-only courses recorded.
+  **Decision (owner):** course list defines CDCs, chart gives timing, conflicts shown to the student (`CDC_SOURCE`).
+
+**Run:** `python -m scripts.build_data --skip-text` (all stages)
+
+### Step 8 — Stage 1g: Academic Regulations (`recommender/ingest/regulations.py`)
+Targets brief §2 (use the Regulations) and §5 "BITS policy validation"; feeds the engine and the agent's citations.
+- **Clauses:** clause numbers are printed in the right margin (x > 380, after a gap ≥ 12 pt) on each clause's first
+  line; `3.25 I`–`IV` carry a Roman numeral. Rows between two markers = the clause text. Section from the contents page.
+  **Output:** 256 clauses, 1.00–11.02, no duplicates. Checked against a plain-text scan: nothing missing (the scan's
+  "7.00"/"9.00" are CGPA values; the parser also recovered 3.26 and 4.23, which the scan missed).
+- **Two-column tables** (3.14 prior preparation, 3.15 host regions) were read row by row and mixed the columns.
+  Fix: a table starts on a row with two `(i)` markers (the second gives the column split); words are split by column until
+  normal full-width text resumes; items are paired `(i) PS I -> requires: …`.
+- **Rules:** 38 machine-usable rules (34 from clauses, 4 from timetable p.116), hand-encoded because numbers in prose
+  can't be extracted reliably. Each has exact **quotes**; the build checks every quote appears in the cited clause
+  (whitespace/quote-style normalised) → `verified`. The first run caught 3 rules whose quotes were broken by the table
+  interleaving; all 38 verified after the table fix.
+- Key rules: 25 units/semester (1.01), summer 3 courses/10 units (1.03), 4 extra electives (2.08 + p.116), PS/16-unit
+  thesis exclusive (2.10), prerequisites (3.13), prior preparation (3.14/3.15), no timetable conflict (3.19),
+  backlog → current → higher-level order (3.25), grade points (4.11), CGPA 4.50 (5.02, 9.01), minors (7.37, 9.01a),
+  lunch periods 4–6 and no compre clash (p.116).
+- **validate.py** now also reports `regulation_clauses` and `regulation_rules_unverified` (0).
+- **Decisions (owner):** LLM = Gemini behind `llm.py` (D3). LLM only at the edges: agent + fallback for unreadable handouts (D10).
+
+**Run it:** `python -m recommender.ingest.regulations`

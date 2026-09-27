@@ -6,6 +6,13 @@
   "courses_with_stated_prerequisites": 66,
   "unknown_prerequisite_codes": 0,
   "unknown_equivalence_codes": 128,
+  "listed_courses_without_catalogue_entry": 24,
+  "programme_lists_without_printed_name": 1,
+  "charts_checked_against_lists": 26,
+  "chart_vs_list_core_mismatches": 4,
+  "minor_courses_without_catalogue_entry": 4,
+  "regulation_clauses": 256,
+  "regulation_rules_unverified": 0,
   "flagged_catalogue_records": 39,
   "flagged_timetable_records": 14
  },
@@ -165,6 +172,228 @@
   "POL C212",
   "PSY C211"
  ],
+ "listed_courses_without_catalogue_entry": [
+  {
+   "list": "BACHELOR OF BUSINESS ADMINISTRATION (HONOURS)",
+   "course": "BITS F490",
+   "page": 333
+  },
+  {
+   "list": "BACHELOR OF BUSINESS ADMINISTRATION (HONOURS)",
+   "course": "ECON F434",
+   "page": 332
+  },
+  {
+   "list": "CHEMISTRY",
+   "course": "CHEM F431",
+   "page": 326
+  },
+  {
+   "list": "ECONOMICS",
+   "course": "ECON F417",
+   "page": 327
+  },
+  {
+   "list": "ECONOMICS",
+   "course": "ECON F434",
+   "page": 327
+  },
+  {
+   "list": "ECONOMICS",
+   "course": "ECON F435",
+   "page": 327
+  },
+  {
+   "list": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+   "course": "EEE F318",
+   "page": 318
+  },
+  {
+   "list": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+   "course": "EEE F318",
+   "page": 319
+  },
+  {
+   "list": "ELECTRONICS AND COMPUTER ENGINEERING",
+   "course": "EEE F318",
+   "page": 321
+  },
+  {
+   "list": "ELECTRONICS AND INSTRUMENTATION ENGINEERING",
+   "course": "EEE F318",
+   "page": 321
+  },
+  {
+   "list": "ELECTRONICS AND INSTRUMENTATION ENGINEERING",
+   "course": "INSTR F429",
+   "page": 322
+  },
+  {
+   "list": "ELECTRONICS AND INSTRUMENTATION ENGINEERING",
+   "course": "INSTR F430",
+   "page": 322
+  },
+  {
+   "list": "ENVIRONMENTAL AND SUSTAINABILITY ENGINEERING",
+   "course": "CHEM F431",
+   "page": 322
+  },
+  {
+   "list": "ENVIRONMENTAL AND SUSTAINABILITY ENGINEERING",
+   "course": "ENVS F212",
+   "page": 322
+  },
+  {
+   "list": "ENVIRONMENTAL AND SUSTAINABILITY ENGINEERING",
+   "course": "ENVS F221",
+   "page": 322
+  },
+  {
+   "list": "ENVIRONMENTAL AND SUSTAINABILITY ENGINEERING",
+   "course": "ENVS F222",
+   "page": 322
+  },
+  {
+   "list": "ENVIRONMENTAL AND SUSTAINABILITY ENGINEERING",
+   "course": "ENVS F232",
+   "page": 322
+  },
+  {
+   "list": "MATHEMATICS",
+   "course": "BITS F368",
+   "page": 327
+  },
+  {
+   "list": "PHYSICS",
+   "course": "PHY F425",
+   "page": 329
+  },
+  {
+   "list": "ROBOTICS AND INDUSTRIAL AUTOMATION",
+   "course": "BITS F434",
+   "page": 329
+  },
+  {
+   "list": "ROBOTICS AND INDUSTRIAL AUTOMATION",
+   "course": "ECE F313",
+   "page": 330
+  },
+  {
+   "list": "ROBOTICS AND INDUSTRIAL AUTOMATION",
+   "course": "RIA F212",
+   "page": 329
+  },
+  {
+   "list": "other_courses",
+   "course": "BITS C483",
+   "page": 335
+  },
+  {
+   "list": "other_courses",
+   "course": "BITS F490",
+   "page": 336
+  }
+ ],
+ "programme_lists_without_printed_name": [
+  332
+ ],
+ "chart_vs_list_core_mismatches": [
+  {
+   "programme": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+   "chart": "B.E. Electronics & Communication",
+   "chart_core": [
+    14,
+    48
+   ],
+   "list_core": [
+    14,
+    49
+   ],
+   "list_only": [
+    "ECE F331"
+   ],
+   "chart_only": [
+    "ECE F314",
+    "ECE F412"
+   ],
+   "chart_page": 219,
+   "list_page": 319
+  },
+  {
+   "programme": "ENVIRONMENTAL AND SUSTAINABILITY ENGINEERING",
+   "chart": "B.E. Environmental and Sustainability Engineering",
+   "chart_core": [
+    16,
+    48
+   ],
+   "list_core": [
+    13,
+    39
+   ],
+   "list_only": [
+    "ENVS F232"
+   ],
+   "chart_only": [
+    "ENVS F323",
+    "ENVS F324"
+   ],
+   "chart_page": 222,
+   "list_page": 322
+  },
+  {
+   "programme": "PHARMACY",
+   "chart": "B. Pharm.",
+   "chart_core": [
+    16,
+    48
+   ],
+   "list_core": [
+    18,
+    54
+   ],
+   "list_only": [
+    "PHA F243"
+   ],
+   "chart_only": [],
+   "chart_page": 228,
+   "list_page": 325
+  },
+  {
+   "programme": "BACHELOR OF BUSINESS ADMINISTRATION (HONOURS)",
+   "chart": "Bachelor of Business Administration (Honours)",
+   "chart_core": [
+    14,
+    42
+   ],
+   "list_core": [
+    14,
+    43
+   ],
+   "list_only": [],
+   "chart_only": [],
+   "chart_page": 238,
+   "list_page": 332
+  }
+ ],
+ "minor_courses_without_catalogue_entry": [
+  {
+   "minor": "Minor in Management",
+   "course": "ECON F434"
+  },
+  {
+   "minor": "Minor in Management",
+   "course": "ECON F435"
+  },
+  {
+   "minor": "Minor in Philosophy, Economics, and Politics",
+   "course": "HSS F322"
+  },
+  {
+   "minor": "Minor in Public Policy",
+   "course": "HSS F322"
+  }
+ ],
+ "regulation_rules_unverified": [],
  "flagged": {
   "catalogue": {
    "BITS F425T": [

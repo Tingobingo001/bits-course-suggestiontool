@@ -19,3 +19,16 @@ PAGE_MARKER = "===== PAGE {n} ====="
 MAX_SUPPORTED_BATCH = 2025
 # Timetable note: "Courses with com cod >= 5000 are meant only for 2026 admissions".
 NEW_ADMISSIONS_MIN_COMP_CODE = 5000
+
+# Bulletin IV-124 prints a CDC/DEL list without a programme name. BBA is the most common
+# prefix of its core (6 of 14; the rest are management courses) and appears in no other
+# programme's core; the Part IV contents lists a BBA (Honours) programme. Naming it this way was
+# confirmed with the project owner; the record is marked confidence="medium".
+#   most common core-course prefix (used by no other programme) -> programme name
+UNNAMED_PROGRAMME_NAMES = {"BBA": "BACHELOR OF BUSINESS ADMINISTRATION (HONOURS)"}
+
+# Where a degree's CDCs come from (decision confirmed with the project owner). For 4 degrees
+# the Bulletin's "List of Discipline Core Courses" (IV-106+) and its semester chart disagree;
+# the list is authoritative, the chart only places courses in a year/semester, and the
+# conflict (validation_report.json -> chart_vs_list_core_mismatches) is shown to the student.
+CDC_SOURCE = "course_list"

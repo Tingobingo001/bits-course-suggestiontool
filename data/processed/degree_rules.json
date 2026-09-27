@@ -1,0 +1,272 @@
+{
+ "category_requirements": [
+  {
+   "group": "(I)  General Institutional Requirement",
+   "category": "Humanities Electives",
+   "units": {
+    "min": 8,
+    "max": 8
+   },
+   "courses": {
+    "min": 3,
+    "max": 3
+   }
+  },
+  {
+   "group": "(I)  General Institutional Requirement",
+   "category": "Science Foundation",
+   "units": {
+    "min": 9,
+    "max": 9
+   },
+   "courses": {
+    "min": 3,
+    "max": 3
+   }
+  },
+  {
+   "group": "(I)  General Institutional Requirement",
+   "category": "Mathematics Foundation",
+   "units": {
+    "min": 12,
+    "max": 12
+   },
+   "courses": {
+    "min": 4,
+    "max": 4
+   }
+  },
+  {
+   "group": "(I)  General Institutional Requirement",
+   "category": "Engineering Foundation",
+   "units": {
+    "min": 6,
+    "max": 6
+   },
+   "courses": {
+    "min": 2,
+    "max": 2
+   }
+  },
+  {
+   "group": "(I)  General Institutional Requirement",
+   "category": "Technical Arts",
+   "units": {
+    "min": 10,
+    "max": 10
+   },
+   "courses": {
+    "min": 4,
+    "max": 4
+   }
+  },
+  {
+   "group": "(I)  General Institutional Requirement",
+   "category": "General Awareness / Professional Courses",
+   "units": {
+    "min": 6,
+    "max": 9
+   },
+   "courses": {
+    "min": 3,
+    "max": 6
+   }
+  },
+  {
+   "group": "(I)  General Institutional Requirement",
+   "category": "Sub-Total",
+   "units": {
+    "min": 51,
+    "max": 54
+   },
+   "courses": {
+    "min": 19,
+    "max": 22
+   }
+  },
+  {
+   "group": "(II)  Discipline Requirement",
+   "category": "Core",
+   "units": {
+    "min": 33,
+    "max": 48
+   },
+   "courses": {
+    "min": 10,
+    "max": 16
+   }
+  },
+  {
+   "group": "(II)  Discipline Requirement",
+   "category": "Elective",
+   "units": {
+    "min": 12,
+    "max": 27
+   },
+   "courses": {
+    "min": 4,
+    "max": 9
+   }
+  },
+  {
+   "group": "(II)  Discipline Requirement",
+   "category": "Sub-Total",
+   "units": {
+    "min": 57,
+    "max": 60
+   },
+   "courses": {
+    "min": 15,
+    "max": 20
+   }
+  },
+  {
+   "group": "(III) Open Electives",
+   "category": "Open Electives",
+   "units": {
+    "min": 15,
+    "max": 27
+   },
+   "courses": {
+    "min": 5,
+    "max": 9
+   }
+  },
+  {
+   "group": "Overall",
+   "category": "Course-work  Sub-Total",
+   "units": {
+    "min": 129,
+    "max": null
+   },
+   "courses": {
+    "min": 41,
+    "max": null
+   }
+  },
+  {
+   "group": "(IV) PS-I and II",
+   "category": "PS-I and II",
+   "units": {
+    "min": 25,
+    "max": 25
+   },
+   "courses": {
+    "min": 2,
+    "max": 2
+   }
+  },
+  {
+   "group": "(IV) PS-I and II",
+   "category": "Thesis (alternative to PS-I and II)",
+   "units": {
+    "min": 9,
+    "max": 20
+   },
+   "courses": {
+    "min": 1,
+    "max": 1
+   }
+  },
+  {
+   "group": "Overall",
+   "category": "Total",
+   "units": {
+    "min": 144,
+    "max": null
+   },
+   "courses": {
+    "min": 42,
+    "max": null
+   }
+  }
+ ],
+ "policies": [
+  {
+   "topic": "overall_minimum",
+   "text": "A student should complete the minimum number of courses and units required in each category as well as meet the minimum requirements of courses (42) and units (144) in total.",
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 210,
+    "section": "Part IV - IV-2",
+    "confidence": "high"
+   }
+  },
+  {
+   "topic": "general_institutional_requirement",
+   "text": "1. The following courses are needed to meet the General Institutional Requirement: a) Introduction to Biological Sciences, Fundamentals of Chemistry, and Oscillations and Waves, under the head of Science Foundation. For specific programs, Introduction to Oscillations and Waves may replace Oscillations and Waves. b) Electrical Sciences, Thermodynamics and Process Engineering under the head of Engineering Foundation. c) Computer Programming, Introduction to Engineering Design and Prototyping and Technical Report Writing under the head of Technical Arts. d) Social Conduct, Innovation and Design Thinking, Physical Well-being and Creativity*, Principles of Economics, or Principles of Management, and Environmental Studies* under the head of General Awareness / Professional courses. *[Students completing these courses will be awarded a non-letter grade (GOOD or POOR)]",
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 210,
+    "section": "Part IV - IV-2",
+    "confidence": "high"
+   }
+  },
+  {
+   "topic": "humanities_heads",
+   "text": "2. The courses under the following heads are designed to meet the General Institutional Requirement under the head of Humanities Electives: (a) Languages and Literature (b) History and Philosophy (c) Political and Social Sciences (d) Fine Arts and Professional Arts",
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 210,
+    "section": "Part IV - IV-2",
+    "confidence": "high"
+   }
+  },
+  {
+   "topic": "thesis",
+   "text": "3. A thesis could be for 16 units for a full semester duration, or 20 units for five and a half months duration. A student also has the option of pursuing a thesis of 9 units concurrently with coursework over a full semester, in which case the additional coursework would be at least 2 courses of total 6 units to meet the minimum unit requirements. IV-2 The nominal semester-wise chart for first degree programs are given in the Pages IV-3-21. Dual Degree Programs: Based on the above, the structure of a dual degree program has been derived using the following principles.",
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 210,
+    "section": "Part IV - IV-2",
+    "confidence": "high"
+   }
+  },
+  {
+   "topic": "dual_degree",
+   "text": "o General Institute Requirements will remain the same for both the degrees of the composite dual-degree program and therefore need not be repeated.",
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 210,
+    "section": "Part IV - IV-2",
+    "confidence": "high"
+   }
+  },
+  {
+   "topic": "dual_degree",
+   "text": "o While the Discipline Requirements of each of the two degrees in a dual degree program have to be met separately, any course that meets the discipline requirements of both the degree programs need not be repeated.",
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 210,
+    "section": "Part IV - IV-2",
+    "confidence": "high"
+   }
+  },
+  {
+   "topic": "dual_degree",
+   "text": "o In addition the Discipline Elective courses of either of the two degrees in a dual degree program may be used to fulfill the open elective requirement of the other degree.",
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 210,
+    "section": "Part IV - IV-2",
+    "confidence": "high"
+   }
+  },
+  {
+   "topic": "thesis",
+   "text": "o A PS-II or Thesis must be done to meet the requirements of each degree. Therefore to complete the dual degree program a student must complete one of the following: ▪ 2 Practice School-II courses ▪ 2 Thesis courses ▪ 1 Practice School-II course and 1 Thesis course. A thesis for 9 units with concurrent course work for at most 9 units over a full semester duration is also possible as an option. Based on these principles, the semester-wise patterns for a composite dual degree program as options for the student are shown in pages IV-22-23. However the charts mentioned on pages IV-24-69 are designed to enable the students to complete the composite dual degrees in their respective programmes in 10 semesters.",
+   "source": {
+    "document": "bulletin.pdf",
+    "page": 210,
+    "section": "Part IV - IV-2",
+    "confidence": "high"
+   }
+  }
+ ],
+ "source": {
+  "document": "bulletin.pdf",
+  "page": 209,
+  "section": "Part IV - IV-1 category-wise structure",
+  "confidence": "high"
+ }
+}

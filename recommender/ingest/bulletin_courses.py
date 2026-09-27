@@ -26,7 +26,7 @@ import pymupdf
 
 from recommender.codes import find_codes, normalize_code
 from recommender.config import PROCESSED, RAW
-from recommender.ingest.pdf_utils import group_rows
+from recommender.ingest.pdf_utils import span_rows
 from recommender.schema import Course, SourceRef
 
 PDF = RAW / "bulletin.pdf"
@@ -44,7 +44,6 @@ EXCLUSION_RE = re.compile(  # "Those who have done MATH F471 are not allowed to 
     r"(?:are|will)\s+not\s+(?:be\s+)?(?:allowed|permitted|eligible)\s+to\s+(?:take|register)[^.]*\.?",
     re.IGNORECASE,
 )
-BOLD_FLAG = 16  # PyMuPDF span flag: course headers are bold, descriptions regular
 PREREQ_RE = re.compile(r"Pre-?requisites?\s*:\s*(.+?)(?:\.|$)", re.IGNORECASE)  # colon required: skips "is a prerequisite for X"
 
 
@@ -91,34 +90,26 @@ def column_rows(doc, start: int, end: int) -> list[Row]:
     """
     out = []
     for i in range(start, end):
-        page = doc[i]
-        spans = [
-            (s["bbox"][0], s["bbox"][1], s["bbox"][2], s["bbox"][3], s["text"], bool(s["flags"] & BOLD_FLAG))
-            for b in page.get_text("dict")["blocks"] for ln in b.get("lines", []) for s in ln["spans"]
-            if s["text"].strip() and BODY[0] <= s["bbox"][1] < BODY[1]
-        ]
-        for x0, x1 in ((0, COLUMN_SPLIT), (COLUMN_SPLIT, page.rect.width)):
-            col = [s for s in spans if x0 <= s[0] < x1]
-            for row in group_rows(col, tolerance=2):
-                # Units appear either as their own span ('3 0 3') or at the end of the
-                # title span after a wide gap ('AN F211 Fluid Mechanics   3 1 4').
-                units, title_parts, title_bold = None, [], []
-                for s in row:
-                    text = s[4]
-                    m = UNIT_SPAN_RE.match(text) or TRAILING_UNITS_RE.search(text)
-                    if m and units is None:
-                        units = unit_tuple(m)
-                        text = text[:m.start()] if m.re is TRAILING_UNITS_RE else ""
-                    if text.strip():
-                        title_parts.append(text.strip())
-                        title_bold.append(s[5])
-                out.append(Row(
-                    page=i + 1,
-                    text=re.sub(r"\s+", " ", " ".join(s[4] for s in row)).strip(),
-                    bold=bool(title_bold) and all(title_bold),  # units may be in regular font
-                    units=units,
-                    title_text=re.sub(r"\s+", " ", " ".join(title_parts)).strip(),
-                ))
+        for row in span_rows(doc[i], COLUMN_SPLIT, BODY):
+            # Units appear either as their own span ('3 0 3') or at the end of the
+            # title span after a wide gap ('AN F211 Fluid Mechanics   3 1 4').
+            units, title_parts, title_bold = None, [], []
+            for s in row:
+                text = s.text
+                m = UNIT_SPAN_RE.match(text) or TRAILING_UNITS_RE.search(text)
+                if m and units is None:
+                    units = unit_tuple(m)
+                    text = text[:m.start()] if m.re is TRAILING_UNITS_RE else ""
+                if text.strip():
+                    title_parts.append(text.strip())
+                    title_bold.append(s.bold)
+            out.append(Row(
+                page=i + 1,
+                text=re.sub(r"\s+", " ", " ".join(s.text for s in row)).strip(),
+                bold=bool(title_bold) and all(title_bold),  # units may be in regular font
+                units=units,
+                title_text=re.sub(r"\s+", " ", " ".join(title_parts)).strip(),
+            ))
     return out
 
 
