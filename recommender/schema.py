@@ -202,6 +202,51 @@ class RegulationRule(BaseModel):
     verified: bool = False
 
 
+ComponentKind = Literal["midsem", "compre", "quiz", "assignment", "project", "lab", "tutorial",
+                        "seminar", "viva", "participation", "report", "other"]
+
+
+class EvaluationComponent(BaseModel):
+    """One row of a handout's evaluation table."""
+    name: str                            # as printed: "Mid-Semester Test"
+    kind: ComponentKind
+    weight: float | None = None          # percent of the course total
+    duration: str | None = None          # as printed: "90 min"
+    date: str | None = None              # as printed: "09/10 AN2", "TBA"
+    nature: str | None = None            # as printed: "Closed Book", "CB/OB"
+    open_book: Literal["open", "closed", "partly"] | None = None
+
+
+class HandoutSection(BaseModel):
+    """A titled part of a handout kept as text: make-up policy, attendance, course plan, ..."""
+    topic: str                           # normalised: "makeup", "attendance", "course_plan", ...
+    heading: str                         # as printed
+    text: str
+    page: int
+
+
+class Handout(BaseModel):
+    file: str                            # "002_BIO_F101.pdf"
+    course_codes: list[str]              # all codes on the 'Course No.' line
+    title: str = ""
+    instructor_in_charge: str = ""
+    sections: list[HandoutSection] = Field(default_factory=list)
+    evaluation: list[EvaluationComponent] = Field(default_factory=list)
+    evaluation_page: int | None = None
+    evaluation_notes: list[str] = Field(default_factory=list)  # table footnotes, marks->% conversion
+    weights_total: float | None = None
+    # derived from `evaluation` (None = not stated / could not be read)
+    midsem_weight: float | None = None
+    compre_weight: float | None = None
+    continuous_weight: float | None = None   # everything except midsem + compre
+    has_open_book: bool | None = None
+    attendance_min_percent: int | None = None
+    project_type: bool = False           # study/lab/design project, thesis: no exam table expected
+    extracted_by: Literal["regex", "llm", "none"] = "regex"
+    source: SourceRef
+    needs_verification: list[str] = Field(default_factory=list)
+
+
 class Regulations(BaseModel):
     clauses: list[Clause]
     rules: list[RegulationRule]
@@ -231,3 +276,21 @@ class TimetableCourse(BaseModel):
     cancelled: bool = False
     source: SourceRef
     needs_verification: list[str] = Field(default_factory=list)  # human-readable issues
+
+
+# ---------------------------------------------------------------- student side (brief Sec 4)
+
+class CompletedCourse(BaseModel):
+    code: str
+    grade: str | None = None   # letter grade (A..E) or report (NC, W, I, RC...); None = "passed, grade not given"
+
+
+class StudentProfile(BaseModel):
+    name: str = ""
+    campus: str = "Pilani"
+    batch: int                           # admission year, e.g. 2024
+    programmes: list[str]                # one degree, or two for a dual degree (M.Sc. first)
+    minor: str | None = None
+    completed: list[CompletedCourse] = Field(default_factory=list)
+    cgpa: float | None = None
+    interests: str = ""                  # free text, used by the agent for matching

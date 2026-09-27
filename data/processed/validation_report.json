@@ -13,6 +13,10 @@
   "minor_courses_without_catalogue_entry": 4,
   "regulation_clauses": 256,
   "regulation_rules_unverified": 0,
+  "offered_in_scope_with_handout": 378,
+  "offered_in_scope_with_verified_evaluation": 350,
+  "handouts_evaluation_by_llm": 44,
+  "flagged_handouts": 21,
   "flagged_catalogue_records": 39,
   "flagged_timetable_records": 14
  },
@@ -394,6 +398,191 @@
   }
  ],
  "regulation_rules_unverified": [],
+ "offered_without_handout": [
+  "BIO F111",
+  "BIO F266",
+  "BIO F366",
+  "BIO F367",
+  "BIO F376",
+  "BIO F377",
+  "BIO F491",
+  "BITS C790T",
+  "BITS C791T",
+  "BITS C799T",
+  "BITS E793T",
+  "BITS F102",
+  "BITS F112",
+  "BITS F240",
+  "BITS F332",
+  "BITS F382",
+  "BITS F412",
+  "BITS F413",
+  "BITS F421T",
+  "BITS F422T",
+  "BITS F423T",
+  "BITS F424T",
+  "BITS F426T",
+  "BITS F469",
+  "BITS G513",
+  "BITS G529",
+  "BITS G539",
+  "BITS G649",
+  "BITS K101",
+  "CE F242",
+  "CE F266",
+  "CE F366",
+  "CE F376",
+  "CE F377",
+  "CE G529",
+  "CHE F422",
+  "CHE F425",
+  "CHE G513",
+  "CHE G617",
+  "CHEM F101",
+  "CHEM F111",
+  "CHEM F266",
+  "CHEM F366",
+  "CHEM F376",
+  "CS F111",
+  "CS F214",
+  "CS F266",
+  "CS F303",
+  "CS F363",
+  "CS F366",
+  "CS F367",
+  "CS F376",
+  "CS F377",
+  "CS F491",
+  "ECE F212",
+  "ECON F266",
+  "ECON F366",
+  "ECON F367",
+  "ECON F376",
+  "ECON F491",
+  "EEE F212",
+  "FIN F266",
+  "GS F244",
+  "HSS F332",
+  "INSTR F212",
+  "MAC F313",
+  "MATH F111",
+  "MATH F112",
+  "MATH F201",
+  "MATH F243",
+  "MATH F444",
+  "ME F266",
+  "ME F366",
+  "ME F367",
+  "ME F376",
+  "ME F377",
+  "ME G523",
+  "MEL G528",
+  "MF F266",
+  "MF F366",
+  "MF F376",
+  "MPBA G525",
+  "PHA F266",
+  "PHA F342",
+  "PHA F366",
+  "PHA F367",
+  "PHA F376",
+  "PHA F377",
+  "PHA F491",
+  "PHA G544",
+  "PHA G642",
+  "PHY F101",
+  "PHY F110",
+  "PHY F111",
+  "PHY F112",
+  "PHY F266",
+  "PHY F366",
+  "PHY F367",
+  "PHY F376",
+  "SAN G514",
+  "SNS F241"
+ ],
+ "flagged_handouts": {
+  "017_BIO_G523.pdf": [
+   "file name says BIO G523, but the handout is for BIO F212 (titles differ) - not used for BIO G523"
+  ],
+  "032_BITS_F101-1.pdf": [
+   "no evaluation table found",
+   "LLM fallback: no evaluation scheme in the handout"
+  ],
+  "113_CE_G617.pdf": [
+   "evaluation weights total 90, not 100"
+  ],
+  "114_CE_G617.pdf": [
+   "evaluation weights total 90, not 100"
+  ],
+  "137_CHE_G554.pdf": [
+   "evaluation weights total 95, not 100",
+   "LLM fallback rejected: evaluation weights total 95, not 100"
+  ],
+  "160_CS_F111.pdf": [
+   "file name says CS F111, but the handout is for CS U111 (titles differ) - not used for CS F111"
+  ],
+  "162_CS_F215.pdf": [
+   "printed course number EEE F342 does not match the handout's title - ignored as a misprint",
+   "printed course number ECE F342 does not match the handout's title - ignored as a misprint",
+   "printed course number INSTR F342 does not match the handout's title - ignored as a misprint",
+   "printed course number CS F342 does not match the handout's title - ignored as a misprint"
+  ],
+  "205_ECE_F215.pdf": [
+   "printed course number EEE F342 does not match the handout's title - ignored as a misprint",
+   "printed course number ECE F342 does not match the handout's title - ignored as a misprint",
+   "printed course number INSTR F342 does not match the handout's title - ignored as a misprint",
+   "printed course number CS F342 does not match the handout's title - ignored as a misprint"
+  ],
+  "231_EE_G501.pdf": [
+   "no evaluation table found"
+  ],
+  "232_EE_G501.pdf": [
+   "no evaluation table found"
+  ],
+  "238_EEE_F215.pdf": [
+   "printed course number EEE F342 does not match the handout's title - ignored as a misprint",
+   "printed course number ECE F342 does not match the handout's title - ignored as a misprint",
+   "printed course number INSTR F342 does not match the handout's title - ignored as a misprint",
+   "printed course number CS F342 does not match the handout's title - ignored as a misprint"
+  ],
+  "283_EEE_U111.pdf": [
+   "evaluation weights total 95, not 100"
+  ],
+  "309_GS_F331.pdf": [
+   "evaluation weights total 105, not 100",
+   "LLM fallback failed: ClientError"
+  ],
+  "332_HSS_U141.pdf": [
+   "evaluation weights total 319, not 100"
+  ],
+  "335_INSTR_F215.pdf": [
+   "printed course number EEE F342 does not match the handout's title - ignored as a misprint",
+   "printed course number ECE F342 does not match the handout's title - ignored as a misprint",
+   "printed course number INSTR F342 does not match the handout's title - ignored as a misprint",
+   "printed course number CS F342 does not match the handout's title - ignored as a misprint"
+  ],
+  "344_INSTR_F491.pdf": [
+   "file name says INSTR F491, but the handout is for EEE F366, INSTR F366, ECE F366 (titles differ) - not used for INSTR F491"
+  ],
+  "433_MGTS_U102.pdf": [
+   "evaluation weights total 340, not 100"
+  ],
+  "434_MPBA_G501.pdf": [
+   "evaluation weights total 90, not 100"
+  ],
+  "452_MPBA_G520.pdf": [
+   "evaluation weights total 90, not 100",
+   "LLM fallback failed: ClientError"
+  ],
+  "453_MPBA_G520.pdf": [
+   "evaluation weights total 90, not 100",
+   "LLM fallback failed: ClientError"
+  ],
+  "540_SW_E101.pdf": [
+   "no evaluation table found"
+  ]
+ },
  "flagged": {
   "catalogue": {
    "BITS F425T": [

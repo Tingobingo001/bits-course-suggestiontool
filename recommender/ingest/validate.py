@@ -10,6 +10,7 @@ import json
 from collections import Counter
 
 from recommender.config import NEW_ADMISSIONS_MIN_COMP_CODE, PROCESSED
+from recommender.ingest.handouts import evaluation_flagged
 
 OUT = PROCESSED / "validation_report.json"
 
@@ -26,6 +27,7 @@ def run():
     charts = load("semester_charts.json")
     minors = json.loads((PROCESSED / "minors.json").read_text(encoding="utf-8"))["minors"]
     regulations = json.loads((PROCESSED / "regulations.json").read_text(encoding="utf-8"))
+    handouts = load("handouts.json")
 
     known = {c["course_code"] for c in catalogue}
     offered = {t["course_code"] for t in timetable
@@ -94,7 +96,13 @@ def run():
     # 7. Hand-encoded regulation rules whose quotes were not found in the source text
     unverified_rules = [r["id"] for r in regulations["rules"] if not r["verified"]]
 
-    # 8. Records each parser already flagged
+    # 8. Handout coverage for offered in-scope courses (a handout covers every code on its Course No. line)
+    with_handout = {c for h in handouts for c in h["course_codes"]} & offered
+    verified_eval = {c for h in handouts if h["weights_total"] and not evaluation_flagged(h["needs_verification"])
+                     for c in h["course_codes"]} & offered
+    by_llm = sum(1 for h in handouts if h["extracted_by"] == "llm")
+
+    # 9. Records each parser already flagged
     flagged = {
         "catalogue": {c["course_code"]: c["needs_verification"] for c in catalogue if c["needs_verification"]},
         "timetable": {t["course_code"]: t["needs_verification"] for t in timetable if t["needs_verification"]},
@@ -115,6 +123,10 @@ def run():
             "minor_courses_without_catalogue_entry": len(minor_unknown),
             "regulation_clauses": len(regulations["clauses"]),
             "regulation_rules_unverified": len(unverified_rules),
+            "offered_in_scope_with_handout": len(with_handout),
+            "offered_in_scope_with_verified_evaluation": len(verified_eval),
+            "handouts_evaluation_by_llm": by_llm,
+            "flagged_handouts": sum(1 for h in handouts if h["needs_verification"]),
             "flagged_catalogue_records": len(flagged["catalogue"]),
             "flagged_timetable_records": len(flagged["timetable"]),
         },
@@ -127,6 +139,8 @@ def run():
         "chart_vs_list_core_mismatches": totals_mismatch,
         "minor_courses_without_catalogue_entry": [{"minor": m, "course": c} for m, c in minor_unknown],
         "regulation_rules_unverified": unverified_rules,
+        "offered_without_handout": sorted(offered - with_handout),
+        "flagged_handouts": {h["file"]: h["needs_verification"] for h in handouts if h["needs_verification"]},
         "flagged": flagged,
     }
     OUT.write_text(json.dumps(report, indent=1, ensure_ascii=False), encoding="utf-8")

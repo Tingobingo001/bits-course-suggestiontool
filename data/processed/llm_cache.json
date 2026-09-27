@@ -1,0 +1,2263 @@
+{
+ "0dde0ec52eb3a910e5a94063341db03f9d3172a096f40848c7a6e4942fa71e29": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Seminar I",
+    "kind": "seminar",
+    "weight": 20.0,
+    "duration": null,
+    "date": "To be announced & conducted by the Instructor",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Seminar II",
+    "kind": "seminar",
+    "weight": 20.0,
+    "duration": null,
+    "date": "- do -",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Seminar III",
+    "kind": "seminar",
+    "weight": 25.0,
+    "duration": null,
+    "date": "To be announced by the DCA in consultation with respective Instructor",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Final Project Report",
+    "kind": "report",
+    "weight": 35.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "One copy of the final report (encompassing critical review of the material studied) to be submitted to the Instructor-in-Charge through DCA by the end of the class work/beginning of the Comprehensive Examination."
+  ]
+ },
+ "52a71a0bf7b5d0da9f2af3a80fbfb63824726bac78c31073f75dd473655cd133": {
+  "evaluation_found": false,
+  "components": [],
+  "notes": [
+   "Final grade is based on completion of 100% of the content and meeting late submission limits."
+  ]
+ },
+ "2a03469424f8d75af14ffc6bc9128c938074e6f742443b7f8f53309fabde6c4d": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Class discussions",
+    "kind": "participation",
+    "weight": 5.0,
+    "duration": "In Class",
+    "date": "Everyday",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Mid Sem Exam",
+    "kind": "midsem",
+    "weight": 30.0,
+    "duration": "90 minutes",
+    "date": "06/10 AN1",
+    "nature": "CB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Assignments/ Internal Tests",
+    "kind": "assignment",
+    "weight": 30.0,
+    "duration": "To be Announced",
+    "date": "To be announced",
+    "nature": "OB/ CB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Compre. Exam.",
+    "kind": "compre",
+    "weight": 35.0,
+    "duration": "180 minutes",
+    "date": "07/12 FN",
+    "nature": "CB",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": []
+ },
+ "850b0193f7778d077b236799593f99e492ee5ca58bd84a45077ecd682c7c9ea0": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Continuous Evaluation",
+    "kind": "other",
+    "weight": 10.0,
+    "duration": "30 min",
+    "date": "TBA",
+    "nature": "Closed book",
+    "best_of_group": "continuous_eval",
+    "best_n": 3
+   },
+   {
+    "name": "Lab component",
+    "kind": "lab",
+    "weight": 20.0,
+    "duration": null,
+    "date": "In lab",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Mid Semester",
+    "kind": "midsem",
+    "weight": 30.0,
+    "duration": "90 min",
+    "date": "As announced in the timetable",
+    "nature": "Open/Closed book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive",
+    "kind": "compre",
+    "weight": 40.0,
+    "duration": "180 min",
+    "date": "As announced in the timetable",
+    "nature": "Closed book",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Criterion for NC: NC report may be awarded when a student score is below 30% of the average of the top three performers or 40% of median, whichever is lower."
+  ]
+ },
+ "61f63e9fd62b3b356da5ac3aba04ac9299e829b7af7eeafbc1c6795585372f5f": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Quiz – 1",
+    "kind": "quiz",
+    "weight": 15.0,
+    "duration": "45 minutes",
+    "date": "23 Sept 2026",
+    "nature": "Closed Book",
+    "best_of_group": "quizzes",
+    "best_n": 2
+   },
+   {
+    "name": "Mid-Semester Examination",
+    "kind": "midsem",
+    "weight": 30.0,
+    "duration": "90 minutes",
+    "date": "06 Oct 2026 (AN1)",
+    "nature": "Open Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Quiz – 2",
+    "kind": "quiz",
+    "weight": 15.0,
+    "duration": "45 minutes",
+    "date": "06 Nov 2026",
+    "nature": "Closed Book",
+    "best_of_group": "quizzes",
+    "best_n": 2
+   },
+   {
+    "name": "Quiz – 3#",
+    "kind": "quiz",
+    "weight": 15.0,
+    "duration": "45 minutes",
+    "date": "23 Nov 2026",
+    "nature": "Closed Book",
+    "best_of_group": "quizzes",
+    "best_n": 2
+   },
+   {
+    "name": "Comprehensive Exam",
+    "kind": "compre",
+    "weight": 40.0,
+    "duration": "180 minutes",
+    "date": "07 Dec 2026 (FN)",
+    "nature": "Closed Book",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Best two quizzes out of three would be considered for the final evaluation.",
+   "Quiz Dates are tentative and subject to change as per the circumstances."
+  ]
+ },
+ "6c2151fcc7a61b01062f6c4a496e1e9e926cb7eac435b4e5430e67f8b65ebb91": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Mentor-Mentee Engagement",
+    "kind": "participation",
+    "weight": 10.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Class Participation",
+    "kind": "participation",
+    "weight": 10.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Key Deliverables",
+    "kind": "assignment",
+    "weight": 30.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Investor Documents and Pitch Presentations",
+    "kind": "project",
+    "weight": 50.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Key documents/deliverables and pitches will be evaluated across campuses primarily by external entrepreneurs/investors",
+   "BITS reserves the right, at its sole discretion, to change or alter the entrepreneurship program guidelines in keeping with the mission to enhance learning and foster entrepreneurship."
+  ]
+ },
+ "74fc639c5688fa14267f5a2415d1e6cc9a731d28138bf3116ffc36f8e5d10eec": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Research Proposal",
+    "kind": "project",
+    "weight": 25.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Development related Activities",
+    "kind": "project",
+    "weight": 25.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Research related activities",
+    "kind": "project",
+    "weight": 50.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "The concerned supervisor will announce mid-semester grade to the student and should submit the mid-semester evaluation form to HoD by the end of 9th week of the semester."
+  ]
+ },
+ "601745fb2410fbcb178268e97b50923e436d4b2a16c9678d0afbb4e5450b8057": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Research proposal - Contents",
+    "kind": "report",
+    "weight": 10.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Research proposal - Presentation",
+    "kind": "seminar",
+    "weight": 15.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Development related - Report (Mid Semester)",
+    "kind": "report",
+    "weight": 5.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Development related - Presentation (Mid Semester)",
+    "kind": "seminar",
+    "weight": 5.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Research related - Report (Mid Semester)",
+    "kind": "report",
+    "weight": 10.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Research related - Presentation (Mid Semester)",
+    "kind": "seminar",
+    "weight": 5.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Development related - Report (End Semester)",
+    "kind": "report",
+    "weight": 10.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Development related - Presentation (End Semester)",
+    "kind": "seminar",
+    "weight": 5.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Research related - Report (End Semester)",
+    "kind": "report",
+    "weight": 20.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Research related - Presentation (End Semester)",
+    "kind": "seminar",
+    "weight": 15.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Total marks comprise 50 marks for Mid Semester evaluation and 50 marks for End Semester evaluation, summing up to 100% total."
+  ]
+ },
+ "83c5a8f1a6d2b5d49bf96da1404205dbcfc60e5535fdce8f251f972e667fbb85": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Tutorial 1",
+    "kind": "tutorial",
+    "weight": 5.0,
+    "duration": "50 minutes",
+    "date": "August 17th, 2026",
+    "nature": "Open book",
+    "best_of_group": "tutorials",
+    "best_n": 4
+   },
+   {
+    "name": "Tutorial 2",
+    "kind": "tutorial",
+    "weight": 5.0,
+    "duration": "50 minutes",
+    "date": "September 7th, 2026",
+    "nature": "Open book",
+    "best_of_group": "tutorials",
+    "best_n": 4
+   },
+   {
+    "name": "Tutorial 3",
+    "kind": "tutorial",
+    "weight": 5.0,
+    "duration": "50 minutes",
+    "date": "September 21st, 2026",
+    "nature": "Open book",
+    "best_of_group": "tutorials",
+    "best_n": 4
+   },
+   {
+    "name": "Tutorial 4",
+    "kind": "tutorial",
+    "weight": 5.0,
+    "duration": "50 minutes",
+    "date": "October 26th, 2026",
+    "nature": "Open book",
+    "best_of_group": "tutorials",
+    "best_n": 4
+   },
+   {
+    "name": "Tutorial 5",
+    "kind": "tutorial",
+    "weight": 5.0,
+    "duration": "50 minutes",
+    "date": "November 16th, 2026",
+    "nature": "Open book",
+    "best_of_group": "tutorials",
+    "best_n": 4
+   },
+   {
+    "name": "Mid-Semester Examination",
+    "kind": "midsem",
+    "weight": 35.0,
+    "duration": "1.5 hours",
+    "date": "<TEST_1>",
+    "nature": "Closed book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 45.0,
+    "duration": "3 hours",
+    "date": "<TEST_C>",
+    "nature": "Closed book",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "If the candidate misses one particular component completely, NC will be awarded.",
+   "30% of the average of the top three performers or 40% of median, whichever is lower, or a suitable modification at the discretion of the IC with the concurrence of the Department.",
+   "Best 4 out of 5 Tutorials will be considered (20% weightage)"
+  ]
+ },
+ "05b6b3cecf4f667f3c482537b81876f6baa321b8ba70ad034c11779c673cd792": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Class assessment",
+    "kind": "assignment",
+    "weight": 8.0,
+    "duration": "5 min",
+    "date": "Lecture hour",
+    "nature": "OB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Tutorials",
+    "kind": "tutorial",
+    "weight": 12.0,
+    "duration": "30 min",
+    "date": "Tutorial hour",
+    "nature": "CB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Mid-semester exam",
+    "kind": "midsem",
+    "weight": 25.0,
+    "duration": "90 min",
+    "date": "05/10 AN1",
+    "nature": "CB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Laboratory",
+    "kind": "lab",
+    "weight": 20.0,
+    "duration": null,
+    "date": null,
+    "nature": "OB + CB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 35.0,
+    "duration": "180 min",
+    "date": "03/12 FN",
+    "nature": "CB + OB",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": []
+ },
+ "231bcaa730d0b282290a9933e577bb2694f11411bf5dd2bf8fff63f9a66be6fe": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Class discussions",
+    "kind": "participation",
+    "weight": 10.0,
+    "duration": "5-10 mins.",
+    "date": "Every class",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Evaluative Tutorials",
+    "kind": "tutorial",
+    "weight": 30.0,
+    "duration": "45 mins.",
+    "date": "Every week",
+    "nature": "Close Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Mid-Semester Test",
+    "kind": "midsem",
+    "weight": 25.0,
+    "duration": "90 mins.",
+    "date": "07/10 AN1",
+    "nature": "Close Book/Open Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 35.0,
+    "duration": "180 mins.",
+    "date": "10/12 FN",
+    "nature": "Close Book/Open Book",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": []
+ },
+ "6cf11a5e9ed835a1d0e7af4ab29d91a686f2fad48675e9f71b4e7d711cea7934": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Problem solving",
+    "kind": "assignment",
+    "weight": 20.0,
+    "duration": "30 Class + 20",
+    "date": "Once in a week",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Project",
+    "kind": "project",
+    "weight": 30.0,
+    "duration": "Continuous",
+    "date": "Title, Group, Methodology, Ms, Final",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Webinar",
+    "kind": "seminar",
+    "weight": 15.0,
+    "duration": "90 min *4",
+    "date": "Once in a month",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive",
+    "kind": "compre",
+    "weight": 35.0,
+    "duration": "180 min",
+    "date": "13/12 FN",
+    "nature": "OB",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Buffer 20%",
+   "All components are must",
+   "3/4",
+   "Final Project Marks will be awarded only if the student completes project as per the course requirement.",
+   "Missing any component completely will lead to NC"
+  ]
+ },
+ "b7258138eca8a2e1cc4f73293d7a1600d78a685090da59d5bdd964d9e5233674": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Problem solving",
+    "kind": "assignment",
+    "weight": 20.0,
+    "duration": "30 Class + 20",
+    "date": "Once in a week",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Project",
+    "kind": "project",
+    "weight": 30.0,
+    "duration": "Continuous",
+    "date": "Title, Group, Methodology, Ms, Final",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Webinar",
+    "kind": "seminar",
+    "weight": 15.0,
+    "duration": "90 min *4",
+    "date": "Once in a month",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive",
+    "kind": "compre",
+    "weight": 35.0,
+    "duration": "180 min",
+    "date": "13/12 FN",
+    "nature": "OB",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Buffer 20%",
+   "All components are must",
+   "3/4",
+   "Final Project Marks will be awarded only if the student completes project as per the course requirement.",
+   "Missing any component completely will lead to NC"
+  ]
+ },
+ "687e76ecd63d8cd6fc4fa8b4bcb28c6c655ff601ea74fab024edc63582560634": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Class Tests",
+    "kind": "quiz",
+    "weight": 30.0,
+    "duration": "40",
+    "date": "Dates will be announced at least five days in advance",
+    "nature": "CB and/or OB",
+    "best_of_group": "class_tests",
+    "best_n": 3
+   },
+   {
+    "name": "Mid Examination",
+    "kind": "midsem",
+    "weight": 25.0,
+    "duration": "90",
+    "date": null,
+    "nature": "CB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "AI Based Term Project",
+    "kind": "project",
+    "weight": 10.0,
+    "duration": null,
+    "date": null,
+    "nature": "OB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 35.0,
+    "duration": "180",
+    "date": null,
+    "nature": "CB",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "OB- Open Book, CB- Closed Book"
+  ]
+ },
+ "45ae2ed9eeb3bc80d2bb2dbc435531a8a510d12549901b788c368d47f7a1367e": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Mid-Semester Test",
+    "kind": "midsem",
+    "weight": 25.0,
+    "duration": "90 Min.",
+    "date": null,
+    "nature": "CB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Final Project",
+    "kind": "project",
+    "weight": 15.0,
+    "duration": "2 to 3 weeks",
+    "date": "To be announced in the class",
+    "nature": "Take home",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Case Studies /Simulations/Assignments/lecture tests (4)",
+    "kind": "assignment",
+    "weight": 20.0,
+    "duration": "continuous",
+    "date": "To be announced in the class",
+    "nature": "Take Home",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 35.0,
+    "duration": "180 Min.",
+    "date": null,
+    "nature": "CB&OB",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": []
+ },
+ "7e77fec2667dcfc92e9af6cff420efe10ab5e449e104cd4c4bf2888b4f8bed49": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Mid-Semester Test",
+    "kind": "midsem",
+    "weight": 25.0,
+    "duration": "90 Min.",
+    "date": null,
+    "nature": "CB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Final Project",
+    "kind": "project",
+    "weight": 15.0,
+    "duration": "2 to 3 weeks",
+    "date": "To be announced in the class",
+    "nature": "Take home",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Case Studies /Simulations/Assignments/lecture tests (4)",
+    "kind": "assignment",
+    "weight": 20.0,
+    "duration": "continuous",
+    "date": null,
+    "nature": "Take Home",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 35.0,
+    "duration": "180 Min.",
+    "date": null,
+    "nature": "CB&OB",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "The total weightage of the listed components sums to 95%."
+  ]
+ },
+ "b5a0420fc7d05ec2cd931edb3522e1caa14efb59ab743c1d0ca467c5e2dc9205": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Continuous Evaluation",
+    "kind": "assignment",
+    "weight": 15.0,
+    "duration": "15 min.",
+    "date": "Continuous",
+    "nature": "Closed Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Term Paper",
+    "kind": "project",
+    "weight": 20.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Mid-Semester Test",
+    "kind": "midsem",
+    "weight": 25.0,
+    "duration": "90 Min.",
+    "date": "06/10 AN2",
+    "nature": "Closed Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 40.0,
+    "duration": "180 Min.",
+    "date": "07/12 AN",
+    "nature": "Closed and Open Book",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Term Paper includes Literature Survey, Seminars and Research Summaries"
+  ]
+ },
+ "9f10ada36e4203b40a4052dde7ab937cac2df4d1d3819656ebf1bf2c56f3a641": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Mid Semester Test",
+    "kind": "midsem",
+    "weight": 30.0,
+    "duration": null,
+    "date": "06/10 FN2",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Assignments + Seminars+ Term Papers",
+    "kind": "assignment",
+    "weight": 30.0,
+    "duration": null,
+    "date": "Continuous",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 40.0,
+    "duration": null,
+    "date": "05/12 AN",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "At least 40% of evaluation components that are open book in the form of written test/ take home assignments",
+   "At most 60% of evaluation components in the form of Tests/Exam.",
+   "10% of the maximum marks will be allocated to surprise assessments as part of continuous evaluation. These marks will be awarded only if the student maintains a minimum of 75% attendance."
+  ]
+ },
+ "0bf20a74214a7cb295cbef101a5042f82fc0ab6b0964f991287aebff647c79cc": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Quiz 1",
+    "kind": "quiz",
+    "weight": 12.5,
+    "duration": "35–40 mins.",
+    "date": "2nd September 2026",
+    "nature": "Closed Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Quiz 2",
+    "kind": "quiz",
+    "weight": 12.5,
+    "duration": "35–40 mins.",
+    "date": "30th September 2026",
+    "nature": "Closed Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Mid-Semester Test",
+    "kind": "midsem",
+    "weight": 30.0,
+    "duration": "90 mins.",
+    "date": "8th October 2026 (FN)",
+    "nature": "Open Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 45.0,
+    "duration": "180 mins.",
+    "date": "1st December 2026 (FN)",
+    "nature": "Closed Book",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Exact venue for Quizzes will be uploaded on Nalanda.",
+   "Instructions for the open book component (Mid-Semester Test): Permitted: printed textbooks and reference books, and handwritten notes written in a bound notebook. Not permitted: photocopied material from any book, loose or unbound handwritten sheets, printouts of slides, printed or photocopied lecture notes, and any other printed or reproduced material.",
+   "Material may not be shared or exchanged with another student during the test.",
+   "NC Criterion: Any student who fails to write the mid-semester examination or the comprehensive examination (regular or make-up) will be awarded NC.",
+   "Outliers are identified statistically. A student whose total marks fall below (mean − 3 × standard deviation) of the class total will be awarded NC (If distribution is not skewed)."
+  ]
+ },
+ "ae5222dba1070fa6ae1fe0d37d9874ece64c299151299b3a74c970648c816a1c": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Research Paper Debate",
+    "kind": "seminar",
+    "weight": 10.0,
+    "duration": "In class",
+    "date": "Throughout semester",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Mid-Semester Examination",
+    "kind": "midsem",
+    "weight": 20.0,
+    "duration": "90 min",
+    "date": "09/10 FN2",
+    "nature": "Closed Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 35.0,
+    "duration": "180 min",
+    "date": "13/12 AN",
+    "nature": "Closed Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Proposal",
+    "kind": "project",
+    "weight": 5.0,
+    "duration": null,
+    "date": "28 Aug 2026 (Fri)",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Progress Review I",
+    "kind": "project",
+    "weight": 5.0,
+    "duration": null,
+    "date": "30 Sep 2026 (Wed)",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Progress Review II",
+    "kind": "project",
+    "weight": 5.0,
+    "duration": null,
+    "date": "30 Oct 2026 (Fri)",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Final Work & Report",
+    "kind": "project",
+    "weight": 15.0,
+    "duration": null,
+    "date": "20 Nov 2026 (Fri)",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Presentation with Demo/Viva",
+    "kind": "viva",
+    "weight": 5.0,
+    "duration": "15 min",
+    "date": "20 & 27 Nov 2026 (Fri)",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Criterion for NC: [30% of the average of the top three performers or 40% of median, whichever is lower, or a suitable modification at the discretion of the IC with the concurrence of the Department.]"
+  ]
+ },
+ "014a0af35942cc8334da1cb6ba6ef6fde04df8de01ee38a73287d4174a6d44e9": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Class Participation",
+    "kind": "participation",
+    "weight": 5.0,
+    "duration": null,
+    "date": "Every class",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Mid-semester Test",
+    "kind": "midsem",
+    "weight": 30.0,
+    "duration": "90 Min",
+    "date": "10/10 AN1",
+    "nature": "Closed Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Announced Quizzes (Best 5 out of 6)",
+    "kind": "quiz",
+    "weight": 25.0,
+    "duration": null,
+    "date": "To Be Announced",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 40.0,
+    "duration": "3 Hrs",
+    "date": "16/12 FN",
+    "nature": "Partially Open Book",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": []
+ },
+ "a0ad7b181b8ae77386a8174baf3071660126876fcd75d584316d45601d01cfd8": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Quiz-1",
+    "kind": "quiz",
+    "weight": 10.0,
+    "duration": "30 Min",
+    "date": "21st August, 2026",
+    "nature": "CB",
+    "best_of_group": "quizzes",
+    "best_n": 2
+   },
+   {
+    "name": "Quiz-2",
+    "kind": "quiz",
+    "weight": 10.0,
+    "duration": "30 Min",
+    "date": "18th September, 2026",
+    "nature": "CB",
+    "best_of_group": "quizzes",
+    "best_n": 2
+   },
+   {
+    "name": "Mid-Semester Examination",
+    "kind": "midsem",
+    "weight": 30.0,
+    "duration": "90 Min",
+    "date": "See the timetable",
+    "nature": "CB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Quiz-3",
+    "kind": "quiz",
+    "weight": 10.0,
+    "duration": "30 Min",
+    "date": "6th November, 2026",
+    "nature": "CB",
+    "best_of_group": "quizzes",
+    "best_n": 2
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 50.0,
+    "duration": "180 Min",
+    "date": "See the timetable",
+    "nature": "CB/OB",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Best of two quizzes out of three would be considered for final evaluation.",
+   "All quizzes will be announced."
+  ]
+ },
+ "1635be1891c59847019e2b8d4de251384b4c698edcc2260b4b3f5d45c540f9bb": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Class Participation",
+    "kind": "participation",
+    "weight": 5.0,
+    "duration": null,
+    "date": "Every class",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Mid - semester Test",
+    "kind": "midsem",
+    "weight": 25.0,
+    "duration": "90 Min",
+    "date": "08/10 FN1",
+    "nature": "Closed Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Quiz 1",
+    "kind": "quiz",
+    "weight": 10.0,
+    "duration": null,
+    "date": "To Be Announced",
+    "nature": "Closed Book",
+    "best_of_group": "quizzes",
+    "best_n": 2
+   },
+   {
+    "name": "Quiz 2",
+    "kind": "quiz",
+    "weight": 10.0,
+    "duration": null,
+    "date": "To Be Announced",
+    "nature": "Closed Book",
+    "best_of_group": "quizzes",
+    "best_n": 2
+   },
+   {
+    "name": "Quiz 3",
+    "kind": "quiz",
+    "weight": 10.0,
+    "duration": null,
+    "date": "To Be Announced",
+    "nature": "Closed Book",
+    "best_of_group": "quizzes",
+    "best_n": 2
+   },
+   {
+    "name": "Assignment and Presentation",
+    "kind": "assignment",
+    "weight": 10.0,
+    "duration": null,
+    "date": "To Be Announced",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 40.0,
+    "duration": "3 Hrs",
+    "date": "01/12 FN",
+    "nature": "Partially Open Book",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Announced Quizzes are best 2 out of 3, each carrying 10% to fit the group structure."
+  ]
+ },
+ "7ae7ffe6ee61a9ded446aca9d09715b132d1ac18766d55a9f42f244b89b3793a": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Mid-Semester Test",
+    "kind": "midsem",
+    "weight": 30.0,
+    "duration": "90",
+    "date": "06-10-2026",
+    "nature": "CB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Exam.",
+    "kind": "compre",
+    "weight": 40.0,
+    "duration": "180",
+    "date": "05-12-2026",
+    "nature": "CB/OB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Class participation/attendance; Homework/ Assignments",
+    "kind": "participation",
+    "weight": 10.0,
+    "duration": null,
+    "date": "23-11-2026",
+    "nature": "OB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Tut Test 1",
+    "kind": "quiz",
+    "weight": 10.0,
+    "duration": "30",
+    "date": "24-09-2026",
+    "nature": "CB",
+    "best_of_group": "Tut Tests",
+    "best_n": 2
+   },
+   {
+    "name": "Tut Test 2",
+    "kind": "quiz",
+    "weight": 10.0,
+    "duration": "30",
+    "date": "12-11-2026",
+    "nature": "CB",
+    "best_of_group": "Tut Tests",
+    "best_n": 2
+   },
+   {
+    "name": "Tut Test 3",
+    "kind": "quiz",
+    "weight": 10.0,
+    "duration": "30",
+    "date": "19-11-2026",
+    "nature": "CB",
+    "best_of_group": "Tut Tests",
+    "best_n": 2
+   }
+  ],
+  "notes": [
+   "Best two quizzes out of three would be considered for the final evaluation. All quizzes are announced.",
+   "Quiz Dates are tentative and subject to change as per the circumstances. In case of any change, notice will be published in advance.",
+   "A student should obtain 30 % of the average of the top few performers in the class, or 40% of the median marks of the class, whichever is lower, to clear the course."
+  ]
+ },
+ "cd065438b2e726fd12dab33430646d322dbe212ab47e7bc67105579a7abe84cd": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Quiz",
+    "kind": "quiz",
+    "weight": 10.0,
+    "duration": "40 minutes",
+    "date": "To be announced (TBA)",
+    "nature": "Closed book (CB)",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Mid-Semester Test",
+    "kind": "midsem",
+    "weight": 20.0,
+    "duration": "90 minutes",
+    "date": "Oct. 6th (FN2)",
+    "nature": "CB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Labs & Class tasks",
+    "kind": "lab",
+    "weight": 15.0,
+    "duration": "TBA",
+    "date": "TBA",
+    "nature": "Open book (OB)",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Team project",
+    "kind": "project",
+    "weight": 15.0,
+    "duration": "TBA",
+    "date": "TBA",
+    "nature": "OB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 40.0,
+    "duration": "3 hrs.",
+    "date": "Dec. 5th (AN)",
+    "nature": "OB/OB+CB",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "*Seminar: 5% ; Work done and Report: 10%"
+  ]
+ },
+ "8a9860460f7b0b181957e8593e871a333d2dd780cd91a60a8237f07068c313b8": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Mid-Semester Test",
+    "kind": "midsem",
+    "weight": 25.0,
+    "duration": "90 Min.",
+    "date": "7/10 AN-1",
+    "nature": "Closed Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 35.0,
+    "duration": "120 Min",
+    "date": "10/12 FN",
+    "nature": "Closed Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Assignments",
+    "kind": "assignment",
+    "weight": 40.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": []
+ },
+ "cca92242232258fa921635c7c6ef079cae0eb47daea2db858810ff135f191185": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Class discussions",
+    "kind": "participation",
+    "weight": 5.0,
+    "duration": "In class",
+    "date": "Every class",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Mid Sem Exam",
+    "kind": "midsem",
+    "weight": 30.0,
+    "duration": "90 minutes",
+    "date": "08/10 FN1",
+    "nature": "CB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Assignment / Test",
+    "kind": "assignment",
+    "weight": 30.0,
+    "duration": "To be Announced",
+    "date": "To be announced",
+    "nature": "OB/CB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Compre. Exam.",
+    "kind": "compre",
+    "weight": 35.0,
+    "duration": "180 minutes",
+    "date": "01/12 FN",
+    "nature": "CB",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Class discussions are linked to attendance."
+  ]
+ },
+ "484c91b865d0f95a50e530187351953a9e59220d53f9ec1fc20720daa1efb362": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Homework Assignment",
+    "kind": "assignment",
+    "weight": 10.0,
+    "duration": null,
+    "date": "To be submitted by 15 th November 2026",
+    "nature": "Open Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Mid Semester Test",
+    "kind": "midsem",
+    "weight": 30.0,
+    "duration": "90 Minutes",
+    "date": "7/10AN1",
+    "nature": "Close Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Class Assignments",
+    "kind": "assignment",
+    "weight": 15.0,
+    "duration": null,
+    "date": "Second/Third week of September 2026",
+    "nature": "Open Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Exam",
+    "kind": "compre",
+    "weight": 40.0,
+    "duration": "180 Minutes",
+    "date": "10/12 FN",
+    "nature": "Close Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Class participation",
+    "kind": "participation",
+    "weight": 5.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Each student is expected to attend all classes and participate in all evaluation components. Regular Class participation will be rewarded up to 5% weightage."
+  ]
+ },
+ "28e8c98db8ed3f70234f0f1e7232735c3281f3f60d0f51e5348a3d96ad45dc2c": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Assignment 1",
+    "kind": "assignment",
+    "weight": 15.0,
+    "duration": null,
+    "date": "TBA",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Mid-Semester Test",
+    "kind": "midsem",
+    "weight": 30.0,
+    "duration": "90 mins",
+    "date": "As announced",
+    "nature": "Closed book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Assignment 2",
+    "kind": "assignment",
+    "weight": 15.0,
+    "duration": null,
+    "date": "TBA",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive",
+    "kind": "compre",
+    "weight": 45.0,
+    "duration": "180 min",
+    "date": "As announced",
+    "nature": "Closed book",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Makeup will be given only for genuine cases (accompanied by proof) for the Mid-semester or comprehensive exam only."
+  ]
+ },
+ "ff13ee575ee5c605b76c9f5eeed3a6287606823c5f9ef5b5599c15b0d0754eb8": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Homework Assignment",
+    "kind": "assignment",
+    "weight": 10.0,
+    "duration": null,
+    "date": "To be submitted by 15 November 2026",
+    "nature": "Open Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Mid Semester Test",
+    "kind": "midsem",
+    "weight": 30.0,
+    "duration": null,
+    "date": "6/10 FN1",
+    "nature": "Close Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Class Assignments",
+    "kind": "assignment",
+    "weight": 15.0,
+    "duration": null,
+    "date": "Second /third week of September 2026",
+    "nature": "Open Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Exam",
+    "kind": "compre",
+    "weight": 40.0,
+    "duration": null,
+    "date": "7/12 FN",
+    "nature": "Close Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Class participation",
+    "kind": "participation",
+    "weight": 5.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Each student is expected to attend all classes and participate in all evaluation components.",
+   "Regular Class participation will be rewarded up to 5% weightage."
+  ]
+ },
+ "476e2488083a6c789cb10d37b953de57cd27ac6893322ace139df1fffbeb07b5": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Class discussions",
+    "kind": "participation",
+    "weight": 5.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Continuous Evaluations: three essays to be drafted in class; one assignment submission",
+    "kind": "assignment",
+    "weight": 35.0,
+    "duration": "45 min",
+    "date": "TBA",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Mid Semester",
+    "kind": "midsem",
+    "weight": 20.0,
+    "duration": "90 min",
+    "date": "As per the AUGSD schedule",
+    "nature": "Open book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive",
+    "kind": "compre",
+    "weight": 40.0,
+    "duration": "180 min",
+    "date": "TBA",
+    "nature": "Open book",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Class discussions are linked to attendance.",
+   "Continuous evaluations include 15% for essays and 20% for assignment.",
+   "Two essays will be included in the final evaluation.",
+   "Assignment will be post mid-semester.",
+   "Plagiarism and any form of academic dishonesty will be heavily penalized.",
+   "Students are strongly advised to stay up-to-date with classwork."
+  ]
+ },
+ "aa64392939537349d341aab212f6329e657a6e0fe02269ae65e4fe0c1428a8de": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Attendance & Classroom Interaction",
+    "kind": "participation",
+    "weight": 5.0,
+    "duration": "All Classes",
+    "date": "All Lectures",
+    "nature": "Observation based on participation",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Lab component/ Opinionnaires/ Assignment/ Case study",
+    "kind": "assignment",
+    "weight": 10.0,
+    "duration": "Deadlines",
+    "date": "Will be announced",
+    "nature": "Interaction based/Report Submission",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Quiz 1",
+    "kind": "quiz",
+    "weight": 15.0,
+    "duration": "50 Mins.",
+    "date": "September (2nd Week)",
+    "nature": "CB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Quiz 2",
+    "kind": "quiz",
+    "weight": 15.0,
+    "duration": "50 Mins",
+    "date": "November (2nd Week)",
+    "nature": "CB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Mid Sem Exam",
+    "kind": "midsem",
+    "weight": 25.0,
+    "duration": "90 Mins",
+    "date": "10/10/2026",
+    "nature": "CB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 30.0,
+    "duration": "3 hours",
+    "date": "15/12/2026",
+    "nature": "OB",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Total marks are 200, weights have been converted to percentages."
+  ]
+ },
+ "609fa2b550a4669dee482c653be60984e9ec5fc900d004b74b3f8b87739fa23b": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Attendance & Classroom Interaction",
+    "kind": "participation",
+    "weight": 5.0,
+    "duration": "All Classes",
+    "date": "All Lectures",
+    "nature": "Observation based on participation",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Lab component/ Opinionnaires/ Assignment/ Case study",
+    "kind": "assignment",
+    "weight": 10.0,
+    "duration": "Deadlines",
+    "date": "Will be announced",
+    "nature": "Interaction based/Report Submission",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Quiz 1",
+    "kind": "quiz",
+    "weight": 15.0,
+    "duration": "50 Mins.",
+    "date": "September (2nd Week)",
+    "nature": "CB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Quiz 2",
+    "kind": "quiz",
+    "weight": 15.0,
+    "duration": "50 Mins",
+    "date": "November (2nd Week)",
+    "nature": "CB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Mid Sem Exam",
+    "kind": "midsem",
+    "weight": 25.0,
+    "duration": "90 Mins",
+    "date": "05/10/2026",
+    "nature": "CB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 30.0,
+    "duration": "3 hours",
+    "date": "11/12/2026",
+    "nature": "OB",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Grand Total is 200 marks, weights have been converted to percentages of the course total.",
+   "CB=Closed Book",
+   "OB=Open Book"
+  ]
+ },
+ "ce19ee028de78e604cc382ac0d5b44029501850ccfc154f82891cc2da4824500": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Mid Sem- OB",
+    "kind": "midsem",
+    "weight": 25.0,
+    "duration": "90 mints.",
+    "date": "10/10/2026 AN1",
+    "nature": "Open Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Practical Test",
+    "kind": "lab",
+    "weight": 20.0,
+    "duration": "50 mints.",
+    "date": "To be announced",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Quiz",
+    "kind": "quiz",
+    "weight": 10.0,
+    "duration": "15mints.",
+    "date": "To be announced",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Home Assignment",
+    "kind": "assignment",
+    "weight": 10.0,
+    "duration": null,
+    "date": "To be announced",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Compre.",
+    "kind": "compre",
+    "weight": 35.0,
+    "duration": "3 Hrs.",
+    "date": "15/12/2026 FN",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": []
+ },
+ "e18a068216db5b2337854c7e9bd6e2e70ad05182b912642230678e7ccd2fb779": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Continuous Evaluation",
+    "kind": "quiz",
+    "weight": 21.0,
+    "duration": null,
+    "date": "TBA",
+    "nature": "CB",
+    "best_of_group": "quiz",
+    "best_n": 3
+   },
+   {
+    "name": "Mid-Semester Test",
+    "kind": "midsem",
+    "weight": 34.0,
+    "duration": "90 Min.",
+    "date": "As announced by AUGSD",
+    "nature": "CB",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 45.0,
+    "duration": "180 Min.",
+    "date": "As announced by AUGSD",
+    "nature": "OB/CB",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "4 announced quizzes each of 7% weightage. The score of the best three quizzes will be considered for grading."
+  ]
+ },
+ "41bd2a4c26a59a80a19fe59b84406ab5055fe15ec063f78b973824dfdfd899ed": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Quiz-Q1",
+    "kind": "quiz",
+    "weight": 5.0,
+    "duration": "15 mins",
+    "date": "TBA",
+    "nature": "Closed Book",
+    "best_of_group": "quizzes",
+    "best_n": 2
+   },
+   {
+    "name": "Quiz-Q2",
+    "kind": "quiz",
+    "weight": 5.0,
+    "duration": "15 mins",
+    "date": "TBA",
+    "nature": "Closed Book",
+    "best_of_group": "quizzes",
+    "best_n": 2
+   },
+   {
+    "name": "Quiz-Q3",
+    "kind": "quiz",
+    "weight": 5.0,
+    "duration": "15 mins",
+    "date": "TBA",
+    "nature": "Closed Book",
+    "best_of_group": "quizzes",
+    "best_n": 2
+   },
+   {
+    "name": "Lab Assignment",
+    "kind": "lab",
+    "weight": 10.0,
+    "duration": "Throughout Semester",
+    "date": "TBA",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Self Study Report",
+    "kind": "report",
+    "weight": 20.0,
+    "duration": null,
+    "date": "October 28, 2026",
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Mid-Semester Exam",
+    "kind": "midsem",
+    "weight": 25.0,
+    "duration": "1.5 Hours",
+    "date": "10 October FN",
+    "nature": "Closed Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 35.0,
+    "duration": "3 Hours",
+    "date": "15 December FN",
+    "nature": "Closed Book",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Quizzes: Best 2 of 3 (10%)"
+  ]
+ },
+ "5ea37ce2e69a0730d60818f89ac90fe1cd9bd6b4f336013d118cbc9f1f8c3b74": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Mid-Semester Exam",
+    "kind": "midsem",
+    "weight": 25.0,
+    "duration": "90 Min",
+    "date": "06/10/2026",
+    "nature": "Closed Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Take-home Assignments",
+    "kind": "assignment",
+    "weight": 40.0,
+    "duration": "NA",
+    "date": "To be announced",
+    "nature": "Open Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Exam",
+    "kind": "compre",
+    "weight": 35.0,
+    "duration": "180 Min",
+    "date": "05/12/2026",
+    "nature": "Closed Book",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": []
+ },
+ "5cecacd85fe628c7a009ce17fa7793a058e95c0b0ea623d893eab9ceaf3249e5": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Case study participation",
+    "kind": "participation",
+    "weight": 15.0,
+    "duration": null,
+    "date": null,
+    "nature": "Offline",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Quiz",
+    "kind": "quiz",
+    "weight": 5.0,
+    "duration": null,
+    "date": null,
+    "nature": "Offline",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Course Project",
+    "kind": "project",
+    "weight": 15.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Class participation",
+    "kind": "participation",
+    "weight": 10.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Mid-Semester Test",
+    "kind": "midsem",
+    "weight": 25.0,
+    "duration": "1.5 hours",
+    "date": null,
+    "nature": "Closed Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Exam",
+    "kind": "compre",
+    "weight": 35.0,
+    "duration": "3 hours",
+    "date": null,
+    "nature": "Open Book",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Evaluation components can be tailored depending on the proposed model."
+  ]
+ },
+ "6aa0d8c0d8a85d757148c818e17eac0d82c11c21f6f5201e482ff5bb8a63f867": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Mid-Semester Test",
+    "kind": "midsem",
+    "weight": 25.0,
+    "duration": "90 Min.",
+    "date": "<TEST_1>",
+    "nature": "Closed Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 40.0,
+    "duration": "3 h",
+    "date": "<TEST_C>",
+    "nature": "Closed or/and Open Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Lab Component",
+    "kind": "lab",
+    "weight": 25.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Surprise quiz(es)",
+    "kind": "quiz",
+    "weight": 10.0,
+    "duration": "Continuous",
+    "date": null,
+    "nature": "Closed Book",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Regularity in attendance will be one of the criteria in deciding the borderline cases at the time of final grading as well as make-up's.",
+   "It is not necessary that all the grades (i.e. A to E) would be awarded.",
+   "In borderline cases subjective judgment will be exercised for pull-up’s (max. 2%). Basic guiding factors will be regularity, consistency in performance (above average) or/and steady improvement throughout the semester.",
+   "Students scoring less than 20% will be considered NOT exposed to the subject."
+  ]
+ },
+ "14b01e91585f2e470beb58786410cf7a2183dbdeea588e73802e4caa76c4dc31": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Mid-Semester Examination",
+    "kind": "midsem",
+    "weight": 30.0,
+    "duration": "90 mins.",
+    "date": "TBA",
+    "nature": "Open/ Closed",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 40.0,
+    "duration": "180 mins",
+    "date": "TBA",
+    "nature": "Open/ Closed",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Class Tests/Assignments",
+    "kind": "assignment",
+    "weight": 30.0,
+    "duration": "40min. ╳ 4",
+    "date": "TBA",
+    "nature": "Open/ Closed",
+    "best_of_group": "class_tests_assignments",
+    "best_n": 3
+   }
+  ],
+  "notes": [
+   "Class Tests/Assignments: best three to be considered"
+  ]
+ },
+ "679c5fab93f4964cb99112a597ead06d911904c7c26813bc04c7db740a4abe10": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Mid-Semester Test",
+    "kind": "midsem",
+    "weight": 30.0,
+    "duration": "90 Minutes",
+    "date": "10th Oct 2025",
+    "nature": "Closed Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 40.0,
+    "duration": "3 Hours",
+    "date": "13th Dec 2025",
+    "nature": "Partly closed and partly open",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Tutorial Tests",
+    "kind": "tutorial",
+    "weight": 30.0,
+    "duration": "30 minutes each",
+    "date": "TBA a week prior",
+    "nature": "Closed Book Tutorial Tests",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "NC Policy: Minimum 15 % of the Course Total including attendance in 50 % of Tutorial Tests, Midterm, and Comprehensive examination."
+  ]
+ },
+ "cfd5919667c6b3d7afd8621b96b6dfbe817a6ff59054bb47b165e95f4422e0bd": {
+  "evaluation_found": true,
+  "components": [
+   {
+    "name": "Term-paper (s)",
+    "kind": "assignment",
+    "weight": 10.0,
+    "duration": null,
+    "date": null,
+    "nature": null,
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Quiz (Announced)",
+    "kind": "quiz",
+    "weight": 20.0,
+    "duration": "Approx. 20 min each",
+    "date": "TBA",
+    "nature": "Open Notes",
+    "best_of_group": "quiz_group",
+    "best_n": 3
+   },
+   {
+    "name": "Mid-Semester Test",
+    "kind": "midsem",
+    "weight": 25.0,
+    "duration": null,
+    "date": "TBA",
+    "nature": "Closed Book",
+    "best_of_group": null,
+    "best_n": null
+   },
+   {
+    "name": "Comprehensive Examination",
+    "kind": "compre",
+    "weight": 45.0,
+    "duration": "180 min",
+    "date": "TBA",
+    "nature": "Closed/Open Book",
+    "best_of_group": null,
+    "best_n": null
+   }
+  ],
+  "notes": [
+   "Weights are converted from the printed marks to percentages of the course total."
+  ]
+ }
+}

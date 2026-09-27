@@ -4,8 +4,8 @@ Usage (from the repo root):  python -m scripts.build_data [--skip-text]
 """
 import sys
 
-from recommender.ingest import (bulletin_courses, course_lists, degree_rules, equivalents, minors,
-                               pdf_text, regulations, semester_charts, timetable, validate)
+from recommender.ingest import (bulletin_courses, course_lists, degree_rules, equivalents, handouts, handouts_llm,
+                               minors, pdf_text, regulations, semester_charts, timetable, validate)
 
 STAGES = [
     ("Stage 0  PDF -> text", pdf_text.run),
@@ -17,6 +17,8 @@ STAGES = [
     ("Stage 1f minor programmes", minors.run),
     ("Stage 1g academic regulations (clauses + verified rules)", regulations.run),
     ("Stage 1a+ equivalents (needs 1a, 1b)", equivalents.run),
+    ("Stage 2  handouts: evaluation, policies, topics (regex)", handouts.run),
+    ("Stage 2b handouts: LLM fallback for flagged, in-scope handouts (skipped without a key)", handouts_llm.run),
     ("Final    cross-document validation", validate.run),
 ]
 

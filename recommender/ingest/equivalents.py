@@ -30,6 +30,7 @@ import pymupdf
 
 from recommender.codes import find_codes
 from recommender.config import NEW_ADMISSIONS_MIN_COMP_CODE, PROCESSED, RAW, TEXT_HANDOUTS
+from recommender.ingest.handouts import handout_codes
 from recommender.ingest.pdf_utils import group_rows
 from recommender.schema import Equivalence, SourceRef
 
@@ -80,10 +81,15 @@ def from_handouts() -> list[Equivalence]:
     """Handouts whose 'Course No.' line lists more than one code."""
     out = []
     for path in sorted(TEXT_HANDOUTS.glob("*.txt")):
-        m = COURSE_NO_RE.search(path.read_text(encoding="utf-8"))
+        text = path.read_text(encoding="utf-8")
+        m = COURSE_NO_RE.search(text)
         if not m:
             continue
-        codes = list(dict.fromkeys(find_codes(m.group(1))))
+        # printed codes minus misprints (same title rule as the handout parser: the CS F215
+        # 'Digital Design' handout prints 'EEE / ECE / INSTR / CS F342')
+        fm = re.match(r"\d+_([A-Z]+)_([A-Z]\d{3}[A-Z]?)", path.stem)
+        valid = set(handout_codes(text, f"{fm.group(1)} {fm.group(2)}" if fm else None)[0])
+        codes = [c for c in dict.fromkeys(find_codes(m.group(1))) if c in valid]
         if len(codes) < 2:
             continue
         title_m = re.search(r"Course\s*Title\s*:?\s*(.+)", path.read_text(encoding="utf-8"), re.IGNORECASE)

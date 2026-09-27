@@ -127,31 +127,31 @@ Re-checked at the end of every step. ✅ done · 🟡 partial · ⬜ not started
 | §2 | Use Regulations | ✅ | `regulations.py`: 256 clauses + 38 verified rules (incl. timetable registration instructions) |
 | §2 | Use Bulletin | ✅ | catalogue, CDC/DEL lists, HUEL pool, semester charts (single + dual), category units, policies, minors |
 | §2 | Use Timetable | ✅ | `timetable.py`, `equivalents.py` |
-| §2 | Use Handouts | 🟡 | equivalences only; content extraction ⬜ |
-| §2 | Student profile | ⬜ | dashboard step (none supplied: created in the dashboard) |
-| §3 | Pre-process into a clean structured dataset | 🟡 | `data/processed/*.json` |
+| §2 | Use Handouts | ✅ | `handouts.py` (regex) + `handouts_llm.py` (Gemini fallback, validated) |
+| §2 | Student profile | ✅ | `StudentProfile` (schema); entered in the dashboard sidebar (none supplied) |
+| §3 | Pre-process into a clean structured dataset | ✅ | `data/processed/*.json`, one command (`scripts/build_data.py`) |
 | §3 | Course: code, title, department, units | ✅ | `courses.json` |
-| §3 | Course: topics | 🟡 | description text; topic extraction with handouts |
+| §3 | Course: topics | ✅ | catalogue description + handout course plan/scope; matched by the agent's `search_courses` |
 | §3 | Course: prerequisites | ✅/➖ | 66 stated; the rest are not in the supplied data → "not stated" |
 | §3 | Course: restrictions | ✅/➖ | 1 exclusion rule; per-course restriction lists aren't supplied (timetable §VI → website) |
 | §3 | Course: category | design | computed per student (depends on programme), not stored per course |
 | §3 | Programme rules (CDC/DEL/HUEL/OPEL, batch-specific) | ✅ | `course_lists`, `semester_charts`, `degree_rules`, `minors` JSON; batch = one bulletin (owner decision S4) |
-| §3 | Handout data | ⬜ | handout step |
+| §3 | Handout data | ✅ | evaluation components/weights, open/closed book, make-up, attendance, grading, course plan, pages |
 | §3 | Timetable: code, section, instructor, days, hours, room, midsem, compre | ✅ | `timetable.json` |
 | §3 | Source metadata: document, page/section, confidence | ✅ | `SourceRef` on every record |
-| §3 | Normalise codes and categories | 🟡 | codes ✅ (`codes.py`); categories with programme step |
+| §3 | Normalise codes and categories | ✅ | codes (`codes.py`, incl. `ECE/EEE/INSTR F212`); categories computed per student |
 | §3 | Mark unreliable items for verification | ✅ | `needs_verification` + `validation_report.json` |
-| §4 | Profile incl. minor | ⬜ | dashboard; minor data ready (`minors.json`) |
-| §5 | Requirement analysis → eligible set → matching → validation | ⬜ | engine + agent |
-| §6 | NL queries | ⬜ | agent |
-| §7 | Handout-based preferences; "could not be verified" | ⬜ | handouts + agent |
-| §8 | Timetable intelligence (bonus) | ⬜ | scheduler (data ready) |
-| §9 | Deterministic rule checking | ✅ | all parsers deterministic so far |
+| §4 | Profile incl. minor | ✅ | batch, degree(s), minor, completed courses + grades, CGPA, interests |
+| §5 | Requirement analysis → eligible set → matching → validation | ✅ | `requirements.py` → `eligibility.py` → agent `search_courses` → `scheduler.py` |
+| §6 | NL queries | ✅ | `agent/` Gemini function calling over 6 engine tools |
+| §7 | Handout-based preferences; "could not be verified" | ✅ | midsem/compre/continuous %, open book, policies; `unverified` list per course |
+| §8 | Timetable intelligence (bonus) | ✅ | `scheduler.py`: sections, clashes, lunch, compre/midsem clash, 25 units, free days/hours |
+| §9 | Deterministic rule checking | ✅ | engine has no LLM; 21 tests pin the rules (`tests/test_engine.py`) |
 | §9 | Source references kept | ✅ | |
 | §9 | Validate codes, prerequisites, categories, programme requirements | ✅ | codes, prerequisites, list/minor codes, chart totals vs lists (`validate.py`) |
 | §9 | New timetable/handouts without logic changes | ✅ | column detection from header; handouts globbed; page ranges found by headings |
-| §10 | Working dashboard, live, not hard-coded | ⬜ | |
-| §10 | Clean Git repo + pipeline + README | 🟡 | git init, `.gitignore`, `requirements.txt`, README, `scripts/build_data.py`; not yet committed |
+| §10 | Working dashboard, live, not hard-coded | ✅ | `app/streamlit_app.py` (all choices from the data) |
+| §10 | Clean Git repo + pipeline + README | ✅ | README quick start, tests, one-command build; commit when the owner asks |
 
 ## 5b. Assumptions register
 
@@ -218,7 +218,12 @@ Status: ✅ verified in the data · 👤 confirmed by the project owner · ❓ u
 | D9 | Dual degree: requirements = both degrees' CDCs/DELs + dual principles (IV-2); the 72 composite charts give timing | ✅ in the data |
 | D3 | Tech stack: Python + **Gemini API** for the LLM + Streamlit dashboard (changed from Claude API: the owner has Gemini keys). The provider sits behind `llm.py`, so switching is one file | 👤 |
 | D10 | The LLM is used only at the edges: the agent (query understanding, interest matching, explanation) and as a fallback for handouts regex can't read (labelled `extracted_by: llm`, confidence medium). All requirement/eligibility/clash decisions are deterministic, and the app works without a key except for chat | 👤 |
-| D4 | Students enter completed courses by course code in the profile | ❓ |
+| D4 | Students enter completed courses as `CODE GRADE` lines, in chronological order | design choice |
+| D11 | Requirement categories: cleared courses fill named/CDC slots first, then DEL (programme list), HUEL (pool, not own discipline), then OPEL (2.05 overflow) | ✅ Regulations 2.05, Bulletin IV |
+| D12 | Chart courses that the list doesn't have (Bulletin conflict) are shown as `disputed`, not required; list-only CDCs are required with "year unknown" | 👤 via D8 |
+| D13 | "Could not be verified" (unstated prerequisites, unreadable handouts) is shown per course but doesn't change eligibility; "warning" is kept for real conditions (DCA approval, higher-degree limit, allotment) | design choice |
+| D14 | LLM for handouts only READS "best N of M"; the arithmetic is done in code. Every LLM answer passes the same checks as regex output | design choice |
+| D15 | Agent falls back to lighter Gemini models when the main model is overloaded (503), keeping chat history | design choice |
 
 ---
 
@@ -388,3 +393,50 @@ Targets brief §2 (use the Regulations) and §5 "BITS policy validation"; feeds 
 - **Decisions (owner):** LLM = Gemini behind `llm.py` (D3). LLM only at the edges: agent + fallback for unreadable handouts (D10).
 
 **Run it:** `python -m recommender.ingest.regulations`
+
+### Step 9 — Stage 2: handouts (`ingest/handouts.py`, `ingest/handouts_llm.py`, `llm.py`)
+Targets brief §3 (handout data) and §7 (handout-based preferences, "could not be verified").
+- **Survey:** 540 handouts, 2 scanned (MAC/MATH F214), loose template (numbered sections + evaluation table).
+- **Data vs text:** weights, midsem/compre/continuous %, open/closed book, attendance % → fields; make-up / grading
+  prose → quoted text with page (no yes/no guessing).
+- **Regex pass:** PyMuPDF tables; columns found by content (weight column = numbers summing to ~100; headers were
+  often shifted); `50 (25%)` → 25, `20+10` → 30, marks → % (noted), merged-column names, nameless rows skipped,
+  footnotes kept, page continuations merged. Check: total 100 ± 1. **455/540** clean (prototype: 64%).
+- **LLM fallback (D10, D14):** only evaluation-flagged handouts of in-scope courses; schema-forced JSON, temperature 0,
+  cached by input hash (`llm_cache.json`), same validation as regex, escalation to the stronger model once; "best N of M"
+  read by the LLM, computed in code; scanned PDFs sent as PDF. Result: **44 fixed**, rest stay flagged.
+- **Misnumbered files:** 27 files disagree with their printed course number. The printed TITLE decides: renumbered
+  courses keep both codes (BIO U101 = BIO F101); misprinted numbers are dropped (the CS/ECE/EEE/INSTR F215 "Digital
+  Design" handouts print "F342"); wrong documents aren't used for the file-name course (BIO G523 file = BIO F212
+  handout). Equivalences from handouts use the same rule.
+- **Models:** Gemini 2.5 is closed to new keys (404 despite being listed); 3.5-flash / 3.5-flash-lite tested and used.
+
+### Step 10 — `store.py` (retrieval layer)
+- Only reader of `data/processed`; lazy load + Pydantic validation + indexes. Scope applied once (offered = not
+  cancelled, comp < 5000). Equivalents symmetric; catalogue falls back to an equivalent's entry.
+- Duplicate catalogue codes resolved: course-list title, else not another campus (BITS F335 → Discover India), else
+  first printed; the alternative title is flagged.
+
+### Step 11 — Rules engine (`engine/requirements.py`, `engine/eligibility.py`) + tests
+- **Requirements:** chart named slots (GIR, PS-I, PS-II/thesis, OR-alternatives = one slot) + list CDCs (list-only added,
+  chart-only `disputed`); cleared = latest letter grade (E counts, W ignored); equivalents satisfy slots ("via") with
+  no double credit; electives DEL → HUEL (not own discipline) → OPEL (2.05); dual degree per IV-2.
+- **Eligibility:** done/equivalent-done, exclusions, prerequisites (None → unverified), 3.15(b)(i)/(ii), 2.08,
+  3.14(iii) (DCA may allow 2), 3.25 III, PS/project allotment; category per degree; priority backlog → CDC → electives.
+- **Fix found by the engine work:** `ECE/EEE/INSTR F212` prerequisites were read as INSTR F212 only → shared-number
+  expansion in `codes.py` (fixes catalogue, handouts and equivalents together).
+- **Tests:** `tests/test_engine.py`, 24 tests on the real data, one rule each (`python -m pytest -q`).
+
+### Step 12 — Scheduler (bonus, `engine/scheduler.py`)
+- One section per type (L/T/P) per course; hard rules: no meeting clash (3.19), lunch period 4/5/6 free daily
+  (p.116), no compre/midsem clash, ≤ 25 units (1.01); soft: free days/hours. Depth-first, most-constrained first,
+  pruned by best plan; explains impossible sets.
+
+### Step 13 — Agent + dashboard (`agent/`, `app/streamlit_app.py`)
+- **Agent:** Gemini function calling over 6 tools (requirements, recommend, interest search, course details, timetable
+  check, regulation search). System prompt: facts only from tools, never override eligibility, "could not be
+  verified", cite pages/clauses, full-plan check. Overload (503) → fallback models with history (D15).
+- **Dashboard:** sidebar profile (all options from the data), tabs Requirements / Courses / Timetable / Advisor;
+  works without a key except chat. Headless-tested with `streamlit.testing`.
+
+**Run:** `python -m scripts.build_data --skip-text` · `python -m pytest -q` · `streamlit run app/streamlit_app.py`

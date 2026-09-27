@@ -19,6 +19,17 @@ def normalize_code(raw: str) -> str | None:
     return f"{dept} {level}{num}{suffix}"
 
 
+SHARED_NUMBER_RE = re.compile(r"\b((?:[A-Z]{2,5}\s*/\s*)+[A-Z]{2,5})\s*-?\s*([A-Z]\s*\d{3}[A-Z]?)\b")
+
+
+def expand_shared_numbers(text: str) -> str:
+    """'ECE/EEE/INSTR F212' -> 'ECE F212 / EEE F212 / INSTR F212' (departments sharing one number)."""
+    def expand(m):
+        number = m.group(2).replace(" ", "")
+        return " / ".join(f"{d.strip()} {number}" for d in m.group(1).split("/"))
+    return SHARED_NUMBER_RE.sub(expand, text)
+
+
 def find_codes(text: str) -> list[str]:
     """All course codes mentioned in a piece of text, normalised, in order."""
-    return [f"{d} {l}{n}{s}" for d, l, n, s in CODE_RE.findall(text.upper())]
+    return [f"{d} {l}{n}{s}" for d, l, n, s in CODE_RE.findall(expand_shared_numbers(text.upper()))]

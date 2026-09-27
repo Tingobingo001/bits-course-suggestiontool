@@ -16993,6 +16993,8 @@
   "variable_units": false,
   "description": "Review of Maxwell’s Equation, Wave Propagation: Normal and Oblique incidence, Transmission lines and Smith Chart, Waveguides: Rectangular and Cylindrical waveguides, Dielectric waveguides. Cavity Resonators: Equivalent circuit model, Characteristics, Microwave devices (Waveguide based and Planar), S-parameters, Measurement and impedance matching, Microwave Generators and Amplifiers, Antennas and its characteristics and types. Pre-Requisites: ECE/EEE/INSTR F212: Electromagnetic Theory OR PHY F212: Electromagnetic Theory I. This course will replace the existing course ECE F314 Electromagnetic Fields and Microwave Engineering and Microwave Engineering (CDC course) for B.E. ECE.",
   "prerequisites": [
+   "ECE F212",
+   "EEE F212",
    "INSTR F212",
    "PHY F212"
   ],
@@ -17356,7 +17358,11 @@
   "variable_units": false,
   "description": "Introduction to EV technology, understanding vehicle dynamics, EV and hybrid EV modelling, operation and performance characteristics, EV propulsion systems: EV motors, and drive converters, battery technology and types. DC chargers and charging infrastructure; operational economics; grid-to-vehicle bidirectional integration, global standards and case studies. Pre-Requisites: ECE/EEE/INSTR F211: Electrical Machines, and ECE/EEE/INSTR F242: Control Systems",
   "prerequisites": [
+   "ECE F211",
+   "EEE F211",
    "INSTR F211",
+   "ECE F242",
+   "EEE F242",
    "INSTR F242"
   ],
   "prerequisite_logic": "all",
@@ -20427,6 +20433,8 @@
   "variable_units": false,
   "description": "Introduction to flexible and stretchable electronics (FSE), material systems and scaling issues; materials and substrates for flexible and printed electronics, Material Considerations and various properties, techniques for fabrication and characterization of FSE devices, mechanics of thin-films and flexible devices, various flexible and stretchable devices: solar cells, displays, thin-film transistors, sensors, artificial skin and actuators; human-machine interfaces, wearable electronics for emerging applications. Pre-requisite : EEE/INSTR/ECE F214: Electronic Devices",
   "prerequisites": [
+   "EEE F214",
+   "INSTR F214",
    "ECE F214"
   ],
   "prerequisite_logic": "any",
@@ -20845,7 +20853,11 @@
   "variable_units": false,
   "description": "Introduction to EV technology, understanding vehicle dynamics, EV and hybrid EV modelling, operation and performance characteristics, EV propulsion systems: EV motors, and drive converters, battery technology and types. DC chargers and charging infrastructure; operational economics; grid-to-vehicle bidirectional integration, global standards and case studies. Pre-Requisites: ECE/EEE/INSTR F211: Electrical Machines, and ECE/EEE/INSTR F242: Control Systems",
   "prerequisites": [
+   "ECE F211",
+   "EEE F211",
    "INSTR F211",
+   "ECE F242",
+   "EEE F242",
    "INSTR F242"
   ],
   "prerequisite_logic": "all",
@@ -20872,6 +20884,9 @@
   "variable_units": false,
   "description": "Introduction to Drone Technology, Drone Components and Design Considerations, Communication for Drones, Networking for Drones, Drone Swarm Management, Signal Processing for Drones, Security Provisioning for Drones, AI for Drones, Regulation, Practical Applications and Industry Use Cases of Drones. Pre-Requisites: EEE/CS/INSTR/ECE F241 Microprocessor Programming and Interfacing.",
   "prerequisites": [
+   "EEE F241",
+   "CS F241",
+   "INSTR F241",
    "ECE F241"
   ],
   "prerequisite_logic": "all",
@@ -27496,7 +27511,11 @@
   "variable_units": false,
   "description": "Introduction to EV technology, understanding vehicle dynamics, EV and hybrid EV modelling, operation and performance characteristics, EV propulsion systems: EV motors, and drive converters, battery technology and types. DC chargers and charging infrastructure; operational economics; grid-to-vehicle bidirectional integration, global standards and case studies. Pre-Requisites: ECE/EEE/INSTR F211: Electrical Machines, and ECE/EEE/INSTR F242: Control Systems",
   "prerequisites": [
+   "ECE F211",
+   "EEE F211",
    "INSTR F211",
+   "ECE F242",
+   "EEE F242",
    "INSTR F242"
   ],
   "prerequisite_logic": "all",

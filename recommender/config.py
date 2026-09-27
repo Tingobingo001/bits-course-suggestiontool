@@ -32,3 +32,11 @@ UNNAMED_PROGRAMME_NAMES = {"BBA": "BACHELOR OF BUSINESS ADMINISTRATION (HONOURS)
 # the list is authoritative, the chart only places courses in a year/semester, and the
 # conflict (validation_report.json -> chart_vs_list_core_mismatches) is shown to the student.
 CDC_SOURCE = "course_list"
+
+# LLM (decision D3/D10): Gemini, used only at the edges - the agent, and a fallback for
+# handouts the regex parser can't read. All provider-specific code lives in recommender/llm.py.
+ENV_FILE = ROOT / ".env"                     # holds GEMINI_API_KEY; git-ignored
+LLM_MODEL_AGENT = "gemini-3.5-flash"         # stable (non-preview); 2.5 models are closed to new API keys
+LLM_MODEL_EXTRACT = "gemini-3.5-flash-lite"  # cheaper; enough for pulling fields from a page
+LLM_AGENT_FALLBACKS = ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite"]  # used in order if the agent model is overloaded (503)
+LLM_CACHE = PROCESSED / "llm_cache.json"     # answers keyed by input hash: re-runs are free and repeatable

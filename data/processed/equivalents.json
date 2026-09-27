@@ -2989,6 +2989,62 @@
   }
  },
  {
+  "course_code": "CS G527",
+  "title": "",
+  "equivalents": [
+   "SS G527"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/180_CS_G527.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "SS G527",
+  "title": "",
+  "equivalents": [
+   "CS G527"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/180_CS_G527.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "CS G527",
+  "title": "",
+  "equivalents": [
+   "SS G527"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/181_CS_G527.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "SS G527",
+  "title": "",
+  "equivalents": [
+   "CS G527"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/181_CS_G527.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
   "course_code": "BITS F464",
   "title": "​     ​          : Machine Learning",
   "equivalents": [
@@ -3221,6 +3277,259 @@
   "basis": "handout",
   "source": {
    "document": "handouts/206_ECE_F266.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F366",
+  "title": "Laboratory Project",
+  "equivalents": [
+   "INSTR F366",
+   "ECE F366"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/210_ECE_F366.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F366",
+  "title": "Laboratory Project",
+  "equivalents": [
+   "EEE F366",
+   "ECE F366"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/210_ECE_F366.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F366",
+  "title": "Laboratory Project",
+  "equivalents": [
+   "EEE F366",
+   "INSTR F366"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/210_ECE_F366.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F366",
+  "title": "Laboratory Project",
+  "equivalents": [
+   "INSTR F366",
+   "ECE F366"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/211_ECE_F367.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F366",
+  "title": "Laboratory Project",
+  "equivalents": [
+   "EEE F366",
+   "ECE F366"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/211_ECE_F367.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F366",
+  "title": "Laboratory Project",
+  "equivalents": [
+   "EEE F366",
+   "INSTR F366"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/211_ECE_F367.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F376",
+  "title": "Design Project",
+  "equivalents": [
+   "INSTR F376",
+   "ECE F376"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/212_ECE_F376.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F376",
+  "title": "Design Project",
+  "equivalents": [
+   "EEE F376",
+   "ECE F376"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/212_ECE_F376.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F376",
+  "title": "Design Project",
+  "equivalents": [
+   "EEE F376",
+   "INSTR F376"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/212_ECE_F376.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F376",
+  "title": "Design Project",
+  "equivalents": [
+   "INSTR F376",
+   "ECE F376"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/213_ECE_F377.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F376",
+  "title": "Design Project",
+  "equivalents": [
+   "EEE F376",
+   "ECE F376"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/213_ECE_F377.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F376",
+  "title": "Design Project",
+  "equivalents": [
+   "EEE F376",
+   "INSTR F376"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/213_ECE_F377.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F434",
+  "title": "Digital Signal Processing",
+  "equivalents": [
+   "EEE F434"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/214_ECE_F434.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F434",
+  "title": "Digital Signal Processing",
+  "equivalents": [
+   "ECE F434"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/214_ECE_F434.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F491",
+  "title": "Special Projects",
+  "equivalents": [
+   "INSTR F491",
+   "ECE F491"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/215_ECE_F491.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F491",
+  "title": "Special Projects",
+  "equivalents": [
+   "EEE F491",
+   "ECE F491"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/215_ECE_F491.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F491",
+  "title": "Special Projects",
+  "equivalents": [
+   "EEE F491",
+   "INSTR F491"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/215_ECE_F491.pdf",
    "page": 1,
    "section": "Course No.",
    "confidence": "high"
@@ -3532,6 +3841,51 @@
   }
  },
  {
+  "course_code": "EEE F244",
+  "title": "Microelectronic Circuits",
+  "equivalents": [
+   "INSTR F244",
+   "ECE F244"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/239_EEE_F244.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F244",
+  "title": "Microelectronic Circuits",
+  "equivalents": [
+   "EEE F244",
+   "ECE F244"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/239_EEE_F244.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F244",
+  "title": "Microelectronic Circuits",
+  "equivalents": [
+   "EEE F244",
+   "INSTR F244"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/239_EEE_F244.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
   "course_code": "EEE F266",
   "title": "Study Project",
   "equivalents": [
@@ -3571,6 +3925,287 @@
   "basis": "handout",
   "source": {
    "document": "handouts/240_EEE_F266.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F313",
+  "title": "ANALOG AND DIGITAL VLSI DESIGN",
+  "equivalents": [
+   "INSTR F313"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/242_EEE_F313.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F313",
+  "title": "ANALOG AND DIGITAL VLSI DESIGN",
+  "equivalents": [
+   "EEE F313"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/242_EEE_F313.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F366",
+  "title": "Laboratory Project",
+  "equivalents": [
+   "INSTR F366",
+   "ECE F366"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/245_EEE_F366.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F366",
+  "title": "Laboratory Project",
+  "equivalents": [
+   "EEE F366",
+   "ECE F366"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/245_EEE_F366.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F366",
+  "title": "Laboratory Project",
+  "equivalents": [
+   "EEE F366",
+   "INSTR F366"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/245_EEE_F366.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F366",
+  "title": "Laboratory Project",
+  "equivalents": [
+   "INSTR F366",
+   "ECE F366"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/246_EEE_F367.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F366",
+  "title": "Laboratory Project",
+  "equivalents": [
+   "EEE F366",
+   "ECE F366"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/246_EEE_F367.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F366",
+  "title": "Laboratory Project",
+  "equivalents": [
+   "EEE F366",
+   "INSTR F366"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/246_EEE_F367.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F376",
+  "title": "Design Project",
+  "equivalents": [
+   "INSTR F376",
+   "ECE F376"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/247_EEE_F376.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F376",
+  "title": "Design Project",
+  "equivalents": [
+   "EEE F376",
+   "ECE F376"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/247_EEE_F376.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F376",
+  "title": "Design Project",
+  "equivalents": [
+   "EEE F376",
+   "INSTR F376"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/247_EEE_F376.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F376",
+  "title": "Design Project",
+  "equivalents": [
+   "INSTR F376",
+   "ECE F376"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/248_EEE_F377.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F376",
+  "title": "Design Project",
+  "equivalents": [
+   "EEE F376",
+   "ECE F376"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/248_EEE_F377.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F376",
+  "title": "Design Project",
+  "equivalents": [
+   "EEE F376",
+   "INSTR F376"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/248_EEE_F377.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F434",
+  "title": "Digital Signal Processing",
+  "equivalents": [
+   "EEE F434"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/252_EEE_F434.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F434",
+  "title": "Digital Signal Processing",
+  "equivalents": [
+   "ECE F434"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/252_EEE_F434.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F491",
+  "title": "Special Projects",
+  "equivalents": [
+   "INSTR F491",
+   "ECE F491"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/256_EEE_F491.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F491",
+  "title": "Special Projects",
+  "equivalents": [
+   "EEE F491",
+   "ECE F491"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/256_EEE_F491.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F491",
+  "title": "Special Projects",
+  "equivalents": [
+   "EEE F491",
+   "INSTR F491"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/256_EEE_F491.pdf",
    "page": 1,
    "section": "Course No.",
    "confidence": "high"
@@ -3865,6 +4500,259 @@
   "basis": "handout",
   "source": {
    "document": "handouts/336_INSTR_F266.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F313",
+  "title": "ANALOG AND DIGITAL VLSI DESIGN",
+  "equivalents": [
+   "INSTR F313"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/339_INSTR_F313.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F313",
+  "title": "ANALOG AND DIGITAL VLSI DESIGN",
+  "equivalents": [
+   "EEE F313"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/339_INSTR_F313.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F366",
+  "title": "Laboratory Project",
+  "equivalents": [
+   "INSTR F366",
+   "ECE F366"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/340_INSTR_F366.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F366",
+  "title": "Laboratory Project",
+  "equivalents": [
+   "EEE F366",
+   "ECE F366"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/340_INSTR_F366.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F366",
+  "title": "Laboratory Project",
+  "equivalents": [
+   "EEE F366",
+   "INSTR F366"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/340_INSTR_F366.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F366",
+  "title": "Laboratory Project",
+  "equivalents": [
+   "INSTR F366",
+   "ECE F366"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/341_INSTR_F367.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F366",
+  "title": "Laboratory Project",
+  "equivalents": [
+   "EEE F366",
+   "ECE F366"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/341_INSTR_F367.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F366",
+  "title": "Laboratory Project",
+  "equivalents": [
+   "EEE F366",
+   "INSTR F366"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/341_INSTR_F367.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F376",
+  "title": "Design Project",
+  "equivalents": [
+   "INSTR F376",
+   "ECE F376"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/342_INSTR_F376.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F376",
+  "title": "Design Project",
+  "equivalents": [
+   "EEE F376",
+   "ECE F376"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/342_INSTR_F376.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F376",
+  "title": "Design Project",
+  "equivalents": [
+   "EEE F376",
+   "INSTR F376"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/342_INSTR_F376.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F376",
+  "title": "Design Project",
+  "equivalents": [
+   "INSTR F376",
+   "ECE F376"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/343_INSTR_F377.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F376",
+  "title": "Design Project",
+  "equivalents": [
+   "EEE F376",
+   "ECE F376"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/343_INSTR_F377.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F376",
+  "title": "Design Project",
+  "equivalents": [
+   "EEE F376",
+   "INSTR F376"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/343_INSTR_F377.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "EEE F366",
+  "title": "Laboratory Project",
+  "equivalents": [
+   "INSTR F366",
+   "ECE F366"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/344_INSTR_F491.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "INSTR F366",
+  "title": "Laboratory Project",
+  "equivalents": [
+   "EEE F366",
+   "ECE F366"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/344_INSTR_F491.pdf",
+   "page": 1,
+   "section": "Course No.",
+   "confidence": "high"
+  }
+ },
+ {
+  "course_code": "ECE F366",
+  "title": "Laboratory Project",
+  "equivalents": [
+   "EEE F366",
+   "INSTR F366"
+  ],
+  "basis": "handout",
+  "source": {
+   "document": "handouts/344_INSTR_F491.pdf",
    "page": 1,
    "section": "Course No.",
    "confidence": "high"
