@@ -4,4 +4,3 @@ google-genai>=2.0
 python-dotenv>=1.0
 streamlit>=1.40
 pandas>=2.0
-pytest>=8.0

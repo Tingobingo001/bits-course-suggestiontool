@@ -12,7 +12,7 @@ See `PROJECT_NOTES.md` for design, decisions and progress.
 ```bash
 pip install -r requirements.txt
 streamlit run app/streamlit_app.py      # dashboard at http://localhost:8501
-python -m pytest -q                     # 27 engine tests (run on the committed processed data)
+pip install -r requirements-dev.txt && python -m pytest -q   # 27 engine tests on the committed data
 ```
 
 The processed data is committed, so the app runs without the raw PDFs. In the sidebar, create a
@@ -86,6 +86,19 @@ GEMINI_API_KEY=your-key
 
 Get a key at https://aistudio.google.com. Without a key the build still runs (the LLM step is
 skipped and those handouts stay flagged) and everything except chat works.
+
+## Deploy (Streamlit Community Cloud)
+
+The app only reads `data/processed/` (committed), so no PDFs are needed in the cloud.
+
+1. Push this repository to GitHub (a private repository works).
+2. At https://share.streamlit.io choose **Create app**, select the repository and branch, and set
+   **Main file path** to `app/streamlit_app.py`. Under *Advanced settings* choose Python 3.12.
+3. In the app's **Settings → Secrets** add:
+   ```toml
+   GEMINI_API_KEY = "your-key"
+   ```
+   (`llm.py` reads `.env` locally and Streamlit secrets when hosted; without it only the chat is disabled.)
 
 ## Data
 

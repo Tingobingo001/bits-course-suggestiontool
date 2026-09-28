@@ -234,7 +234,8 @@ with tab_tt:
 # ---------------------------------------------------------------- advisor chat
 with tab_chat:
     if not llm.available():
-        st.info("The advisor needs GEMINI_API_KEY in a .env file (see README). Everything else works without it.")
+        st.info("The advisor needs GEMINI_API_KEY (a local .env file, or the app's Secrets when hosted - see README). "
+                "Everything else works without it.")
     else:
         from recommender.agent.agent import Advisor
         key = profile.model_dump_json()

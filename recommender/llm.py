@@ -29,11 +29,20 @@ class LLMUnavailable(RuntimeError):
     """No API key configured."""
 
 
+def _streamlit_secret(name: str) -> str | None:
+    """Key from Streamlit Community Cloud's secrets, when running there."""
+    try:
+        import streamlit as st
+        return st.secrets.get(name)
+    except Exception:                                   # not in Streamlit, or no secrets file
+        return None
+
+
 def client():
     global _client
     if _client is None:
-        load_dotenv(ENV_FILE)
-        key = os.environ.get("GEMINI_API_KEY")
+        load_dotenv(ENV_FILE)                           # local: .env
+        key = os.environ.get("GEMINI_API_KEY") or _streamlit_secret("GEMINI_API_KEY")   # hosted: app secrets
         if not key:
             raise LLMUnavailable(f"GEMINI_API_KEY is not set (add it to {ENV_FILE.name})")
         from google import genai
