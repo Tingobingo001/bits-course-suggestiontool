@@ -440,3 +440,16 @@ Targets brief §3 (handout data) and §7 (handout-based preferences, "could not 
   works without a key except chat. Headless-tested with `streamlit.testing`.
 
 **Run:** `python -m scripts.build_data --skip-text` · `python -m pytest -q` · `streamlit run app/streamlit_app.py`
+
+### Step 14 — Brief gap audit and fixes (re-read the brief line by line)
+- **§4 profile:** added current (registered) courses → status `registered`, always in the timetable plan; year of
+  study override for off-pattern students; campus selector.
+- **§6/§7 handout queries:** handout summary gains `has_midsem`, `project_weight`, `quiz_weight`, attendance status
+  ("not stated" / "stated, no minimum %" / "minimum N%") with page, make-up text with page, instructor-in-charge.
+  `search_courses` → `find_courses`: interest keywords + category + no_midsem / project_based / open_book / compre and
+  continuous limits; courses whose handout can't confirm the property are returned separately as `could_not_verify`.
+  "Lenient make-up" is judged by the LLM only from the quoted policy text, with the page.
+- **§8:** scheduler `compact` option (fewest idle periods between a day's first and last class).
+- **§9 answer format:** system prompt fixes the per-course block: requirement satisfied | eligibility | properties
+  asked (with source) | why it matches.
+- **README:** usage walkthrough, design summary, known limitations. Tests: 27.

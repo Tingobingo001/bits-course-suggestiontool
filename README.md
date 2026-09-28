@@ -12,14 +12,58 @@ See `PROJECT_NOTES.md` for design, decisions and progress.
 ```bash
 pip install -r requirements.txt
 streamlit run app/streamlit_app.py      # dashboard at http://localhost:8501
-python -m pytest -q                     # engine tests (run on the committed processed data)
+python -m pytest -q                     # 27 engine tests (run on the committed processed data)
 ```
 
-The processed data is committed, so the app runs without the raw PDFs. The dashboard has four tabs:
-**Requirements** (degree progress, remaining CDC/GIR slots, DEL/HUEL/OPEL units, Bulletin conflicts),
-**Courses** (every offered course checked for the student: status, reasons, what it counts as,
-handout evaluation, sections), **Timetable** (clash-free section planner with free-day/hour
-preferences) and **Advisor** (Gemini chat that answers through the engine's tools).
+The processed data is committed, so the app runs without the raw PDFs. In the sidebar, create a
+profile (campus, admission year, degree / dual degree, year of study, completed courses with grades,
+current courses, minor, interests) or click **Load sample 3rd-year CS student**. Then:
+
+- **Requirements** - degree progress: named/CDC slots done and remaining (with year/semester), DEL /
+  HUEL / OPEL units, courses satisfied via an equivalent, and Bulletin conflicts shown openly.
+- **Courses** - every course offered this semester checked for this student: status (eligible /
+  warning / ineligible / done / registered) with the clause behind each reason, what it counts as,
+  handout evaluation split, attendance and make-up policy, sections. Filters for no midsem, project
+  components, attendance, minor.
+- **Timetable** - picks clash-free sections (class, tutorial, lab, lunch period, midsem, compre, 25-unit
+  limit), with free-day, avoided-period and compact-timetable preferences.
+- **Advisor** - chat, e.g. *"Suggest an AI-related DEL with no midsem"*, *"Find an OPEL with no attendance
+  requirement"*. The answer lists the requirement each course satisfies, its eligibility, the properties
+  asked about (with source) and why it matches; the tools it called are shown under each answer.
+
+## How it works
+
+```
+PDFs --(ingest/, once per semester)--> data/processed/*.json  (every record: source page + verification flags)
+                                              |
+Profile + question --> store.py --> engine/requirements.py   remaining CDC / DEL / HUEL / OPEL
+                                    engine/eligibility.py    eligible set + category + policy checks
+                                    agent/ (Gemini)          intent -> tools -> interest/handout matching
+                                    engine/scheduler.py      feasible sections
+                                    agent/                   concise answer with citations
+```
+
+- **Deterministic where it matters.** Requirements, eligibility, categories and clashes are plain Python
+  with no LLM, each rule citing its Regulations clause or Bulletin page (38 regulation rules are checked
+  against quotes from their clauses on every build). 27 tests pin the rules on the real data.
+- **LLM at the edges.** Gemini understands the question, expands interests into search terms, calls the
+  engine's tools and writes the explanation. It may not state a fact that no tool returned; unverifiable
+  properties are reported as "could not be verified". It is also a validated, cached fallback for the
+  handouts the regex parser can't read.
+- **Never guessed.** Missing data is stored as "not stated", not as "none": for example, most prerequisites
+  are not in the supplied documents (the timetable points to a website), so they are shown as unverified.
+- **New semester = new files.** Drop in a new timetable / handouts and re-run `scripts/build_data`;
+  columns and page ranges are found from headings, not hard-coded.
+
+## Known limitations
+
+- Only the documents supplied: prerequisites for most courses, per-course restriction lists and the CGPA
+  threshold for higher-degree courses are not in them, so those checks are shown as unverified.
+- The Bulletin 2025-26 and Regulations 2023 are applied to every supported batch (with a caveat); four
+  programmes have genuine list-vs-chart conflicts in the Bulletin, shown to the student.
+- 350 of 479 in-scope offered courses have a verified evaluation scheme; the rest have no handout or an
+  unreadable one and are labelled accordingly.
+- The chat depends on Gemini availability; on overload it falls back to lighter models.
 
 ## Setup
 
@@ -109,5 +153,5 @@ tests/
 
 - Campus: Pilani (the supplied timetable is Pilani's).
 - Semester: First Semester 2026-27.
-- Batches: admitted up to 2025. Requirements are based on Bulletin 2025-26 and
+- Batches: admitted up to 2025 (2026 admissions have a new curriculum not in the supplied Bulletin). Requirements are based on Bulletin 2025-26 and
   Academic Regulations 2023.

@@ -292,5 +292,7 @@ class StudentProfile(BaseModel):
     programmes: list[str]                # one degree, or two for a dual degree (M.Sc. first)
     minor: str | None = None
     completed: list[CompletedCourse] = Field(default_factory=list)
+    current: list[str] = Field(default_factory=list)   # already registered this semester (in progress)
+    study_year: int | None = None        # year of study now; None = derived from batch (off-pattern students set it)
     cgpa: float | None = None
     interests: str = ""                  # free text, used by the agent for matching

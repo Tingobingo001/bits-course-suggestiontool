@@ -35,6 +35,9 @@ class AgentTools:
             "warnings": o.warnings, "not_eligible_because": o.reasons, "could_not_verify": o.unverified,
             "midsem_weight": h.get("midsem_weight"), "compre_weight": h.get("compre_weight"),
             "continuous_weight": h.get("continuous_weight"), "has_open_book": h.get("has_open_book"),
+            "has_midsem": h.get("has_midsem"), "project_weight": h.get("project_weight"),
+            "attendance": h.get("attendance"), "instructor": h.get("instructor_in_charge"),
+            "handout_verified": h.get("verified", False),
             "compre": f"{o.compre.date} {o.compre.session}" if o.compre else None,
             "lecture_sections": [f"{s.section}: {s.schedule}" for s in o.sections if s.kind == "L"][:4],
         }
@@ -78,28 +81,66 @@ class AgentTools:
             opts = [o for o in opts if any(c.startswith(category) or category in c for c in o.categories.values())]
         return [self._brief(o) for o in sorted(opts, key=lambda o: (priority(o), o.code))[:limit]]
 
-    def search_courses(self, keywords: list[str], category: str = "", eligible_only: bool = True,
-                       limit: int = 10) -> list[dict]:
-        """Find offered courses matching a student's interests. Pass several specific keywords and
-        synonyms (e.g. for 'AI': ['machine learning', 'neural', 'deep learning', 'artificial
-        intelligence', 'data mining']). Matches course titles, catalogue descriptions and handout
-        course plans. category optionally filters as in recommend_courses."""
-        self.calls.append(f"search_courses({', '.join(keywords[:5])})")
-        words = [k.lower().strip() for k in keywords if k.strip()]
-        scored = []
+    def find_courses(self, keywords: list[str] | None = None, category: str = "", no_midsem: bool = False,
+                     project_based: bool = False, open_book: bool = False, max_compre_weight: float = 100,
+                     min_continuous_weight: float = 0, include_policies: bool = False, limit: int = 10) -> dict:
+        """Find ELIGIBLE offered courses by interest and/or handout properties.
+        keywords: interests expanded into several specific terms and synonyms (e.g. for 'AI':
+          ['machine learning', 'neural', 'deep learning', 'artificial intelligence', 'data mining']);
+          matched against titles, catalogue descriptions and handout course plans. Omit for no topic filter.
+        category: 'CDC', 'GIR', 'DEL', 'HUEL', 'OPEL', 'backlog' or 'minor' - what the course must count as.
+        no_midsem: only courses whose verified evaluation has no mid-semester test.
+        project_based: only courses with project/report/seminar components (sorted by their weight).
+        open_book: only courses with an open-book component.
+        max_compre_weight / min_continuous_weight: limits on the evaluation split (percent).
+        include_policies: also return each course's make-up and attendance policy text (use for questions
+          about attendance or make-up leniency; judge from the quoted text and cite the handout page).
+        Returns 'matches' plus 'could_not_verify': courses that fit everything else but whose handout
+        data is missing or unverified, so the requested property can't be confirmed."""
+        self.calls.append(f"find_courses({', '.join((keywords or [])[:4])}{' ' + category if category else ''}"
+                          f"{' no-midsem' if no_midsem else ''}{' project' if project_based else ''})")
+        words = [k.lower().strip() for k in (keywords or []) if k.strip()]
+        needs_handout = no_midsem or project_based or open_book or max_compre_weight < 100 or min_continuous_weight > 0
+        matches, unverifiable = [], []
         for o in self.options.values():
-            if eligible_only and o.status not in ("eligible", "warning"):
+            if o.status not in ("eligible", "warning"):
                 continue
-            if category and not any(category in c for c in o.categories.values()):
+            if category.lower() == "minor":
+                if not o.minor:
+                    continue
+            elif category and not any(category in c for c in o.categories.values()):
                 continue
-            h = self.store.handout(o.code)
-            plan_text = " ".join(s.text for s in (h.sections if h else []) if s.topic in ("course_plan", "description", "scope"))
-            title, body = o.title.lower(), (o.description + " " + plan_text).lower()
-            score = sum(3 * (w in title) + min(body.count(w), 3) for w in words)
-            if score:
-                scored.append((score, o))
-        scored.sort(key=lambda x: (-x[0], priority(x[1])))
-        return [dict(self._brief(o), match_score=s) for s, o in scored[:limit]]
+            score = 0
+            if words:
+                h = self.store.handout(o.code)
+                plan_text = " ".join(s.text for s in (h.sections if h else [])
+                                     if s.topic in ("course_plan", "description", "scope"))
+                title, body = o.title.lower(), (o.description + " " + plan_text).lower()
+                score = sum(3 * (w in title) + min(body.count(w), 3) for w in words)
+                if not score:
+                    continue
+            hd = o.handout or {}
+            if needs_handout and not hd.get("verified"):
+                unverifiable.append(o.code)
+                continue
+            if no_midsem and hd.get("has_midsem"):
+                continue
+            if project_based and not (hd.get("project_weight") or 0) > 0:
+                continue
+            if open_book and not hd.get("has_open_book"):
+                continue
+            if needs_handout and ((hd.get("compre_weight") or 0) > max_compre_weight
+                                  or (hd.get("continuous_weight") or 0) < min_continuous_weight):
+                continue
+            item = dict(self._brief(o), match_score=score)
+            if include_policies:
+                item.update({k: hd.get(k) for k in ("attendance", "attendance_policy", "attendance_page",
+                                                    "makeup_policy", "makeup_page", "file")})
+            matches.append((score, (hd.get("project_weight") or 0) if project_based else 0, o, item))
+        matches.sort(key=lambda m: (-m[0], -m[1], priority(m[2]), m[2].code))
+        return {"matches": [m[3] for m in matches[:limit]], "total_matches": len(matches),
+                "could_not_verify": unverifiable[:15],
+                "could_not_verify_count": len(unverifiable)}
 
     def course_details(self, code: str) -> dict:
         """Everything known about one course for this student: eligibility with reasons, what it counts
@@ -116,14 +157,16 @@ class AgentTools:
                 "sections": [s.model_dump() for s in o.sections]}
 
     def check_timetable(self, codes: list[str], avoid_hours: list[int] | None = None,
-                        avoid_days: list[str] | None = None) -> dict:
+                        avoid_days: list[str] | None = None, compact: bool = False) -> dict:
         """Check a set of courses can be taken together and pick sections: no class clash, a lunch
         period (4, 5 or 6) free daily, no compre/midsem clash, max 25 units. avoid_hours uses periods
         (1 = 8 AM ... 10 = 5 PM); avoid_days like ['Friday']. Returns the section choice and weekly grid,
-        or the exact problem."""
+        or the exact problem. compact=True prefers fewer idle gaps between classes. Registered (current)
+        courses are always included."""
         self.calls.append(f"check_timetable({', '.join(codes)})")
         days = {DAY_NAMES.get(d.lower(), d) for d in (avoid_days or [])}
-        return plan(codes, set(avoid_hours or []), days, self.store).model_dump()
+        codes = list(dict.fromkeys(list(codes) + self.report.in_progress))
+        return plan(codes, set(avoid_hours or []), days, self.store, compact=compact).model_dump()
 
     def search_regulations(self, keywords: list[str], limit: int = 4) -> list[dict]:
         """Search the Academic Regulations 2023 clauses and the timetable's registration instructions
@@ -140,5 +183,5 @@ class AgentTools:
                 for s, cl, pg, t, doc in scored[:limit] if s]
 
     def as_list(self):
-        return [self.get_requirements, self.recommend_courses, self.search_courses, self.course_details,
+        return [self.get_requirements, self.recommend_courses, self.find_courses, self.course_details,
                 self.check_timetable, self.search_regulations]

@@ -6,7 +6,8 @@ Hard rules (a plan breaking one is rejected, with the reason):
   - no two comprehensive exams in the same date + session ..... timetable p.116 (compre_must_not_clash)
   - no two mid-semester tests in the same date + session (same reasoning; flagged, not a printed rule)
   - total units <= 25 ...................................................... clause 1.01
-Soft preferences (only choose between valid plans): hours / days to keep free.
+Soft preferences (only choose between valid plans): hours / days to keep free, and 'compact' =
+fewest idle periods between a day's first and last class (brief: avoid long gaps).
 
 Search: for each course, one section of each type it has (L, T, P). Depth-first with pruning
 on clashes; among valid plans keep the one with the fewest meetings in avoided slots.
@@ -27,14 +28,27 @@ class Plan(BaseModel):
     problems: list[str] = Field(default_factory=list)              # why the set can't be scheduled
     notes: list[str] = Field(default_factory=list)                 # soft-preference misses, exam info
     avoided_hits: int = 0
+    gap_hours: int = 0                                             # idle periods inside the day, summed
 
 
 def _exam_key(slot) -> tuple[str, str] | None:
     return (slot.date, slot.session) if slot and slot.date else None
 
 
+MAX_LEAVES = 50000          # safety cap on complete plans examined
+
+
+def gaps(busy) -> int:
+    """Idle periods between the first and last class of each day."""
+    total = 0
+    for d in {d for d, _ in busy}:
+        hours = sorted(h for dd, h in busy if dd == d)
+        total += (hours[-1] - hours[0] + 1) - len(hours)
+    return total
+
+
 def plan(codes: list[str], avoid_hours: set[int] | None = None, avoid_days: set[str] | None = None,
-         store: Store | None = None) -> Plan:
+         store: Store | None = None, compact: bool = False) -> Plan:
     store = store or get_store()
     avoid_hours, avoid_days = avoid_hours or set(), avoid_days or set()
     codes = list(dict.fromkeys(normalize_code(c) for c in codes))
@@ -81,17 +95,22 @@ def plan(codes: list[str], avoid_hours: set[int] | None = None, avoid_days: set[
     choices.sort(key=lambda x: len(x[1]))                      # most constrained course first
 
     best: dict | None = None
+    leaves = 0
 
     def lunch_ok(busy: dict) -> bool:
         days = {d for d, _ in busy}
         return all(not lunch <= {h for dd, h in busy if dd == d} for d in days)
 
     def search(i: int, busy: dict, picked: dict, hits: int):
-        nonlocal best
-        if best is not None and hits >= best["hits"]:
-            return                                              # can't beat the best plan found
+        nonlocal best, leaves
+        if best is not None and (hits * 100 >= best["score"] or leaves >= MAX_LEAVES):
+            return                             # can't beat the best plan (gaps only add to the score)
         if i == len(choices):
-            best = {"busy": dict(busy), "picked": dict(picked), "hits": hits}
+            leaves += 1
+            g = gaps(busy)
+            score = hits * 100 + (g if compact else 0)          # avoided slots matter more than gaps
+            if best is None or score < best["score"]:
+                best = {"busy": dict(busy), "picked": dict(picked), "hits": hits, "gaps": g, "score": score}
             return
         code, combos = choices[i]
         for combo in combos:
@@ -114,6 +133,7 @@ def plan(codes: list[str], avoid_hours: set[int] | None = None, avoid_days: set[
     result.ok = True
     result.sections = {c: best["picked"][c] for c in codes}
     result.avoided_hits = best["hits"]
+    result.gap_hours = best["gaps"]
     for (d, h), label in sorted(best["busy"].items(), key=lambda x: ("M T W Th F S".split().index(x[0][0]), x[0][1])):
         result.grid.setdefault(d, {})[h] = label
     if best["hits"]:

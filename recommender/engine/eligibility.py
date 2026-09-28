@@ -27,7 +27,7 @@ from recommender.ingest.handouts import evaluation_flagged
 from recommender.schema import ExamSlot, StudentProfile
 from recommender.store import Store, get_store
 
-Status = Literal["eligible", "warning", "ineligible", "done"]
+Status = Literal["eligible", "warning", "ineligible", "done", "registered"]
 HIGHER_DEGREE_RE = re.compile(r"^[A-Z]+ G\d")               # G-series codes = higher-degree courses
 PROJECT_NUMBERS = re.compile(r" F(266|366|367|376|377|491)$")
 
@@ -82,16 +82,28 @@ def handout_summary(store: Store, code: str) -> dict | None:
         return None
     sec = {s.topic: s for s in h.sections}
     verified = h.weights_total is not None and not evaluation_flagged(h.needs_verification)
+    weight = lambda *kinds: round(sum(c.weight or 0 for c in h.evaluation if c.kind in kinds), 2) if verified else None
+    att = sec.get("attendance")
     return {
         "file": h.file,
+        "instructor_in_charge": h.instructor_in_charge or None,
         "evaluation": [{"name": c.name, "kind": c.kind, "weight": c.weight, "nature": c.nature, "date": c.date}
                        for c in h.evaluation] if verified else None,
         "midsem_weight": h.midsem_weight, "compre_weight": h.compre_weight,
         "continuous_weight": h.continuous_weight, "has_open_book": h.has_open_book,
+        # derived from a VERIFIED evaluation only; None = could not be verified
+        "has_midsem": (weight("midsem") > 0) if verified else None,
+        "project_weight": weight("project", "report", "seminar"),
+        "quiz_weight": weight("quiz"),
         "evaluation_notes": h.evaluation_notes,
         "makeup_policy": sec["makeup"].text[:600] if "makeup" in sec else None,
-        "attendance_policy": sec["attendance"].text[:400] if "attendance" in sec else None,
-        "attendance_min_percent": h.attendance_min_percent,
+        "makeup_page": sec["makeup"].page if "makeup" in sec else None,
+        # attendance: the handout either states nothing, states an expectation, or a minimum %
+        "attendance": ("not stated in the handout" if not att else
+                       f"minimum {h.attendance_min_percent}% stated" if h.attendance_min_percent else
+                       "policy stated, no minimum % given"),
+        "attendance_policy": att.text[:400] if att else None,
+        "attendance_page": att.page if att else None,
         "extracted_by": h.extracted_by,
         "verified": verified,
         "page": h.evaluation_page,
@@ -168,6 +180,13 @@ def check_course(code: str, profile: StudentProfile, report: RequirementReport, 
         opt.status = "done"
         blocks.append(f"Already cleared {'as ' + done[0] if done[0] != code else ''}".strip()
                       + " - repeating to improve a grade is possible only if it is part of your programme (3.25 II).")
+        return opt
+
+    # 1b. already registered this semester (profile 'current courses')
+    now = sorted(store.same_course(code) & set(report.in_progress))
+    if now:
+        opt.status = "registered"
+        blocks.append(f"Already registered this semester{' as ' + now[0] if now[0] != code else ''}.")
         return opt
 
     # 2. exclusion ('those who have done X are not allowed')

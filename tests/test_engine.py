@@ -196,3 +196,24 @@ def test_renumbered_course_keeps_both_codes():
     from recommender.ingest.handouts import handout_codes
     codes, _ = handout_codes(_handout_text("025_BIO_U101"), "BIO U101")
     assert {"BIO U101", "BIO F101"} <= set(codes)
+
+
+# ---------------------------------------------------------------- brief gaps closed (Sec 4, 6, 8)
+
+def test_current_courses_are_not_recommended():
+    p = student(YEAR1 + CS_YEAR2)
+    p.current = ["CS F342"]
+    assert option(p, "CS F342").status == "registered"
+
+
+def test_no_midsem_filter_only_returns_verified_courses():
+    from recommender.agent.tools import AgentTools
+    t = AgentTools(student(YEAR1 + CS_YEAR2))
+    res = t.find_courses(no_midsem=True, limit=50)
+    assert res["matches"] and all(m["handout_verified"] and m["has_midsem"] is False for m in res["matches"])
+
+
+def test_compact_plan_has_no_more_gaps():
+    from recommender.engine.scheduler import plan
+    codes = ["CS F301", "CS F342", "CS F351", "CS F372", "BITS F464", "HSS F222"]
+    assert plan(codes, compact=True).gap_hours <= plan(codes).gap_hours

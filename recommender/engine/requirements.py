@@ -43,6 +43,7 @@ class Slot(BaseModel):
     semester: int | str | None = None
     units: int | None = None
     done_via: str | None = None           # the cleared code that satisfies it (maybe an equivalent)
+    in_progress: str | None = None        # registered this semester, not yet cleared
     note: str | None = None
     source: SourceRef
 
@@ -85,6 +86,7 @@ class RequirementReport(BaseModel):
     study_year: int                        # year of study in First Semester 2026-27
     semester: int = SEMESTER
     cleared: dict[str, str | None]         # code -> grade, latest performance only
+    in_progress: list[str] = Field(default_factory=list)   # registered this semester
     degrees: list[DegreeReport] = Field(default_factory=list)
     warnings: list[str] = Field(default_factory=list)
     caveat: str = "Requirements are based on Bulletin 2025-26 and Academic Regulations 2023."
@@ -244,7 +246,8 @@ def fill_categories(cats: list[CategoryStatus], pool: list[str], programme, stor
 def analyse(profile: StudentProfile, store: Store | None = None) -> RequirementReport:
     store = store or get_store()
     cleared = cleared_courses(profile)
-    report = RequirementReport(study_year=SEMESTER_YEAR - profile.batch + 1, cleared=cleared)
+    report = RequirementReport(study_year=profile.study_year or SEMESTER_YEAR - profile.batch + 1, cleared=cleared,
+                               in_progress=[normalize_code(c) for c in profile.current])
     if profile.batch > MAX_SUPPORTED_BATCH:
         report.warnings.append(f"Batch {profile.batch} is not supported: its curriculum is not in the supplied "
                                f"Bulletin 2025-26 (supported: up to {MAX_SUPPORTED_BATCH}).")
@@ -274,6 +277,9 @@ def analyse(profile: StudentProfile, store: Store | None = None) -> RequirementR
             notes.append("Dual degree: GIR and Humanities Electives are met once (first degree); PS-II or a thesis "
                          "is needed for each degree; this degree's Discipline Electives may fill the other's Open "
                          "Electives (Bulletin IV-2).")
+        for s in slots:                       # registered this semester (not cleared yet)
+            if not s.done_via:
+                s.in_progress = next((c for c in report.in_progress if store.same_course(c) & set(s.options)), None)
         if n == 0:
             used_named = {s.done_via for s in slots if s.kind in ("named", "ps_thesis") and s.done_via}
         cats = elective_categories(programme, chart, store)

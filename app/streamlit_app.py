@@ -36,7 +36,12 @@ def period_label(p: int) -> str:
 with st.sidebar:
     st.header("Student profile")
     name = st.text_input("Name", "")
-    batch = st.selectbox("Admission batch", list(range(2025, 2018, -1)), index=1)
+    campus = st.selectbox("Campus", ["Pilani", "Goa", "Hyderabad", "Dubai"],
+                          help="Only the Pilani timetable was supplied.")
+    batch = st.selectbox("Admission year (batch)", list(range(2025, 2018, -1)), index=1)
+    auto_year = 2026 - batch + 1
+    study_year = st.number_input("Current year of study (First Semester 2026-27)", 1, 6, min(auto_year, 6),
+                                 help="Defaults from the batch; change it if you are off the normal pattern.")
     progs = store.programme_names()
     first = st.selectbox("Degree", progs, index=progs.index("COMPUTER SCIENCE"))
     dual = st.checkbox("Dual degree")
@@ -54,6 +59,8 @@ with st.sidebar:
                "Order = chronological (the latest attempt counts). W is ignored; NC/I/RC are not cleared.")
     completed_text = st.text_area("Completed courses", height=200, key="completed",
                                   placeholder="BIO F101 B\nCHEM F101 A\nCS F111 A-\n...")
+    current_text = st.text_input("Current courses (already registered this semester)", "",
+                                 placeholder="e.g. CS F342, BITS F464")
     cgpa = st.number_input("CGPA (optional)", 0.0, 10.0, 0.0, 0.01)
     interests = st.text_input("Interests (for the advisor)", "")
 
@@ -74,8 +81,12 @@ def parse_completed(text: str) -> tuple[list[CompletedCourse], list[str]]:
 
 
 completed, unparsed = parse_completed(completed_text)
-profile = StudentProfile(name=name, batch=batch, programmes=[first] + ([second] if second else []),
+from recommender.codes import find_codes  # noqa: E402
+
+profile = StudentProfile(name=name, campus=campus, batch=batch, programmes=[first] + ([second] if second else []),
                          minor=None if minor == "—" else minor, completed=completed,
+                         current=find_codes(current_text),
+                         study_year=study_year if study_year != auto_year else None,
                          cgpa=cgpa or None, interests=interests)
 
 
@@ -125,11 +136,16 @@ with tab_req:
 # ---------------------------------------------------------------- courses
 with tab_courses:
     f1, f2, f3, f4 = st.columns([2, 2, 2, 3])
-    status = f1.multiselect("Status", ["eligible", "warning", "ineligible", "done"], ["eligible", "warning"])
+    status = f1.multiselect("Status", ["eligible", "warning", "ineligible", "done", "registered"],
+                            ["eligible", "warning"])
     cats = f2.multiselect("Counts as", ["backlog", "CDC", "GIR", "DEL", "HUEL", "OPEL", "extra"])
     open_book = f3.selectbox("Open-book component", ["any", "yes", "no"])
     query = f4.text_input("Search title/description", "")
-    only_minor = st.checkbox("Only courses for my minor") if profile.minor else False
+    g1, g2, g3, g4 = st.columns(4)
+    no_midsem = g1.checkbox("No midsem (verified)")
+    project = g2.checkbox("Has project/report component")
+    att_stated = g3.checkbox("Attendance policy stated")
+    only_minor = g4.checkbox("Only courses for my minor") if profile.minor else False
 
     def keep(o):
         if o.status not in status:
@@ -141,6 +157,13 @@ with tab_courses:
             return False
         if query and query.lower() not in (o.title + " " + o.description + " " + o.code).lower():
             return False
+        hd = o.handout or {}
+        if no_midsem and hd.get("has_midsem") is not False:
+            return False
+        if project and not (hd.get("project_weight") or 0) > 0:
+            return False
+        if att_stated and hd.get("attendance_policy") is None:
+            return False
         return not only_minor or bool(o.minor)
 
     shown = sorted(filter(keep, options), key=lambda o: (priority(o), o.code))
@@ -148,6 +171,7 @@ with tab_courses:
     table = [{"Code": o.code, "Title": o.title, "Units": o.units, "Status": o.status,
               "Counts as": "; ".join(o.categories.values()), "Minor": o.minor or "",
               "Midsem %": (o.handout or {}).get("midsem_weight"), "Compre %": (o.handout or {}).get("compre_weight"),
+              "Attendance": (o.handout or {}).get("attendance", "no handout"),
               "Compre": f"{o.compre.date} {o.compre.session}" if o.compre else ""} for o in shown]
     st.dataframe(pd.DataFrame(table), hide_index=True, width="stretch", height=380)
 
@@ -163,6 +187,8 @@ with tab_courses:
             st.info("ℹ️ " + u)
         st.write(f"**Counts as:** {'; '.join(f'{k.title()}: {v}' for k, v in o.categories.items()) or '—'}")
         st.write(f"**Prerequisites:** {o.prerequisites or '—'}")
+        if o.handout and o.handout.get("instructor_in_charge"):
+            st.write(f"**Instructor-in-charge:** {o.handout['instructor_in_charge']}")
         if o.description:
             st.write(o.description)
         h = o.handout
@@ -186,13 +212,15 @@ with tab_tt:
     eligible = [o for o in sorted(options, key=lambda o: (priority(o), o.code)) if o.status in ("eligible", "warning")]
     default = [o.code for o in eligible if priority(o) <= 3][:6]
     chosen = st.multiselect("Courses to plan", [o.code for o in options], default=default)
-    c1, c2 = st.columns(2)
+    c1, c2, c3 = st.columns([3, 3, 2])
     avoid_days = c1.multiselect("Keep these days free (if possible)", DAYS, format_func=DAY_NAMES.get)
     avoid_hours = c2.multiselect("Avoid these periods (if possible)", list(range(1, 11)), format_func=period_label)
+    compact = c3.checkbox("Compact (fewest gaps)")
+    chosen = list(dict.fromkeys(chosen + profile.current))      # registered courses are always in the plan
     if chosen:
-        p = plan(chosen, set(avoid_hours), set(avoid_days), store)
+        p = plan(chosen, set(avoid_hours), set(avoid_days), store, compact=compact)
         if p.ok:
-            st.success(f"No clashes — {p.units} units. Sections: "
+            st.success(f"No clashes — {p.units} units, {p.gap_hours} idle period(s) between classes. Sections: "
                        + "; ".join(f"{c} {'/'.join(s)}" for c, s in p.sections.items()))
             grid = pd.DataFrame({DAY_NAMES[d]: {period_label(h): p.grid.get(d, {}).get(h, "") for h in range(1, 11)}
                                  for d in DAYS})
