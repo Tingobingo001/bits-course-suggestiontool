@@ -5,6 +5,8 @@ decides what a student is required and eligible to take; an LLM (Gemini, behind 
 natural-language queries, interest matching and explanations. All answers come from
 structured data pre-processed from the supplied BITS documents, with source references.
 
+**Live demo:** https://bits-course-suggestiontool.streamlit.app/ (if it has been idle, click "wake up" and wait about a minute)
+
 See `PROJECT_NOTES.md` for design, decisions and progress.
 
 ## Quick start
